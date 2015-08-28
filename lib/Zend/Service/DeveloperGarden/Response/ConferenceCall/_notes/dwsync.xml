@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AddConferenceTemplateParticipantResponse.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="AddConferenceTemplateParticipantResponseType.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="CCSResponseType.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="CommitConferenceResponse.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="ConferenceCallAbstract.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="CreateConferenceResponse.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="CreateConferenceResponseType.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="CreateConferenceTemplateResponse.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="CreateConferenceTemplateResponseType.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="GetConferenceListResponse.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="GetConferenceListResponseType.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="GetConferenceStatusResponse.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="GetConferenceStatusResponseType.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="GetConferenceTemplateListResponse.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="GetConferenceTemplateListResponseType.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="GetConferenceTemplateParticipantResponse.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="GetConferenceTemplateParticipantResponseType.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="GetConferenceTemplateResponse.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="GetConferenceTemplateResponseType.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="GetParticipantStatusResponse.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="GetParticipantStatusResponseType.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="GetRunningConferenceResponse.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="GetRunningConferenceResponseType.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="NewParticipantResponse.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="NewParticipantResponseType.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="RemoveConferenceResponse.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="RemoveConferenceTemplateParticipantResponse.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="RemoveConferenceTemplateResponse.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="RemoveParticipantResponse.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="UpdateConferenceResponse.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="UpdateConferenceTemplateParticipantResponse.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="UpdateConferenceTemplateResponse.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+<file name="UpdateParticipantResponse.php" server="C:/xampp/htdocs/noworries/" local="130801570540000000" remote="130801570540000000" Dst="2" />
+</dwsync>

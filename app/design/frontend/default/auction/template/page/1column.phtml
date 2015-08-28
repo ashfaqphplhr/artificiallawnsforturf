@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<?php echo $this->getChildHtml('head')?>
+</head>
+
+<body>
+<?php echo $this->getChildHtml('header')?>
+<section id="center_area">
+<?php $_helper = Mage::helper('catalog/category') ?>
+<?php $_categories = $_helper->getStoreCategories() ?>
+<?php $currentCategory = Mage::registry('current_category') ?>
+<?php $displayMode = $currentCategory->getDisplayMode();?>
+<?php if ($displayMode=='PAGE'):?>
+<aside><?php echo $this->getChildHtml('left')?>
+</aside>
+<section id="right_side_area">
+<?php echo $this->getChildHtml('global_notices') ?>
+<?php echo $this->getChildHtml('global_messages') ?>
+<?php echo $this->getChildHtml('content') ?>
+</section>
+<?php else:?>
+<?php echo $this->getChildHtml('global_notices') ?>
+<?php echo $this->getChildHtml('global_messages') ?>
+<?php echo $this->getChildHtml('content') ?>
+<?php endif;?>
+</section>
+<?php echo $this->getChildHtml('footer') ?>
+<?php echo $this->getChildHtml('before_body_end') ?>
+<?php echo $this->getAbsoluteFooter() ?>
+</body>
+</html>

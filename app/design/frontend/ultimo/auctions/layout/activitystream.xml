@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="before_body_end">
+            <block type="activitystream/overlay" name="activitystream_overlay" as="activitystream_overlay" after="-" template="activitystream/overlay.phtml"></block>
+        </reference>
+    </default>
+    
+    <catalog_product_compare_index>
+        <reference name="content">
+            <action method="unsetChild"><block>activitystream_overlay</block></action>
+        </reference>
+    </catalog_product_compare_index>
+</layout>

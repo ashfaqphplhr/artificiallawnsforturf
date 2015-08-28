@@ -1,0 +1,130 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+ 
+?>
+
+<header>
+  <section class="welcome">
+    <section class="welcomeinner">
+      <section class="headertext">Welcome to our Online Auction Store!</section>
+      <section class="headersocial">
+        <div class="socialshare">
+          <div class="ss s-fb">
+            <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fnoworries.turf%3Fref%3Dhl&amp;width&amp;layout=button&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80&amp;appId=250347945142394" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:80px;" allowTransparency="true"></iframe>
+          </div>
+          <div class="ss s-gp"> 
+            <!-- Place this tag where you want the widget to render. -->
+            <div class="g-follow" data-annotation="none" data-height="20" data-href="https://plus.google.com/113033364515891678390" data-rel="author"></div>
+            
+            <!-- Place this tag after the last widget tag. --> 
+            <script type="text/javascript">
+									  (function() {
+										var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+										po.src = 'https://apis.google.com/js/platform.js';
+										var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+									  })();
+									</script> 
+          </div>
+          <div class="ss s-tw"> <a href="https://twitter.com/NoWorriesTurf1" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @NoWorriesTurf1</a> 
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
+          </div>
+        </div>
+      </section>
+    </section>
+  </section>
+  <section id="logo_container">
+    <section class="logo"><a href="<?php echo $this->getUrl('auction.html')?>"><img src="<?php echo $this->getSkinUrl('images/logo.png')?>"></a></section>
+    <?php echo $this->getChildHtml('topSearch') ?>
+    <nav class="top_menu">
+      <label for="show-menu" class="show-menu"><span></span><span></span><span></span></label>
+      <input type="checkbox" id="show-menu"  role="button">
+      <ul id="menu">
+        <?php $_helper = Mage::helper('catalog/category') ?>
+        <?php $children = Mage::getModel('catalog/category')->getCategories(75);
+foreach ($children as $category):
+$category = Mage::getModel('catalog/category')->load($category->getId());?>
+        <li><a  href="<?php echo $_helper->getCategoryUrl($category) ?>"><?php echo $category->getName() ?></a>
+          <?php $_subcategories = $category->getChildrenCategories() ?>
+          <?php $_count = is_array($_subcategories)?count($_subcategories):$_subcategories->count(); ?>
+          <?php if (count($_subcategories) > 0): ?>
+          <ul class="hiddenmenu">
+            <?php foreach($_subcategories as $_subcategory): ?>
+            <?php if($_subcategory->getIsActive()): ?>
+            <li><a style="text-align:left; text-decoration:none;" href="<?php echo $_helper->getCategoryUrl($_subcategory) ?>"><?php echo $_subcategory->getName() ?></a>
+              <?php $_subsubcategories = $_subcategory->getChildrenCategories() ?>
+              <?php $_count = is_array($_subsubcategories)?count($_subsubcategories):$_subcategories->count(); ?>
+              <?php if (count($_subsubcategories) > 0): ?>
+              <ul class="hiddenmenu">
+                <?php foreach($_subsubcategories as $_subsubcategory): ?>
+                <?php if($_subsubcategory->getIsActive()): ?>
+                <li>
+                <li><a style="text-align:left; text-decoration:none;" href="<?php echo $_helper->getCategoryUrl($_subsubcategory) ?>"><?php echo $_subsubcategory->getName() ?></a>
+                  <?php $_subsubsubcategories = $_subsubcategory->getChildrenCategories() ?>
+                  <?php $_count = is_array($_subsubsubcategories)?count($_subsubsubcategories):$_subsubsubcategories->count(); ?>
+                  <?php if (count($_subsubsubcategories) > 0): ?>
+                  <ul class="hiddenmenu">
+                    <?php foreach($_subsubsubcategories as $_subsubsubcategory): ?>
+                    <?php if($_subsubsubcategory->getIsActive()): ?>
+                    <li>
+                    <li><a style="text-align:left; text-decoration:none;" href="<?php echo $_helper->getCategoryUrl($_subsubsubcategory) ?>"><?php echo $_subsubsubcategory->getName() ?></a></li>
+                    <?php endif; ?>
+                    <?php endforeach;?>
+                  </ul>
+                  <?php endif; ?>
+                </li>
+                <?php endif; ?>
+                <?php endforeach;?>
+              </ul>
+              <?php endif; ?>
+            </li>
+            <?php endif; ?>
+            <?php endforeach;?>
+          </ul>
+          <?php endif; ?>
+        </li>
+        <?php endforeach;?>
+      </ul>
+    </nav>
+    <section id="banner_container">
+      <?php   
+        $_category  = Mage::registry('current_category');
+        if($_category){
+         $_helper    = Mage::helper('catalog/output');
+            $_imgHtml   = '';
+            if ($_imgUrl = $_category->getThumbnail()) {
+           echo   $_imgHtml = '<img src="http://www.noworriesturf.com.au/media/catalog/category/'.$_imgUrl.'" alt="'.$this->htmlEscape($_category->getName()).'" title="'.$this->htmlEscape($_category->getName()).'" />';
+                $_imgHtml = $_helper->categoryAttribute($_category, $_imgHtml, 'image');
+            }
+			} else { ?>
+      <img src="<?php echo $this->getSkinUrl('images/prod_banner.jpg') ?>" width="1200" height="300" />
+      <?php  }
+        ?>
+    </section>
+  </section>
+</header>

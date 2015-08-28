@@ -1,0 +1,76 @@
+<div class="content-header">
+    <table cellspacing="0">
+        <tbody><tr>
+            <td>
+                <h3>Configuration</h3>
+            </td>
+            <td class="form-buttons"><button id="id_d23bcb63902953b71eb3278643a0b595" title="Save Config" type="button" class="scalable save" onclick="configForm.submit()" style=""><span><span><span>Save Config</span></span></span></button></td>
+         </tr>
+    </tbody></table>
+</div>
+
+<form action="<?php echo Mage::helper("adminhtml")->getUrl("*/*/save") ?>" method="post" id="config_edit_form" enctype="multipart/form-data">
+    
+    <input type="hidden" name="form_key" value="<? echo Mage::getSingleton('core/session')->getFormKey(); ?>" />
+    
+    <div class="entry-edit">
+        
+        <div class="section-config active">
+            <div class="entry-edit-head">
+                <a id="config-head" href="#" onclick="return false;" class="open">Options</a>
+            </div>
+            
+            <fieldset class="config" id="config">
+                <legend>Options</legend>
+                
+                <table cellspacing="0" class="form-list">
+                    <tbody>
+                        <tr>
+                            <td class="label">
+                                <label for="access_token">Access Token</label>
+                            </td>
+                            <td class="value">
+                                <input id="access_token" name="access_token" type="text" value="<?php echo $this->getAccessToken() ?>" class="input-text" />
+                                <p class="note"><span></span></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">
+                                <label for="cubic_variable">Cubic variable</label>
+                            </td>
+                            <td class="value">
+                                <input id="cubic_variable" name="cubic_variable" type="text" value="<?php echo $this->getCubicVariable() ?>" class="input-text" />
+                                <p class="note"><span></span></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">
+                                <label for="gst">GST and Fuel Levy</label>
+                            </td>
+                            <td class="value">
+                                <input id="gst" name="gst" type="text" value="<?php echo $this->getGst() ?>" class="input-text" /><span>&nbsp;%</span>
+                                <p class="note"><span></span></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">
+                                <label for="insurance">Insurance</label>
+                            </td>
+                            <td class="value">
+                                <input id="insurance" name="insurance" type="text" value="<?php echo $this->getInsurance() ?>" class="input-text" /><span>&nbsp;%</span>
+                                <p class="note"><span></span></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            
+        </div>
+        
+    </div>
+    
+</form>
+
+<script type="text/javascript">
+    var configForm = document.getElementById('config_edit_form');
+</script>

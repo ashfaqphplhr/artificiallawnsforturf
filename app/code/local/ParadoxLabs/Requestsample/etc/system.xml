@@ -1,0 +1,43 @@
+<config>
+    <sections>
+        <contacts translate="label" module="contacts">
+            <label>Contacts</label>
+            <tab>general</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>100</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+			    <requestsample translate="label">
+					<label>'Request a Sample'</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>99</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+					    <send_to translate="label">
+							<label>Send Sample Requests To</label>
+							<frontend_type>text</frontend_type>
+                            <backend_model>adminhtml/system_config_backend_email_address</backend_model>
+                            <validate>validate-email</validate>
+							<sort_order>10</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</send_to>
+					    <redirect_to translate="label">
+							<label>After Submit, Redirect To...</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>20</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</redirect_to>
+					</fields>
+				</requestsample>
+			</groups>
+        </contacts>
+    </sections>
+</config>

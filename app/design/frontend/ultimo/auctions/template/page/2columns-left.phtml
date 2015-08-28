@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<?php echo $this->getChildHtml('head')?>
+<?php /*?><script type="text/javascript" src="<?php echo $this->getSkinUrl('js/jquery-1.7.1.min.js')?>"></script>
+<script src="<?php echo $this->getSkinUrl('js/modernizr.custom.js')?>"></script><?php */?>
+</head>
+
+<body>
+<?php echo $this->getChildHtml('header')?>
+<section id="center_area">
+<section class="top_links"><?php echo $this->getChildHtml('breadcrumbs') ?></section>
+<?php $_helper = Mage::helper('catalog/category') ?>
+<?php $_categories = $_helper->getStoreCategories() ?>
+<?php $currentCategory = Mage::registry('current_category') ?>
+<?php $displayMode = $currentCategory->getDisplayMode();?>
+<?php if ($displayMode=='PAGE'):?>
+<aside><?php echo $this->getLayout()->createBlock('catalog/product_list')->setTemplate('catalog/product/bestdeal.phtml')->setCategoryId('90')->toHtml(); ?>
+</aside>
+<section id="right_side_area">
+<?php echo $this->getChildHtml('global_notices') ?>
+<?php echo $this->getChildHtml('global_messages') ?>
+<?php echo $this->getChildHtml('content') ?>
+</section>
+<?php else:?>
+<?php echo $this->getChildHtml('global_notices') ?>
+<?php echo $this->getChildHtml('global_messages') ?>
+<?php echo $this->getChildHtml('content') ?>
+<?php endif;?>
+</section>
+<?php echo $this->getChildHtml('footer') ?>
+<?php echo $this->getChildHtml('before_body_end') ?>
+<?php echo $this->getAbsoluteFooter() ?>
+</body>
+</html>

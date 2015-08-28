@@ -1,0 +1,65 @@
+<!-- Homedeliveryzone dialog area -->
+
+<div id="homedelivery-dialog-form" title="Add New Item" style="display:none;">
+	<form id='homedelivery_form' name='homedelivery_form' method='POST' action="<?php echo Mage::helper("adminhtml")->getUrl("ship/adminhtml_homedelivery/save/");?>">
+		<div>
+			<?php $adminobj= new Mage_Adminhtml_Block_Template(); ?>
+			<input type="hidden" value="<?php echo $adminobj->getFormKey() ?>" name="form_key">
+			<!-- Add or Edit -->
+			<input type="hidden" value="" name="add_or_edit" id="add_or_edit">
+			<!-- Add or Edit -->
+		</div>
+		<table cellpadding="4">
+			<tbody>
+				<tr>
+					<td><font color="red">*</font></td>
+					<td><b>Weight From:</b></td>
+					<td><input type="text" class="input-text dialog_text" id="from_price" name="from_price"></td>
+				</tr>
+				<tr>
+					<td><font color="red">*</font></td>
+					<td><b>Weight To:</b></td>
+					<td><input type="text" class="input-text dialog_text" id="to_price" name="to_price"></td>
+				</tr>
+				<tr>
+					<td><font color="red">*</font></td>
+					<td><b>Cost:</b></td>
+					<td><input type="text" class="input-text dialog_text" id="cost" name="cost"></td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</div>
+<!-- End Homedeliveryzone dialog area -->
+<?php 
+	$rules = Mage::getModel('ship/homedelivery')->getCollection();
+?>
+<div id="homedelivery" class="ui-widget">
+	<table id="homedeliveryzone_table" class="ui-widget ui-widget-content">
+		<thead>
+			<tr class="ui-widget-header ">
+				<th>ID</th>
+				<th>Weight From</th>
+				<th>Weight To</th>
+				<th>Cost</th>
+				<th style="width: 114px;">Action</th>
+			</tr>
+		</thead>
+		<tbody>
+			<?php foreach ($rules as $rule) : ?>
+			<tr>
+				<td><?php echo $rule->getId() ?></td>
+				<td><?php echo $rule->getFromPrice() ?></td>
+				<td><?php echo $rule->getToPrice() ?></td>
+				<td><?php echo $rule->getCost() ?></td>
+				<td>
+					<div class='edit-delete-btn'>
+						<button id='edit_homedelivery_<?php echo $rule->getId(); ?>' type='button' title='Edit' onclick='MST.editHomedelivery(this.id)'><span>Edit</span></button>
+						<button id='delete_homedelivery_<?php echo $rule->getId(); ?>' type='button' title='Delete' onclick='MST.deleteHomedelivery(this.id)'><span>Delete</span></button>
+					</div>
+				</td>
+			</tr>
+			<?php endforeach; ?>
+		</tbody>
+	</table>
+</div>

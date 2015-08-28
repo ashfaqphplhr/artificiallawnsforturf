@@ -1,0 +1,252 @@
+<?php
+	$base = Mage::getBaseUrl();
+	$_products1 = $this->getChoiceFirstCollection()->getItems();
+	// var_dump($_products);
+	$_products2 = $this->getChoiceSecondCollection()->getItems();
+	$_products3 = $this->getChoiceThirdCollection()->getItems();
+	$_products4 = $this->getChoiceForthCollection()->getItems();
+		
+?>
+
+<?php if(isset($_POST['submit'])): ?>
+<?php
+/**
+ * Load up the config and send off the request
+ */
+// if( !empty($_POST['item_name']) && !empty($_POST['item_sku']) ) {
+	$settings['send_to']		= Mage::getStoreConfig("contacts/requestsample/send_to");
+	$settings['redirect_to']	= Mage::getStoreConfig("contacts/requestsample/redirect_to");
+	$settings['from_email']		= $_POST['email'];
+	$settings['from_name']		= $_POST['name'];
+
+	$special	= $_POST['special_instr'] ? "\n".$this->__("Additional Information/Requests:")." ${_POST['special_instr']}" : '';
+	$address	= trim($_POST['address']);
+
+	$message	= $this->__("Thank you for your sample request. You will receive them as soon as possible from our local reseller. In case we don't have any reseller in your area we will handle your request from our head office directly. ")." 
+
+".$this->__("Your request:")."
+
+".$this->__("Name:")."           ${_POST['name']}${org}
+".$this->__("Address:")."        ${address}
+                ${_POST['city']}, ${state}  ${_POST['zip']}
+".$this->__("Email:")."          ${_POST['email']}
+".$this->__("Phone Number:")."          ${_POST['phonenumber']}
+".$this->__("Sample 1:")."          ${_POST['choice1']}
+".$this->__("Sample 2:")."          ${_POST['choice2']}
+".$this->__("Sample 3:")."          ${_POST['choice3']}
+".$this->__("Sample 4:")."          ${_POST['choice4']}
+".$this->__("Installation:")."          ${_POST['install']}
+".$this->__("Approx. area in sqM or Length x Width measurements:")."  ${_POST['est_order']}${special}";
+
+	$headers[]	= 'MIME-Version: 1.0';
+	$headers[]	= 'Content-type: text/plain; charset=UTF-8';
+	$headers[]	= "From: {$this->__("Noworriesturf")} <{$settings['send_to']}>";
+
+	mail($settings['send_to'], '=?UTF-8?B?'.base64_encode($this->__('Sample Request')).'?=', str_replace("\r",'',$message), implode("\r\n", $headers) );
+	mail($_POST['email'], '=?UTF-8?B?'.base64_encode($this->__('Sample Request')).'?=', str_replace("\r",'',$message), implode("\r\n", $headers) );
+
+	header("Location: {$settings['redirect_to']}");
+	exit;
+// }
+?>
+<?php elseif(isset($_GET['thanks'])): ?>
+	<?php echo $this->__('Thank you, your sample request as been sent and will be processed shortly.'); ?>
+<?php else: ?>
+<div class="request_container">
+	<div class="request_content" style="">
+		<div class="request_form">
+			<h3 class="h3_request"><?php echo $this->__('REQUEST FREE SAMPLES OF SYNTHETIC GRASS AND SEE IT FOR YOURSELF, IT DOESN\'T LOOK FAKE AT ALL!'); ?></h3>
+			<p class="sample-text">
+				<b>To Order Your FREE Samples</b> please fill out the form below 
+			</p>
+			<p class="sample-text">	
+				** Please note, you are welcome to order <b>up to 4 Samples as a courtesy for Free</b>.  If you would like to get <b>more than 4 Samples</b> then <b>Postage Fee of $10 will apply</b>. In order to request extra samples just fill out the "Additional Information/Requests" section below with the names of the additional products you are interested in.
+			</p>
+			<form action="<?php echo $base; ?>requestsample/" id="request_form" method="post" name="request_form" class="form-list">
+				<input type="hidden" name="submit" value="1" />
+				<table cellpadding="0" cellspacing="0" class="request_table" style="width:70%">
+					<tr>
+						<td class="label">
+							<label class="required" for="name"><em>*</em><?php echo $this->__('Name:'); ?></label>
+						</td>
+						<td class="input">
+							<input class="input-text required-entry" size="45" type="text" name="name" id="name" />
+						</td>
+					</tr>
+					<tr>
+						<td class="label">
+							<label class="required" for="email"><em>*</em><?php echo $this->__('Email:'); ?></label>
+						</td>
+						<td class="input">
+							<input name="email" id="email" type="text" size="45" class="input-text required-entry" />
+						</td>
+					</tr>
+					<tr>
+						<td class="label2">
+							<label class="required" for="address"><em>*</em><?php echo $this->__('Address:'); ?></label>
+						</td>
+						<td class="input">
+							<input name="address" id="address" type="text" size="45" class="input-text required-entry" />
+						</td>
+					</tr>
+					<tr>
+						<td class="label">
+							<label class="required" for="zip"><em>*</em><?php echo $this->__('Post Code:'); ?></label>
+						</td>
+						<td class="input">
+							<input class="input-text required-entry" size="45" type="text" name="zip" id="zip" />
+						</td>
+					</tr>
+					<tr>
+						<td class="label">
+							<label class="required" for="city"><em>*</em><?php echo $this->__('City/Suburb:'); ?></label>
+						</td>
+						<td class="input">
+							<input class="input-text required-entry" size="45" type="text" name="city" id="city" />
+						</td>
+					</tr>
+					<tr>
+						<td class="label">
+							<label class="required" for="phonenumber"><?php echo $this->__('Phone Number:'); ?></label>
+						</td>
+						<td class="input">
+							<input class="input-text" size="45" type="text" name="phonenumber" id="phonenumber" />
+						</td>
+					</tr>
+					<tr>
+						<td class="label"><label>Choose maximum of 4 FREE samples</label></td>
+					</tr>
+					<tr>
+						<td class="label">
+							<label class="required" for="choice1"><?php echo $this->__('Sample 1:'); ?></label>
+						</td>
+						<td class="input">
+							<select id="choice1" name="choice1" class=""/>
+								<option value=""><?php echo $this->__('Please select'); ?></option>
+							<?php foreach ($_products1 as $key => $products): ?>
+							<?php $productid = $products->getCustomerId(); ?>
+							<?php $product = Mage::getModel('catalog/product')->load($productid); ?>
+								<option value="<?php echo $product->getName() ?>"><?php echo $product->getName() ?></option>
+							<?php endforeach;?>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td class="label">
+							<label class="required" for="choice2"><?php echo $this->__('Sample 2:'); ?></label>
+						</td>
+						<td class="input">
+							<select id="choice2" name="choice2" class=""/>
+								<option value=""><?php echo $this->__('Please select'); ?></option>
+							<?php foreach ($_products2 as $key => $products): ?>
+							<?php $productid = $products->getCustomerId(); ?>
+							<?php $product = Mage::getModel('catalog/product')->load($productid); ?>
+								<option value="<?php echo $product->getName() ?>"><?php echo $product->getName() ?></option>
+							<?php endforeach;?>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td class="label">
+							<label class="required" for="choice3"><?php echo $this->__('Sample 3:'); ?></label>
+						</td>
+						<td class="input">
+							<select id="choice3" name="choice3" class=""/>
+								<option value=""><?php echo $this->__('Please select'); ?></option>
+							<?php foreach ($_products3 as $key => $products): ?>
+							<?php $productid = $products->getCustomerId(); ?>
+							<?php $product = Mage::getModel('catalog/product')->load($productid); ?>
+								<option value="<?php echo $product->getName() ?>"><?php echo $product->getName() ?></option>
+							<?php endforeach;?>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td class="label">
+							<label class="required" for="choice4"><?php echo $this->__('Sample 4:'); ?></label>
+						</td>
+						<td class="input">
+							<select id="choice4" name="choice4" class=""/>
+								<option value=""><?php echo $this->__('Please select'); ?></option>
+							<?php foreach ($_products4 as $key => $products): ?>
+							<?php $productid = $products->getCustomerId(); ?>
+							<?php $product = Mage::getModel('catalog/product')->load($productid); ?>
+								<option value="<?php echo $product->getName() ?>"><?php echo $product->getName() ?></option>
+							<?php endforeach;?>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td class="label">
+							<label class="required" for="install"><em>*</em><?php echo $this->__('Installation:'); ?></label>
+						</td>
+						<td class="input">
+							<select id="install" name="install" class="validate-select"/>
+								<option value=""><?php echo $this->__('Make your choice'); ?></option>
+								<option value="I will install it myself."><?php echo $this->__('I will install it myself.'); ?></option>
+								<option value="I consider to let it be installed by a specialist."><?php echo $this->__('I consider to let it be installed by a specialist.'); ?></option>
+							</select>
+						</td>
+					</tr>
+<!-- 					<tr>
+						<td class="label">
+							<label for="organization"><?php echo $this->__('Organization:'); ?></label>
+						</td>
+						<td class="input">
+							<input class="input-text" size="45" type="text" name="organization" id="organization" />
+						</td>
+					</tr> -->
+<!-- 					<tr>
+						<td class="label">
+							<label class="required" for="region_id"><em>*</em><?php echo $this->__('State/Province:'); ?></label>
+						</td>
+						<td class="input">
+							<select id="region_id" name="region_id" class="validate-select" style="display:none" />
+								<option value=""><?php echo $this->__('Please select region, state or province'); ?></option>
+							</select>
+							<input type="text" id="region" name="region" class="input-text" style="display:none" />
+						</td>
+					</tr> -->
+					<tr>
+						<td class="label">
+							<label class="required" for="est_order"><?php echo $this->__('Approx. area in sqM or Length x Width measurements:'); ?></label>
+						</td>
+						<td class="input">
+							<input class="input-text required-entry" size="45" type="text" name="est_order" id="est_order" />
+						</td>
+					</tr>
+					<tr>
+						<td class="label2">
+							<label for="special_instr"><?php echo $this->__('Additional Information/Requests:'); ?></label>
+						</td>
+						<td class="input" >
+							<textarea style="width: 274px; height: 5em;" rows="3" name="special_instr" id="special_instr" cols="34"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td class="buttons-set">
+							<p class="required">* <?php echo $this->__('Indicates required fields'); ?></p>
+							<button class="button" title="<?php echo $this->__('Submit Request'); ?>" type="submit"><span><span><?php echo $this->__('Submit Request'); ?></span></span></button>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<script type="text/javascript">
+				//<![CDATA[
+				var customForm = new VarienForm('request_form');
+				// new RegionUpdater('country', 'region', 'region_id', <?php echo $this->helper('directory')->getRegionJson() ?>);
+				//]]>
+			</script>
+			<style type="text/css">
+				td.input, td.label, td.label2 {
+					padding: 3px;
+				}
+			</style>
+			</form>
+		</div>
+	</div>
+</div>
+<div style="clear:both"></div>
+<?php endif; ?>

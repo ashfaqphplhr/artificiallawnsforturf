@@ -1,0 +1,71 @@
+<div class="content-header">
+    <table cellspacing="0">
+        <tbody><tr>
+            <td>
+                <h3>Import Shipping Rates</h3>
+            </td>
+            <td class="form-buttons"><button id="id_d23bcb63902953b71eb3278643a0b595" title="Import" type="button" class="scalable save" onclick="importForm.submit()" style=""><span><span><span>Import</span></span></span></button></td>
+         </tr>
+    </tbody></table>
+</div>
+
+<form action="<?php echo Mage::helper("adminhtml")->getUrl("*/*/save") ?>" method="post" id="import_edit_form" enctype="multipart/form-data">
+    
+    <input type="hidden" name="form_key" value="<? echo Mage::getSingleton('core/session')->getFormKey(); ?>" />
+    
+    <div class="entry-edit">
+        
+        <div class="section-config active">
+            <div class="entry-edit-head">
+                <a id="config-head" href="#" onclick="return false;" class="open">Import</a>
+            </div>
+            
+            <fieldset class="config" id="config">
+                <legend>Import</legend>
+                
+                <table cellspacing="0" class="form-list">
+                    <tbody>
+                        <tr>
+                            <td class="label">
+                                <label for="type">Cubic variable</label>
+                            </td>
+                            <td class="value">
+                                <select id="type" name="type" class="select">
+                                    <option value="Brisbane">Brisbane</option>
+                                    <option value="Melbourne">Melbourne</option>
+                                </select>
+                                <p class="note"><span></span></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">
+                                <label for="file">CSV File</label>
+                            </td>
+                            <td class="value">
+                                <input id="file" name="file" type="file" class="input-file" />
+                                <p class="note"><span></span></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <strong>Example of expected CSV file format</strong><br />
+                                <pre>"Id","State","Post Code","Basic Charge","Cost per KG","Store Views"
+"1","AB","2000","13.3000","9.9000","All Store Views"
+"2","CD","3000","15.3000","10.9000","All Store Views"
+etc...</pre><br />
+                                <small>Or you can Export the existing data to CSV format, and edit that file. The records are matched by "unique" post code column. (You can leave Id, and Store Views columns empty for new records.)</small>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            
+        </div>
+        
+    </div>
+    
+</form>
+
+<script type="text/javascript">
+    var importForm = document.getElementById('import_edit_form');
+</script>

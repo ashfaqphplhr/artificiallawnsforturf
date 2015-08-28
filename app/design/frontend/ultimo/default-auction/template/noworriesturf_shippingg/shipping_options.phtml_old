@@ -1,0 +1,341 @@
+<?php
+$_product = Mage::registry('current_product');
+if ($_product->getDepo()):
+?>
+<div id="nwt-shipping" class="grid12-8">
+    <div id="nwt-shipping-header">
+        Shipping Options
+    </div>
+    <div id="nwt-shipping-content">
+        <form>
+            <div class="grid12-6">
+                <div class="nwt-row">
+                    <div class="grid12-2"><input type="radio" name="home_delivery" id="home_delivery" /></div>
+                    <div class="grid12-5"><label for="home_delivery">Home Delivery</label></div>
+                    <div class="grid12-5"><input type="text" name="home_delivery_pc" id="home_delivery_pc" value="input postcode" /></div>
+                </div>
+
+                <div class="nwt-row">
+                    <div class="grid12-2"><input type="radio" name="depot_pickup" id="depot_pickup" /> </div>
+                    <div class="grid12-5"><label for="depot_pickup">Depot Pickup</label> </div>
+                    <div class="grid12-5"><input type="text" name="depot_pickup_pc" id="depot_pickup_pc" value="input postcode" /></div>
+                </div>
+
+                <div class="nwt-row" id="nearest_depot_box" style="visibility: hidden;">
+                    <div class="grid12-7"><label for="nearest_depot">Nearest Collection Depot</label></div>
+                    <div class="grid12-5"><select name="nearest_depot" id="nearest_depot">
+                        <option value="">Select Depot</option>
+                    </select></div>
+                </div>
+            </div>
+
+            <div class="grid12-6">
+                <div class="grid12-3">&nbsp;</div>
+                <div class="grid12-7"><button id="get_shipping_price">Get Shipping Price</button></div>
+
+                <div class="grid12-4">&nbsp;</div>
+                <div class="grid12-8"><div id="delivery">
+                    Delivery: <span id="delivery_value">$0.00</span>
+                </div></div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var productHasShipping = false;
+
+    jQuery(document).on('ready', function() {
+        function nwt_get_pid() {
+        <?php if ($_product->isConfigurable()): ?>
+            var attributes = spConfig.config.attributes;
+            var selected = nwt_get_selected_attributes();
+            
+            return nwt_get_product_id(attributes, selected);
+        <?php else: ?>
+            return <?php echo $_product->getId() ?>
+        <?php endif; ?>
+        }
+
+        function nwt_get_qty() {
+            return jQuery('#qty').val();
+        }
+
+        function nwt_get_pc() {
+            if (nwt_is_home_delivery()) {
+                return jQuery('#home_delivery_pc').val();
+            } else if (nwt_is_depot_pickup()) {
+                return jQuery('#depot_pickup_pc').val();
+            }
+        }
+
+        function nwt_get_depot() {
+            return jQuery('#nearest_depot').val();
+        }
+
+        function nwt_get_ajax_url() {
+            if (nwt_is_home_delivery()) {
+                return "<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB) . 'index.php/shippingg/index/homedelivery'; ?>";
+            } else if (nwt_is_depot_pickup()) {
+                return "<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB) . 'index.php/shippingg/index/depotpickup'; ?>";
+            }
+        }
+
+        function nwt_is_home_delivery() {
+            return jQuery('#home_delivery').is(':checked');
+        }
+
+        function nwt_is_depot_pickup() {
+            return jQuery('#depot_pickup').is(':checked');
+        }
+
+        function nwt_input_focus(e) {
+            var jT = jQuery(e.target);
+
+            if (jT.val() == 'input postcode') {
+                jT.val('');
+                jT.css('color', 'black');
+            }
+        }
+
+        function nwt_input_blur(e) {
+            var jT = jQuery(e.target);
+
+            if (jT.val() == '') {
+                jT.val('input postcode');
+                jT.css('color', '#ccc');
+            }
+        }
+
+        function nwt_switch_type() {
+            var jD = jQuery('#depot_pickup');
+            var jH = jQuery('#home_delivery');
+
+            var id = jQuery(this).attr('id');
+
+            if (id == 'home_delivery') {
+                jD.attr('checked', false);
+                jH.attr('checked', true);
+
+                jQuery('#home_delivery_pc').focus();
+            } else if (id == 'depot_pickup') {
+                jD.attr('checked', true);
+                jH.attr('checked', false);
+
+                jQuery('#depot_pickup_pc').focus();
+            }
+            
+            nwt_qty_changed();
+        }
+        
+        function nwt_set_price(p) {
+            if (p > 0) {
+                productHasShipping = true;
+            } else {
+                productHasShipping = false;
+            }
+            
+            var jV = jQuery('#delivery_value');
+            jV.css('font-size', '120%');
+            jQuery('#delivery_value').text('$' + p);
+        }
+        
+        function nwt_loading() {
+            var jV = jQuery('#delivery_value');
+            jV.css('font-size', '80%');
+            jV.text('Loading...');
+        }
+
+        function nwt_get_shipping() {
+        <?php if ($_product->isConfigurable()): ?>
+            if (!nwt_has_attributes()) {
+                alert('Please select Roll Width and Roll Length first.');
+                return false;
+            }
+        <?php endif; ?>
+            if (!nwt_is_home_delivery() && !nwt_is_depot_pickup()) {
+                alert('Please select Home Delivery or Depot Pickup.');
+                return false;
+            }
+            
+            nwt_loading();
+            
+            jQuery.ajax({
+                type : 'GET',
+                url : nwt_get_ajax_url(),
+                data : {
+                    depot : nwt_get_depot(),
+                    pc : nwt_get_pc(),
+                    pid : nwt_get_pid(),
+                    qty : nwt_get_qty()
+                },
+                dataType : 'text'
+            })
+            .done(function(data, textStatus, jqXHR) {
+                //console.log('done', data, textStatus, jqXHR);
+                if (nwt_is_home_delivery()) {
+                    var p = parseFloat(data);
+
+                    if (p > 0) {
+                        nwt_set_price(p);
+                    } else {
+                        nwt_set_price(0);
+                        alert('Couldn\'t get shipping price for home delivery for this product.');
+                    }
+                } else {
+                    if (nwt_get_depot()) {
+                        var p = parseFloat(data);
+
+                        if (p > 0) {
+                            nwt_set_price(p);
+                        } else {
+                            nwt_set_price(0);
+                            alert('Couldn\'t get shipping price for depot delivery for this product.');
+                        }
+                    } else {
+                        //console.log('depos', data);
+                        var ds = JSON.parse(data);
+                        var dsl = ds.length;
+                        var options = '<option value="">Select Depot</option>';
+                        
+                        if (dsl > 0) {
+                            jQuery('#nearest_depot_box').css('visibility', 'visible');
+                            
+                            for(var i = 0; i < dsl; i++) {
+                                options += '<option value="' + ds[i].DepotId + '">' + ds[i].Suburb + ' ' + ds[i].Distance + 'km</option>';
+                            }
+                        } else {
+                            jQuery('#nearest_depot_box').css('visibility', 'hidden');
+                            alert('No depots was found.');
+                        }
+                        
+                        jQuery('#nearest_depot').html(options);
+                        nwt_set_price(0);
+                    }
+                }
+            })
+            .fail(function(jqXHR, textStatus, errorThrown) {
+                //console.log('fail', jqXHR, textStatus, errorThrown);
+                nwt_set_price(0);
+                alert('Couldn\'t get shipping price for home delivery for this product.');
+            });
+            
+            return false;
+        }
+        
+        function nwt_qty_changed() {
+            if (productHasShipping) {
+                productHasShipping = false;
+                nwt_get_shipping();
+            }
+        }
+        
+        function nwt_depot_changed() {
+            productHasShipping = false;
+            nwt_get_shipping();
+        }
+        
+        function nwt_has_attributes() {
+            var hasAttributes = true;
+            
+            jQuery('.super-attribute-select').each(function(i, e) {
+                if (!jQuery(this).val()) {
+                    hasAttributes = false;
+                }
+            });
+            
+            return hasAttributes;
+        }
+        
+        function nwt_get_selected_attributes() {
+            var attributes = new Array();
+            
+            jQuery('.super-attribute-select').each(function(i, e) {
+                var id = jQuery(this).attr('id');
+                var attrId = id.replace('attribute', '');
+                
+                attributes[attrId] = jQuery(this).val();
+            });
+            
+            return attributes;
+        }
+        
+        function nwt_get_product_id(attributes, selected) {
+            //var attributesSelect = jQuery('.super-attribute-select');
+            //console.log(attributes, selected);
+            
+            var atts = new Array();
+            
+            for(var i in attributes) {
+                if (parseInt(i) > 0) {
+                    var opts = attributes[i].options;
+                    var optsl = opts.length;
+                    var options = new Array();
+                    
+                    for(var k = 0; k < optsl; k++) {
+                        var copt = opts[k];
+                        
+                        options[copt.id] = copt.products;
+                    }
+                    
+                    atts[i] = options;
+                }
+            }
+            
+            //console.log('atts', atts);
+            var founds = new Array();
+            
+            for(var j in selected) {
+                if (parseInt(j) > 0) {
+                    var found = atts[j][selected[j]];
+                    var foundl = found.length;
+                    
+                    for(var i = 0; i < foundl; i++) {
+                        if (founds[found[i]] != undefined) {
+                            founds[found[i]]++;
+                        } else {
+                            founds[found[i]] = 1;
+                        }
+                    }
+                    //console.log('selected', j, selected[j]);
+                }
+            }
+            
+            var max = 0;
+            var id = 0;
+            
+            for(var l in founds) {
+                if (parseInt(l) > 0) {
+                    if (founds[l] > max) {
+                        max = founds[l];
+                        id = l;
+                    }
+                }
+            }
+            
+            //console.log(id);
+            
+            return id;
+        }
+
+        jQuery('#home_delivery_pc').on('focus', nwt_input_focus);
+        jQuery('#home_delivery_pc').on('blur', nwt_input_blur);
+
+        jQuery('#depot_pickup_pc').on('focus', nwt_input_focus);
+        jQuery('#depot_pickup_pc').on('blur', nwt_input_blur);
+
+        jQuery('#home_delivery').on('change', nwt_switch_type);
+        jQuery('#depot_pickup').on('change', nwt_switch_type);
+
+        jQuery('#get_shipping_price').on('click', nwt_get_shipping);      
+        
+        jQuery('#qty').on('change', nwt_qty_changed);
+        
+        jQuery('#nearest_depot').on('change', nwt_depot_changed);
+        
+        <?php if ($_product->isConfigurable()): ?>
+            jQuery('.super-attribute-select').on('change', nwt_qty_changed);
+        <?php endif; ?>
+    });
+</script>
+<?php endif; ?>

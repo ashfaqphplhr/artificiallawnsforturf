@@ -1,0 +1,441 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fanciest Author Box\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-26 06:56+0100\n"
+"PO-Revision-Date: 2012-09-26 06:56+0100\n"
+"Last-Translator: Slobodan Manic <slobodan.manic@gmail.com>\n"
+"Language-Team: ThematoSoup\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_x;_ex;esc_attr_x;esc_html_x;_n;_nx;_n_loop;_nx_loop\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ts-fab.php:60
+msgid "Settings"
+msgstr ""
+
+#: includes/ts-fab-construct-tabs.php:60
+#: includes/ts-fab-construct-tabs.php:64
+#: includes/ts-fab-construct-tabs.php:673
+#: includes/ts-fab-construct-tabs.php:677
+msgid "at"
+msgstr ""
+
+#: includes/ts-fab-construct-tabs.php:147
+msgid "<!-- Couldn't fetch latest tweet -->"
+msgstr ""
+
+#: includes/ts-fab-construct-tabs.php:396
+msgid "Latest posts by "
+msgstr ""
+
+#: includes/ts-fab-construct-tabs.php:396
+msgid "see all"
+msgstr ""
+
+#: includes/ts-fab-construct-tabs.php:524
+#: includes/ts-fab-settings.php:319
+msgid "Bio"
+msgstr ""
+
+#: includes/ts-fab-construct-tabs.php:557
+msgid "Latest Posts"
+msgstr ""
+
+#: includes/ts-fab-construct-tabs.php:651
+msgid "Author information"
+msgstr ""
+
+#: includes/ts-fab-settings.php:83
+msgid "Display settings"
+msgstr ""
+
+#: includes/ts-fab-settings.php:84
+msgid ""
+"\n"
+"\t\t\t\t<p>\n"
+"\t\t\t\t\t<strong>Automatically add to posts</strong><br />\n"
+"\t\t\t\t\tShow in posts, pages and custom posts options allow you to automatically add Fanciest Author Box before or after your posts, pages and custom posts.\n"
+"\t\t\t\t</p>\n"
+"\t\t\t\t<p>\n"
+"\t\t\t\t\t<strong>Shortcode</strong><br />\n"
+"\t\t\t\t\tYou can use [ts_fab] shortcode to add Fanciest Author Box inside your posts.\n"
+"\t\t\t\t</p>\t\t\t\t\n"
+"\t\t\t\t<p>\n"
+"\t\t\t\t\t<strong>Widget</strong><br />\n"
+"\t\t\t\t\tIf you're using a theme with widgetized sidebars Fanciest Author Box widget allows you to add Fanciest Author Box to your site sidebar.\n"
+"\t\t\t\t</p>\t\t\t\t\n"
+"\t\t\t\t<p>\n"
+"\t\t\t\t\t<strong>Template tag</strong><br />\n"
+"\t\t\t\t\tFanciest Author Box can be added anywhere in your theme by using ts_fab() template tag.\n"
+"\t\t\t\t</p>\t\t\t\t\n"
+"\t\t\t"
+msgstr ""
+
+#: includes/ts-fab-settings.php:106
+msgid "Tabs settings"
+msgstr ""
+
+#: includes/ts-fab-settings.php:107
+msgid ""
+"\n"
+"\t\t\t\t<p>\n"
+"\t\t\t\t\t<strong>Twitter cache interval</strong><br />\n"
+"\t\t\t\t\tBecause of Twitter API limits of 150 unauthenticated calls per hour Twitter info for each user is stored as a cache object.\n"
+"\t\t\t\t</p>\n"
+"\t\t\t\t<p>\n"
+"\t\t\t\t\t<strong>Facebook Subscribe</strong><br />\n"
+"\t\t\t\t\tYou must <a href=\"https://www.facebook.com/about/subscribe\">enable subscriptions for your Facebook profile</a> before Subscribe button can appear.\n"
+"\t\t\t\t</p>\t\t\t\t\n"
+"\t\t\t\t<p>\n"
+"\t\t\t\t\t<strong>Default tabs in shortcode and template tag</strong><br />\n"
+"\t\t\t\t\tYou can override default tabs settings in shortcode and template tag by using 'tabs' parameter:<br />\n"
+"\t\t\t\t\t<strong>Shortcode:</strong> [ts_fab tabs=\"bio,twitter,facebook,googleplus,latest_posts\"]<br />\n"
+"\t\t\t\t\t<strong>Template tag:</strong> ts_fab( $context = '', $authorid = '', $tabs = 'bio,twitter,facebook,googleplus,latest_posts' )\n"
+"\t\t\t\t</p>\t\t\t\t\n"
+"\t\t\t"
+msgstr ""
+
+#: includes/ts-fab-settings.php:127
+msgid "Check out Fanciest Author Box "
+msgstr ""
+
+#: includes/ts-fab-settings.php:127
+msgid "plugin documentation"
+msgstr ""
+
+#: includes/ts-fab-settings.php:127
+msgid "or get in touch with us on:"
+msgstr ""
+
+#: includes/ts-fab-settings.php:129
+msgid "Our website"
+msgstr ""
+
+#: includes/ts-fab-settings.php:168
+#: includes/ts-fab-settings.php:830
+msgid "Display Settings"
+msgstr ""
+
+#: includes/ts-fab-settings.php:176
+msgid "Show in posts"
+msgstr ""
+
+#: includes/ts-fab-settings.php:181
+#: includes/ts-fab-settings.php:192
+msgid "Select where to display."
+msgstr ""
+
+#: includes/ts-fab-settings.php:187
+msgid "Show in pages"
+msgstr ""
+
+#: includes/ts-fab-settings.php:209
+msgid "Show in"
+msgstr ""
+
+#: includes/ts-fab-settings.php:214
+msgid "Display Fanciest Author Box in "
+msgstr ""
+
+#: includes/ts-fab-settings.php:223
+msgid "Show in feeds"
+msgstr ""
+
+#: includes/ts-fab-settings.php:228
+msgid "Display simplified author box in RSS feeds"
+msgstr ""
+
+#: includes/ts-fab-settings.php:234
+msgid "Tabs style"
+msgstr ""
+
+#: includes/ts-fab-settings.php:239
+msgid "Show only icons or icons and text in tabs"
+msgstr ""
+
+#: includes/ts-fab-settings.php:246
+msgid "Color Settings"
+msgstr ""
+
+#: includes/ts-fab-settings.php:253
+msgid "Inactive tab colors"
+msgstr ""
+
+#: includes/ts-fab-settings.php:260
+#: includes/ts-fab-settings.php:276
+#: includes/ts-fab-settings.php:292
+msgid "Background"
+msgstr ""
+
+#: includes/ts-fab-settings.php:261
+#: includes/ts-fab-settings.php:277
+#: includes/ts-fab-settings.php:293
+msgid "Border"
+msgstr ""
+
+#: includes/ts-fab-settings.php:262
+#: includes/ts-fab-settings.php:278
+#: includes/ts-fab-settings.php:294
+msgid "Text"
+msgstr ""
+
+#: includes/ts-fab-settings.php:269
+msgid "Active tab colors"
+msgstr ""
+
+#: includes/ts-fab-settings.php:285
+msgid "Tab content colors"
+msgstr ""
+
+#: includes/ts-fab-settings.php:311
+#: includes/ts-fab-settings.php:831
+msgid "Tabs Settings"
+msgstr ""
+
+#: includes/ts-fab-settings.php:324
+msgid "Display bio tab"
+msgstr ""
+
+#: includes/ts-fab-settings.php:335
+msgid "Display Twitter tab"
+msgstr ""
+
+#: includes/ts-fab-settings.php:336
+msgid "Twitter cache interval (minutes): "
+msgstr ""
+
+#: includes/ts-fab-settings.php:337
+msgid "Show Twitter bio"
+msgstr ""
+
+#: includes/ts-fab-settings.php:338
+msgid "Show latest tweet"
+msgstr ""
+
+#: includes/ts-fab-settings.php:339
+msgid "Show follower count"
+msgstr ""
+
+#: includes/ts-fab-settings.php:351
+msgid "Display Facebook tab"
+msgstr ""
+
+#: includes/ts-fab-settings.php:362
+msgid "Display Google+ tab"
+msgstr ""
+
+#: includes/ts-fab-settings.php:373
+msgid "Display LinkedIn tab"
+msgstr ""
+
+#: includes/ts-fab-settings.php:379
+msgid "Latest posts"
+msgstr ""
+
+#: includes/ts-fab-settings.php:384
+msgid "Display latest posts tab"
+msgstr ""
+
+#: includes/ts-fab-settings.php:385
+msgid "Number of latest posts to show:"
+msgstr ""
+
+#: includes/ts-fab-settings.php:391
+#: includes/ts-fab-user-settings.php:135
+#: includes/ts-fab-user-settings.php:137
+#: includes/ts-fab-widget.php:193
+msgid "Custom tab"
+msgstr ""
+
+#: includes/ts-fab-settings.php:396
+msgid "Display custom tab"
+msgstr ""
+
+#: includes/ts-fab-settings.php:397
+msgid "Custom tab heading"
+msgstr ""
+
+#: includes/ts-fab-settings.php:398
+#: includes/ts-fab-user-settings.php:148
+msgid "Custom tab content"
+msgstr ""
+
+#: includes/ts-fab-settings.php:399
+msgid "Allow authors to override custom tab in their user profiles"
+msgstr ""
+
+#: includes/ts-fab-settings.php:400
+msgid "(if not provided in either plugin or user settings, custom tab will not be visible)"
+msgstr ""
+
+#: includes/ts-fab-settings.php:433
+msgid "Select where and how Fanciest Author Box appears in your posts, pages and custom posts. For individual tab settings, go to Tabs Settings."
+msgstr ""
+
+#: includes/ts-fab-settings.php:459
+msgid "These options can be overriden when Fanciest Author is displayed using widget, shortcode or template tag. For display settings, go to Display Settings tab."
+msgstr ""
+
+#: includes/ts-fab-settings.php:475
+#: includes/ts-fab-settings.php:495
+#: includes/ts-fab-settings.php:516
+msgid "Above"
+msgstr ""
+
+#: includes/ts-fab-settings.php:476
+#: includes/ts-fab-settings.php:496
+#: includes/ts-fab-settings.php:517
+msgid "Below"
+msgstr ""
+
+#: includes/ts-fab-settings.php:477
+#: includes/ts-fab-settings.php:497
+#: includes/ts-fab-settings.php:518
+msgid "Both"
+msgstr ""
+
+#: includes/ts-fab-settings.php:478
+#: includes/ts-fab-settings.php:498
+#: includes/ts-fab-settings.php:519
+#: includes/ts-fab-settings.php:537
+msgid "No"
+msgstr ""
+
+#: includes/ts-fab-settings.php:536
+msgid "Yes"
+msgstr ""
+
+#: includes/ts-fab-settings.php:822
+msgid "The only author box plugin you'll ever need."
+msgstr ""
+
+#: includes/ts-fab-settings.php:840
+msgid "Reset all color settings"
+msgstr ""
+
+#: includes/ts-fab-user-settings.php:14
+msgid "User Details"
+msgstr ""
+
+#: includes/ts-fab-user-settings.php:23
+msgid "Display Fanciest Author Box"
+msgstr ""
+
+#: includes/ts-fab-user-settings.php:27
+msgid "Do not automatically add Fanciest Author Box to your posts, pages and custom posts."
+msgstr ""
+
+#: includes/ts-fab-user-settings.php:37
+msgid "Photo URL (optional, if left empty Gravatar image will be used), ideally image should be 64x64 px."
+msgstr ""
+
+#: includes/ts-fab-user-settings.php:46
+msgid "Your Twitter username (example: thematosoup)."
+msgstr ""
+
+#: includes/ts-fab-user-settings.php:61
+msgid "Facebook widget type"
+msgstr ""
+
+#: includes/ts-fab-user-settings.php:65
+msgid "Subscribe"
+msgstr ""
+
+#: includes/ts-fab-user-settings.php:69
+msgid "Like"
+msgstr ""
+
+#: includes/ts-fab-user-settings.php:78
+msgid "Your Facebook username or ID. (example: thematosoup)"
+msgstr ""
+
+#: includes/ts-fab-user-settings.php:86
+msgid "Your Google+ ID. (example: 104360438826479763912)"
+msgstr ""
+
+#: includes/ts-fab-user-settings.php:94
+msgid "Your LinkedIn username. (example: slobodanmanic)"
+msgstr ""
+
+#: includes/ts-fab-user-settings.php:99
+msgid "Position"
+msgstr ""
+
+#: includes/ts-fab-user-settings.php:103
+msgid "Your position."
+msgstr ""
+
+#: includes/ts-fab-user-settings.php:108
+msgid "Company"
+msgstr ""
+
+#: includes/ts-fab-user-settings.php:112
+msgid "Your company."
+msgstr ""
+
+#: includes/ts-fab-user-settings.php:117
+msgid "Company URL"
+msgstr ""
+
+#: includes/ts-fab-user-settings.php:121
+msgid "Your company URL."
+msgstr ""
+
+#: includes/ts-fab-user-settings.php:144
+msgid "Custom tab title (if not provided by either you or website admin, custom tab will not be visible)"
+msgstr ""
+
+#: includes/ts-fab-widget.php:18
+msgid "widget"
+msgstr ""
+
+#: includes/ts-fab-widget.php:28
+msgid "Author Spotlight"
+msgstr ""
+
+#: includes/ts-fab-widget.php:142
+msgid "Title: "
+msgstr ""
+
+#: includes/ts-fab-widget.php:149
+msgid "Select Author:"
+msgstr ""
+
+#: includes/ts-fab-widget.php:163
+msgid "Random author"
+msgstr ""
+
+#: includes/ts-fab-widget.php:169
+msgid "Bio tab"
+msgstr ""
+
+#: includes/ts-fab-widget.php:173
+msgid "Twitter tab"
+msgstr ""
+
+#: includes/ts-fab-widget.php:177
+msgid "Facebook tab"
+msgstr ""
+
+#: includes/ts-fab-widget.php:181
+msgid "Google+ tab"
+msgstr ""
+
+#: includes/ts-fab-widget.php:185
+msgid "LinkedIn tab"
+msgstr ""
+
+#: includes/ts-fab-widget.php:189
+msgid "Latest posts tab"
+msgstr ""
+
+#: includes/ts-fab-widget.php:198
+msgid "Float photo (uncheck for narrow sidebars)"
+msgstr ""
+

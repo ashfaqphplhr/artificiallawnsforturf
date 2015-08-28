@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<?php echo $this->getChildHtml('head')?>
+<?php /*?><script type="text/javascript" src="<?php echo $this->getSkinUrl('js/jquery-1.7.1.min.js')?>"></script>
+<script src="<?php echo $this->getSkinUrl('js/modernizr.custom.js')?>"></script><?php */?>
+</head>
+
+<body>
+<?php echo $this->getChildHtml('header')?>
+<section id="center_area">
+<section class="top_links"><?php echo $this->getChildHtml('breadcrumbs') ?></section>
+<?php echo $this->getChildHtml('global_notices') ?>
+<?php echo $this->getChildHtml('global_messages') ?>
+<?php echo $this->getChildHtml('content') ?>
+</section>
+<?php echo $this->getChildHtml('footer') ?>
+<?php echo $this->getChildHtml('before_body_end') ?>
+<?php echo $this->getAbsoluteFooter() ?>
+</body>
+</html>

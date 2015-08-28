@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Noworriesturf_Shippingg extension
+ * 
+ * NOTICE OF LICENSE
+ * 
+ * This source file is subject to the MIT License
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/mit-license.php
+ * 
+ * @category   	Noworriesturf
+ * @package		Noworriesturf_Shippingg
+ * @copyright  	Copyright (c) 2013
+ * @license		http://opensource.org/licenses/mit-license.php MIT License
+ */
+-->
+<config>
+	<modules>
+		<Noworriesturf_Shippingg>
+			<version>0.0.1</version>
+		</Noworriesturf_Shippingg>
+	</modules>
+	<global>
+		<resources>
+			<noworriesturf_shippingg_setup>
+				<setup>
+					<module>Noworriesturf_Shippingg</module>
+					<class>Noworriesturf_Shippingg_Model_Resource_Setup</class>
+				</setup>
+			</noworriesturf_shippingg_setup>
+		</resources>
+		<blocks>
+			<shippingg>
+				<class>Noworriesturf_Shippingg_Block</class>
+			</shippingg>
+		</blocks>
+		<helpers>
+			<shippingg>
+				<class>Noworriesturf_Shippingg_Helper</class>
+			</shippingg>
+		</helpers>
+		<models>
+			<sales>
+				<rewrite>
+                                        <quote_address_total_shipping>Noworriesturf_Shippingg_Model_Sales_Quote_Address_Total_Shipping</quote_address_total_shipping>
+				</rewrite>
+			</sales>
+			<shippingg>
+				<class>Noworriesturf_Shippingg_Model</class>
+				<resourceModel>shippingg_resource</resourceModel>
+			</shippingg>
+			<shippingg_resource>
+				<class>Noworriesturf_Shippingg_Model_Resource</class>
+				<entities>
+					<surcharge>
+						<table>shippingg_surcharge</table>
+					</surcharge>
+					<surcharge_store>
+						<table>shippingg_surcharge_store</table>
+					</surcharge_store>
+					<shippingratebrisbane>
+						<table>shippingg_shippingratebrisbane</table>
+					</shippingratebrisbane>
+					<shippingratebrisbane_store>
+						<table>shippingg_shippingratebrisbane_store</table>
+					</shippingratebrisbane_store>
+					<shippingrate>
+						<table>shippingg_shippingrate</table>
+					</shippingrate>
+					<shippingrate_store>
+						<table>shippingg_shippingrate_store</table>
+					</shippingrate_store>
+				</entities>
+			</shippingg_resource>
+		</models>
+	</global>
+	<adminhtml>
+		<layout>
+			<updates>
+				<noworriesturf_shippingg>
+					<file>noworriesturf_shippingg.xml</file>
+				</noworriesturf_shippingg>
+			</updates>
+		</layout>
+		<translate>
+			<modules>
+				<Noworriesturf_Shippingg>
+					<files>
+						<default>Noworriesturf_Shippingg.csv</default>
+					</files>
+				</Noworriesturf_Shippingg>
+			</modules>
+		</translate>
+	</adminhtml>
+	<admin>
+		<routers>
+			<adminhtml>
+				<args>
+					<modules>
+						<Noworriesturf_Shippingg before="Mage_Adminhtml">Noworriesturf_Shippingg_Adminhtml</Noworriesturf_Shippingg>
+					</modules>
+				</args>
+			</adminhtml>
+		</routers>
+	</admin>
+	<default>
+		<shippingg>
+		</shippingg>
+	</default>
+        <frontend>
+            <events>
+                <sales_quote_address_collect_totals_after>
+                    <observers>
+                        <noworriesturf_shippingg_shipping>
+                            <type>model</type>
+                            <class>Noworriesturf_Shippingg_Model_Observer</class>
+                            <method>shipping</method>
+                        </noworriesturf_shippingg_shipping>
+                    </observers>
+                </sales_quote_address_collect_totals_after>
+                <sales_order_place_after>
+                    <observers>
+                        <noworriesturf_shippingg_order>
+                            <type>model</type>
+                            <class>Noworriesturf_Shippingg_Model_Observer</class>
+                            <method>order</method>
+                        </noworriesturf_shippingg_order>
+                    </observers>
+                </sales_order_place_after>
+            </events>
+            <layout>
+                <updates>
+                    <noworriesturf_shippingg>
+                        <file>noworriesturf_shippingg.xml</file>
+                    </noworriesturf_shippingg>
+                </updates>
+            </layout>
+            <routers>
+                <noworriesturf_shippingg>
+                    <use>standard</use>
+                    <args>
+                        <module>Noworriesturf_Shippingg</module>
+                        <frontName>shippingg</frontName>
+                    </args>
+                </noworriesturf_shippingg>
+            </routers>
+        </frontend>
+</config>

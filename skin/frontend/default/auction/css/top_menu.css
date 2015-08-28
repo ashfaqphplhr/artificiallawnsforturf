@@ -1,0 +1,165 @@
+/*Strip the ul of padding and list styling*/
+@font-face {
+	font-family: 'swiss721bt-romancondensed';
+	src: url('../fonts/swiss721bt-romancondensed.eot?') format('eot'), 
+	     url('../fonts/swiss721bt-romancondensed.woff') format('woff'), 
+	     url('../fonts/swiss721bt-romancondensed.ttf')  format('truetype'),
+	     url('../fonts/swiss721bt-romancondensed.svg#swiss721bt-romancondensed') format('svg');
+}
+.top_menu {float:left; width:100%;
+	border-bottom:1px solid #dddddd;
+	border-top:1px solid #dddddd; margin-bottom:10px;}
+.top_menu>ul#menu{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	float:left; width:100%;
+}
+
+/*Create a horizontal list with spacing*/
+.top_menu ul li {
+	display:inline-block;
+	float: left;
+	background:url(../images/top_menu_spretor.jpg) no-repeat left center;
+	line-height:47px;
+	margin-right:0px;
+}
+
+/*Style for menu links*/
+.top_menu ul li a {
+	display:block;
+	min-width:140px;
+	height: 47px;
+	text-align: center;
+	line-height: 47px;
+	font-size:15px;
+	font-family:'swiss721bt-romancondensed', sans-serif;
+	color: #000000;
+	text-decoration: none;
+	padding:0 7px;
+	text-transform:uppercase;
+}
+
+/*Hover state for top level links*/
+.top_menu ul li:hover a {
+	color:#000; background:#fff;
+}
+
+/*Style for dropdown links*/
+.top_menu ul li:hover ul a {
+	background: #fff;
+	color: #2f3036;
+	height: 40px;
+	line-height: 40px;
+}
+
+/*Hover state for dropdown links*/
+li:hover ul a:hover {
+	background: #fff;
+	color: #fff;
+}
+
+/*Hide dropdown links until they are needed*/
+.top_menu ul li ul {
+	display: none;
+	z-index:9999;
+	position:absolute;
+	max-width:379px; 
+	width:100%;
+}
+
+/*Make dropdown links vertical*/
+.top_menu ul li ul li {
+	display: block;
+	float: none;
+	text-align:left;
+	border-bottom:1px solid #dddddd;
+}
+/*Prevent text wrapping*/
+.top_menu ul li ul li a {
+	width: auto;
+	min-width: 100px;
+	padding: 0 20px;
+	text-align:left;
+	font-size:15px;
+}
+.top_menu ul li ul li a:hover{
+background:url(../images/top_menu.jpg) no-repeat 5px center #fff;}
+
+.top_menu>ul>li ul>li>ul.hidden{
+	left:259px;
+	top:0;
+	box-sizing:border-box;
+	border-left:1px solid #dddddd;
+	border-right:1px solid #dddddd;
+	border-top:1px solid #dddddd;
+	}
+
+
+/*Display the dropdown on hover*/
+.top_menu ul li a:hover + .hidden, .hidden:hover {
+	display: block;
+}
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+	font-family: "swiss721bt-romancondensed", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	background: #000;
+	font-size:20px;
+	text-transform:uppercase;
+	text-align: center;
+	padding: 10px 0;
+	display: none;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+    -webkit-appearance: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+
+/*Responsive Styles*/
+
+@media screen and (max-width :1210px){
+.top_menu ul li a {font-size:15px; padding:0 18px;}
+}
+
+@media screen and (max-width :1110px){
+.top_menu ul li a {font-size:14px; padding:0 10px;}
+}
+
+@media screen and (max-width :960px){
+.top_menu ul li a {font-size:13px; padding:0 9px;}
+	
+}
+
+@media screen and (max-width : 760px){
+	/*Make dropdown links appear inline*/
+	.top_menu {width:100%;}
+	.top_menu ul {
+		position: static;
+		display: none;
+	}
+	/*Create vertical spacing*/
+	.top_menu ul li {
+		margin-bottom: 1px;
+	}
+	/*Make all menu links full width*/
+	.top_menu ul li, li a {
+		width: 100%; font-size:15px;  
+	padding:0 18px;
+	}
+	/*Display 'show menu' link*/
+	.show-menu {
+		display:block;
+	}
+	.home_icon {display:none;}
+}

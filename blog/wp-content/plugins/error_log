@@ -1,0 +1,2 @@
+[20-Feb-2015 11:34:50 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/nwturf/public_html/blog/wp-content/plugins/hello.php on line 60
+[22-Jun-2015 15:48:51 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/nwturf/public_html/blog/wp-content/plugins/hello.php on line 60

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+        	<action method="addItem"><type>skin_js</type><name>mst_ship/js/jquery.js</name></action>
+        	<action method="addItem"><type>skin_js</type><name>mst_ship/js/mst.js</name></action>
+        	
+        	<!-- UI -->
+        	<action method="addCss"><stylesheet>mst_ship/css/jquery.ui.all.css</stylesheet></action>
+        	
+        	<action method="addCss"><stylesheet>mst_ship/css/mst.css</stylesheet></action>
+			
+        	<action method="addItem"><type>skin_js</type><name>mst_ship/js/jquery.ui.core.js</name></action>
+        	<action method="addItem"><type>skin_js</type><name>mst_ship/js/jquery.ui.widget.js</name></action>
+        	<action method="addItem"><type>skin_js</type><name>mst_ship/js/jquery.ui.mouse.js</name></action>
+        	<action method="addItem"><type>skin_js</type><name>mst_ship/js/jquery.ui.button.js</name></action>
+        	<action method="addItem"><type>skin_js</type><name>mst_ship/js/jquery.ui.position.js</name></action>
+        	<action method="addItem"><type>skin_js</type><name>mst_ship/js/jquery.ui.resizable.js</name></action>
+        	<action method="addItem"><type>skin_js</type><name>mst_ship/js/jquery.ui.dialog.js</name></action>
+        	<action method="addItem"><type>skin_js</type><name>mst_ship/js/custom.ui.homedelivery.js</name></action>
+			
+			<!-- <action method="addItem"><type>skin_js</type><name>mst_ship/js/custom.ui.basemanufacturer.js</name></action> -->
+        	<!-- UI -->
+			
+		</reference>
+		<reference name="content">
+			<block type="core/template" name="baseurl">
+				<action method="setTemplate"><template>mst_ship/baseurl.phtml</template></action>
+			</block>
+		</reference>
+		
+    </default>
+</layout>  

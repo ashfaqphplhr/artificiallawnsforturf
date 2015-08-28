@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Abstract.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Alnum.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Alpha.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Barcode.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Between.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Callback.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Ccnum.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="CreditCard.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Date.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Digits.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="EmailAddress.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Exception.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Float.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="GreaterThan.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Hex.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Hostname.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Iban.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Identical.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="InArray.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Int.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Interface.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Ip.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Isbn.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="LessThan.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="NotEmpty.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="PostCode.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Regex.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="StringLength.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+</dwsync>

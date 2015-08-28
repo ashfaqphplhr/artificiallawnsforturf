@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Website1service_RemoveNews>
+            <version>1.0.0</version>
+        </Website1service_RemoveNews>
+    </modules>
+    <global>		
+        <blocks>
+            <adminhtml>
+                <rewrite>                   
+					<newsletter_template_grid_renderer_action>Website1service_RemoveNews_Block_Adminhtml_Newsletter_Deletenews</newsletter_template_grid_renderer_action>
+                </rewrite>
+            </adminhtml>
+        </blocks>		
+    </global>
+	<stores>
+        <admin>
+            <!-- default admin design package and theme -->
+            <design>
+                <package>
+                    <name>default</name>
+                </package>
+                <theme>
+				<!-- possible change for your own theme-->
+                    <default>default</default>
+                </theme>
+            </design>
+        </admin>
+    </stores>	
+</config>

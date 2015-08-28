@@ -1,0 +1,113 @@
+<?php
+/**
+ * aheadWorks Co.
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://ecommerce.aheadworks.com/AW-LICENSE.txt
+ *
+ * =================================================================
+ *                 MAGENTO EDITION USAGE NOTICE
+ * =================================================================
+ * This software is designed to work with Magento community edition and
+ * its use on an edition other than specified is prohibited. aheadWorks does not
+ * provide extension support in case of incorrect edition use.
+ * =================================================================
+ *
+ * @category   AW
+ * @package    AW_Activitystream
+ * @version    1.0.2
+ * @copyright  Copyright (c) 2010-2012 aheadWorks Co. (http://www.aheadworks.com)
+ * @license    http://ecommerce.aheadworks.com/AW-LICENSE.txt
+ */
+
+
+/**
+ * 
+ */
+class AW_Activitystream_Block_AdminhtmlSystemConfigFieldEditboxTurnable extends Mage_Adminhtml_Block_System_Config_Form_Field {
+    
+    /**
+     * 
+     */
+    protected function _getElementHtml(Varien_Data_Form_Element_Abstract $element) {
+        $__name = $element->getName();
+        $element->setName($__name . '[editbox]');
+        $__html = $element->getElementHtml();
+        $element->setName($__name);
+        
+        return $__html;
+    }
+    
+    
+    /**
+     * @todo Make the JavaScript code completely safe
+     * @todo Take the CSS code to a separate file
+     */
+    public function render(Varien_Data_Form_Element_Abstract $element) {
+        $element->setData('after_element_html', '
+            <script type="text/javascript">
+                Event.observe(
+                    window,
+                    \'load\',
+                    function() {
+                        var __inheritCheckboxNode = document.getElementById(\'' . $element->getHtmlId() . '_inherit\');
+                        
+                        if ( __inheritCheckboxNode != null ) {
+                            if ( ! __inheritCheckboxNode.checked ) {
+                                if ( ! document.getElementById(\'' . $element->getHtmlId() . '_enabled\').checked ) {
+                                    document.getElementById(\'' . $element->getHtmlId() . '\').disabled = true;
+                                    /* document.getElementById(\'' . $element->getHtmlId() . '\').addClass(\'disabled\'); */
+                                }
+                            }
+                            
+                            Event.observe(
+                                __inheritCheckboxNode,
+                                \'click\',
+                                function(node) {
+                                    document.getElementById(\'' . $element->getHtmlId() . '_enabled\').disabled = this.checked;
+                                    if ( ! document.getElementById(\'' . $element->getHtmlId() . '_enabled\').checked )
+                                        document.getElementById(\'' . $element->getHtmlId() . '\').disabled = true;
+                                }
+                            );
+                        }
+                        
+                        Event.observe(
+                            document.getElementById(\'' . $element->getHtmlId() . '_enabled\'),
+                            \'click\',
+                            function(node) {
+                                document.getElementById(\'' . $element->getHtmlId() . '\').disabled = ! this.checked;
+                                document.getElementById(\'' . $element->getHtmlId() . '_shadow\').value = document.getElementById(\'' . $element->getHtmlId() . '\').value;
+                            }
+                        );
+                    }
+                );
+            </script>
+        ');
+        
+        if ( $element->getValue()->getShadowValue() ) $element->setInherit(0);
+        $__html = parent::render($element);
+        
+        $__labelTdPos = strpos($__html, '<td class="label">');
+        if ( $__labelTdPos !== false ) {
+            $__html = substr($__html, 0, $__labelTdPos + 18)
+                . '<input type="hidden" value="' . $element->getValue()->getShadowValue() . '" id="' . $element->getHtmlId() . '_shadow" name="' . $element->getName() . '[shadow]" />'
+                . '<input type="checkbox" id="' . $element->getHtmlId() . '_enabled" name="' . $element->getName() . '[enabled]"' . ( !empty($element->_data['disabled']) ? ' disabled' : '' ) . ( $element->getValue()->getValue() ? ' checked' : '' ) . ' />'
+                . substr($__html, $__labelTdPos + 18)
+            ;
+        }
+        
+        $__html = '
+            <style type="text/css">
+                .form-list td.label input[type=checkbox] { float: left; margin-right: 10px; margin-top: 3px; }
+                .form-list td.after-checkbox { width: 171px; }
+                .form-list td.after-checkbox label { width: 156px; }
+            </style>
+        ' . $__html;
+        
+        return $__html;
+    }
+}

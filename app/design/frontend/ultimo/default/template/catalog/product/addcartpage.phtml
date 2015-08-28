@@ -1,0 +1,140 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+$_helper = Mage::helper('catalog/output');
+$theme = Mage::helper('ultimo');
+ $categoryid=$this->getCategoryId();
+ $category = Mage::getModel('catalog/category')->load($categoryid);
+$products = Mage::getModel('catalog/product')
+->getCollection()
+->addCategoryFilter($category)
+->setPage(1,5);
+$productcart=Mage::getModel('catalog/product')->load(175);
+$imgWidth=170;
+$imgHeight=110;
+?>
+<div class="boxtop">
+	<div class="box-image"><a href="<?php echo $productcart->getProductUrl() ?>"><img src="<?php echo $theme->getImgUrl($this, $productcart, $imgWidth, $imgHeight, 'small_image'); ?>" alt="mk" /></a></div>
+	<div class="detailproduct">
+		<div class="detailleft">
+			<h2 class="product-name"><a href="<?php echo $productcart->getProductUrl() ?>"><?php echo $_helper->productAttribute($productcart, $productcart->getName() , 'name'); ?></a>
+				<span>Best Choice for Your Garden</span>
+			</h2>
+		</div>
+		<div class="detailright">
+			<h2>Has been added to your cart</h2>
+		</div>
+	</div>
+</div>
+<div class="boxcontent category-products">
+<h2>Please View Below Accessories & Other Products You Will Require to Complete Your Project</h2>
+<h3>Accesories Products</h3>
+<ul class="products-list">
+<?php
+	foreach($products as $item){
+	$product=Mage::getModel('catalog/product')->load($item->getId());
+		echo '<li class="item">';
+?>
+	<a class="product-image grid12-4 persistent-grid2-1" title="" href="<?php echo $product->getProductUrl() ?>">            
+		<img alt="<?php echo $_helper->productAttribute($product, $product->getName() , 'name'); ?>" src="<?php echo $theme->getImgUrl($this, $product, 266, 173, 'small_image') ?>">							
+	</a>
+	<div class="product-shop grid12-4 persistent-grid2-1">
+		<div class="product-shop-inner">
+			<h2><a href="<?php echo $product->getProductUrl() ?>"><?php echo $_helper->productAttribute($product, $product->getName() , 'name'); ?></a></h2>
+			<div class="desc std"><?php echo $_helper->productAttribute($product, $product->getShortDescription(), 'short_description') ?></div>
+		</div>
+	</div>
+	<div class="right-column persistent-grid2-1" style="text-align:left;">
+		<span style="display:block;font-size:12px;line-height:16px;color:#000;margin:0 0 6px;">Quantity:</span>
+		<select style="height: 21px;padding: 1px;font-size: 11px;margin-bottom: 5px;">
+		<?php
+			for($i=1;$i<=20;$i++){?>
+				<option><?php echo $i; ?></option>
+		<?php 
+			}
+		?>
+		</select>
+		<span style="display:block;font-size:12px;line-height:16px;color:#000;margin:0 0 6px;">Price:</span>
+		<?php echo Mage_Catalog_Block_Product::getPriceHtml($product, true) ?>
+		<?php if($product->isSaleable()): ?>
+			<p><button type="button" title="<?php echo $this->__('Add to Cart') ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($product) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button></p>
+		<?php else: ?>
+			<p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
+		<?php endif; ?>			
+	</div>	
+<?php			
+		echo '</li>';
+	}
+?>
+</ul>
+<h3>Related Products</h3>
+<ul class="products-list">
+<?php
+	foreach($products as $item){
+	$product=Mage::getModel('catalog/product')->load($item->getId());
+		echo '<li class="item">';
+?>
+	<a class="product-image grid12-4 persistent-grid2-1" title="" href="<?php echo $product->getProductUrl() ?>">            
+		<img alt="<?php echo $_helper->productAttribute($product, $product->getName() , 'name'); ?>" src="<?php echo $theme->getImgUrl($this, $product, 266, 173, 'small_image') ?>">							
+	</a>
+	<div class="product-shop grid12-4 persistent-grid2-1">
+		<div class="product-shop-inner">
+			<h2><a href="<?php echo $product->getProductUrl() ?>"><?php echo $_helper->productAttribute($product, $product->getName() , 'name'); ?></a></h2>
+			<div class="desc std"><?php echo $_helper->productAttribute($product, $product->getShortDescription(), 'short_description') ?></div>
+		</div>
+	</div>
+	<div class="right-column persistent-grid2-1" style="text-align:left;">
+		<span style="display:block;font-size:16px;line-height:16px;color:#000;margin:0 0 6px;">
+			NORMAL RETAIL <span><?php echo Mage_Catalog_Block_Product::getPriceHtml($product, true) ?></span> SQM
+		</span>
+		<?php if($product->isSaleable()): ?>
+			<p><button type="button" title="<?php echo $this->__('Add to Cart') ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($product) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button></p>
+		<?php else: ?>
+			<p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
+		<?php endif; ?>	
+		<a href="<?php echo $item->getProductUrl() ?>"><span><span>VIEW DETAILS</span></span></a>
+		<?php if ($product->getAttributeSetId()=="64"): ?>
+		<a href="#"><span><span>ORDER FREE SAMPLE</span></span></a>
+		<?php endif; ?>	
+	</div>	
+<?php			
+		echo '</li>';
+	}
+?>
+</ul>
+</div>
+<div class="boxbottom">
+	<div class="box-image"><a href="<?php echo $productcart->getProductUrl() ?>"><img src="<?php echo $theme->getImgUrl($this, $productcart, $imgWidth, $imgHeight, 'small_image'); ?>" alt="mk" /></a></div>
+	<div class="detailproduct">
+		<div class="detailleft">
+			<h2 class="product-name"><a href="<?php echo $productcart->getProductUrl() ?>"><?php echo $_helper->productAttribute($productcart, $productcart->getName() , 'name'); ?></a>
+				<span>Best Choice for Your Garden</span>
+			</h2>
+		</div>
+		<div class="detailright">
+			<h2>Has been added to your cart</h2>
+		</div>
+	</div>
+</div>

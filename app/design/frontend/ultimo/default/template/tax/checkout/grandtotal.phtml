@@ -1,0 +1,152 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * @var $this Mage_Tax_Block_Checkout_Grandtotal
+ * @see Mage_Tax_Block_Checkout_Grandtotal
+ */
+ if(isset($_SESSION['shippingg']) && count($_SESSION['shippingg'])>0){
+ 
+ foreach($_SESSION['shippingg'] as $shippinggs){
+	 $shippingg[] = $shippinggs;
+	 }
+	 $price = $shippingg[0]['price'];
+ }else{
+	   $price = Mage::helper('shippingg')->getTotalShipping();
+	 }
+ 
+// var_dump($shippingg);
+ 
+?>
+
+<tr >
+    <td id='shiping_method_n' style="<?php echo $this->getStyle() ?>" class="a-right" colspan="<?php echo $this->getColspan(); ?>">
+        <?php  echo $this->escapeHtml($this->getTotal()->getTitle()) ?>
+    </td>
+    <td id='shiping_cost_row_n' style="<?php echo $this->getStyle() ?>" class="a-right">
+        <?php echo $this->helper('checkout')->formatPrice($this->getShippingExcludeTax()) ?>
+    </td>
+</tr>
+<?php if ($this->includeTax() && $this->getTotalExclTax()>=0){?>
+<tr>
+    <td style="<?php echo $this->getStyle() ?>" class="a-left" colspan="<?php echo $this->getColspan(); ?>">
+        <span><?php echo $this->helper('tax')->__('TOTAL DUE')?></span>
+    </td>
+    <td style="<?php echo $this->getStyle() ?>" class="a-right">
+        <span><?php echo $this->helper('checkout')->formatPrice($this->getTotalExclTax()) ?></span>
+    </td>
+</tr>
+<?php echo $this->renderTotals('taxes', $this->getColspan()); ?>
+<tr>
+    <td style="<?php echo $this->getStyle() ?>" class="a-left" colspan="<?php echo $this->getColspan(); ?>">
+        <span><?php echo $this->helper('tax')->__('TOTAL DUE')?></span>
+    </td>
+    <td style="<?php echo $this->getStyle() ?>" class="a-right">
+        <span><?php echo $this->helper('checkout')->formatPrice($this->getTotal()->getValue()) ?></span>
+    </td>
+</tr>
+<?php }else{?>
+<tr>
+    <td style="<?php echo $this->getStyle() ?>" class="a-left" colspan="<?php echo $this->getColspan(); ?>">
+        <span>TOTAL DUE<?php //echo $this->getTotal()->getTitle() ?></span>
+    </td>
+    <td style="<?php echo $this->getStyle() ?>" class="a-right">
+        <span id="grand_total_row"><?php echo $this->helper('checkout')->formatPrice($this->getTotal()->getValue()) ?></span>
+    </td>
+</tr>
+	
+	<input type='hidden' name='shipping_cost_in_cart' id='shipping_cost_in_cart' value='<?php echo $this->helper('checkout')->formatPrice($price) ?>'>
+	<?php
+	$cart = Mage::getSingleton('checkout/cart');
+	
+	foreach ($cart->getQuote()->getAllVisibleItems() as $item) {
+	    
+		$productId = $item->getProduct()->getId();
+	    
+		//var_dump($productId);
+		
+		/*if ($option = $item->getOptionByCode('simple_product')) {
+	        $optionId = $option->getProduct()->getId();
+	    }*/
+	    if ($_SESSION['shippingg'][$productId]) {
+	    	break;
+	    	//echo 'y';
+	    }
+	    //break;
+	}
+	//$address = reset($_SESSION['shippingg']);
+	//Zend_debug::dump($productId);
+//	Zend_debug::dump($_SESSION['shippingg']);
+	
+	//$address = $_SESSION['shippingg'][242];
+	
+	
+	
+	
+	$address = $shippingg[0];
+	
+	if ($address['method']=="depot") {
+		$pc = $address['pc'];
+		$did = $address['depo_id'];
+		$depos = Mage::helper('shippingg')->getDepotPickupDepots($pc);
+		$depos = json_decode($depos);
+	//	Zend_debug::dump($depos);
+		
+	        if (!empty($depos) && is_array($depos)) {
+	            foreach($depos as $depo) {
+	                if ($depo->DepotId == $did) {
+	                    $d = $depo;
+	                }
+	            }
+	        }
+	        $method = "Depot - ".$address['depo_name'];
+	} else {
+		$method = "Home Delivery";
+	}
+	?>
+	<input type="hidden" name="shipping_method_name" id="shipping_method_name" value="Shipping & Handling (<?php echo $method; ?>)">
+
+<?php }?>
+
+<script type='text/javascript'>
+	var nwt=jQuery.noConflict();
+	nwt(document).ready(function($){
+			NWT={
+				addShippingRow:function(){
+					subtotal = parseFloat($('#subtotal_row').val());
+					shipping = parseFloat(<?php echo $price ?>);
+					total = subtotal + shipping;
+					$('#shiping_cost_row').html($('#shipping_cost_in_cart').val());
+					$('#shiping_method').html($('#shipping_method_name').val());
+					$('#grand_total_row').html(total.toFixed(2));
+					$('#shiping_cost_row_n').html($('#shipping_cost_in_cart').val());
+					$('#shiping_method_n').html($('#shipping_method_name').val());
+					
+				}
+			}
+			NWT.addShippingRow();
+	});
+
+</script>

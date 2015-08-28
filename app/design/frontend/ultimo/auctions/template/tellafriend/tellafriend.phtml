@@ -1,0 +1,97 @@
+<script type="text/javascript">
+//<![CDATA[
+    i=0;
+    var recipCount  = 1;
+    var maxRecip    = 10;
+    function remove_recipient(i){
+        $('name'+i).up(2).remove();
+        recipCount--;
+        if(recipCount<maxRecip && maxRecip != 0) {
+            $('add_recipient_button').show();
+            $('max_recipient_message').hide();
+        }
+        return false;
+    }
+
+    function add_recipient(){
+        ul = $('recipients_options');
+        var li_mail = Element.extend(document.createElement("LI"));
+        li_mail.addClassName('fields additional-row');
+        li_mail.innerHTML = '<p><a href="#delete_email" title="Remove Email" onclick="remove_recipient('+i+'); return false" class="btn-remove">Remove Email"<\/a><\/p>'
+        li_mail.innerHTML += '<div class="field"><label for="names'+i+'">Your Friend\'s Name:<\/label><div class="input-box"><input name="names[]" type="text" class="input-text required-entry" id="names'+i+'" /><\/div>';
+        li_mail.innerHTML += '<div class="field"><label for="email'+i+'">Your Friend\'s Email Address:<\/label><div class="input-box"><input name="email[]" value="" title="Email Address" id="email'+i+'" type="text" class="input-text required-entry validate-email" /><\/div><\/div>';
+        i++;
+        recipCount++;
+        if(recipCount>=maxRecip && maxRecip != 0) {
+            $('add_recipient_button').hide();
+            $('max_recipient_message').show();
+        }
+
+        ul.appendChild(li_mail);
+    }
+//]]>
+</script>
+<div class="block block-subscribe">
+    <!--<div class="block-title">
+        <strong><span><?php echo $this->__('Recipient') ?></span></strong>
+    </div>-->
+    <form action="<?php echo $this->getFormActionUrl() ?>" method="post" id="tellafriend-validate-detail">
+    	
+    	<div class="fieldset">
+            <ul class="form-list" id="recipients_options">
+            	<li class="fields">
+	            	<div class="field">
+		            <label for="name"><?php echo $this->__('Your Name:') ?></label>
+		            <div class="input-box">               
+			       <input type="text" class="input-text required-entry" title="<?php echo $this->__('Your Name') ?>" id="name" name="name" />
+		            </div>
+		        </div>
+		        <div class="field">
+			    <label for="email"><?php echo $this->__('Your Email:') ?></label>
+		            <div class="input-box">
+			       <input type="text" class="input-text required-entry validate-email" title="<?php echo $this->__('Your Email Address') ?>" id="mail" name="mail" />
+		            </div>
+			</div>
+			
+	        </li>
+                <li class="fields">
+
+                
+	        <div class="field">
+		    
+	            <label for="names"><?php echo $this->__('Your Friend\'s Name:') ?></label>
+	            <div class="input-box">               
+		       <input type="text" class="input-text required-entry" title="<?php echo $this->__('Your Name') ?>" id="names" name="names[]" />
+	            </div>
+	        </div>
+		<div class="field">
+		    <label for="email"><?php echo $this->__('Your Friend\'s Email Address:') ?></label>
+	            <div class="input-box">
+		       <input type="text" class="input-text required-entry validate-email" title="<?php echo $this->__('Your Friend\'s Email Address') ?>" id="email" name="email[]" />
+	            </div>
+		</div>
+		</li>
+            </ul>
+            	<div class="field">
+		    <label for="message"><?php echo $this->__('Message:') ?></label>
+	            <div class="input-box">
+		       <textarea id="message" name="message" cols="48" rows="5"></textarea>
+	            </div>
+		</div>
+        </div>
+	<div class="buttons-set">
+            <div class="actions">
+            	<div id="max_recipient_message" style="display:none;">
+	                  <p class="limit">Maximum 10 email addresses allowed.</p>
+	            </div>
+                    <button type="button" onclick="add_recipient();" class="button"><span><span>Add Recipient</span></span></button>
+                <button type="submit" title="<?php echo $this->__('Submit') ?>" class="button"><span><span><?php echo $this->__('Submit') ?></span></span></button>
+            </div>
+        </div>
+    </form>
+    <script type="text/javascript">
+    //<![CDATA[
+        var tellafriendFormDetail = new VarienForm('tellafriend-validate-detail');
+    //]]>
+    </script>
+</div>

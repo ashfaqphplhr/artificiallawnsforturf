@@ -1,0 +1,22 @@
+div.j2tajax-confirm div.j2tajax-checkout-img{float:left;margin-right:5px;}
+div.j2tajax-confirm .success-msg{background:none;color:#000;padding:8px !important;text-align:left;border:none !important;}
+div.j2t-cart-bts{clear:both;height:45px;}
+div.j2tajax-confirm, div.j2tajax-progress{border:#ccc solid 1px;z-index:199;text-align:center;}
+div.j2tajax-progress{padding:5px;z-index:199;}
+a.j2t-checkout-link{background:transparent url('../../images/j2t/j2t-button-gray-left.gif') no-repeat top left;display:block;float:right;font-size:11px;line-height:16px;height:24px;padding-left:11px;text-decoration:none;margin-right:10px;}
+a:link.j2t-checkout-link, a:visited.j2t-checkout-link, a:active.j2t-checkout-link{color:#494949;}
+a.j2t-checkout-link span{background:transparent url('../../images/j2t/j2t-button-gray-right.gif') no-repeat top right;display:block;padding:4px 11px 4px 0;}
+a.j2t-checkout-link:hover{background-position:bottom left;}
+a.j2t-checkout-link:hover span{background-position:bottom right;color:black;}
+span.j2t-or{display:none;}
+a.j2t-continue-link{background:transparent url('../../images/j2t/j2t-button-green-left.gif') no-repeat top left;display:block;float:left;font-size:11px;line-height:16px;height:24px;padding-left:11px;text-decoration:none;margin-left:10px;}
+a:link.j2t-continue-link, a:visited.j2t-continue-link, a:active.j2t-continue-link{color:#494949;}
+a.j2t-continue-link span{background:transparent url('../../images/j2t/j2t-button-green-right.gif') no-repeat top right;display:block;padding:4px 11px 4px 0;}
+a.j2t-continue-link:hover{background-position:bottom left;}
+a.j2t-continue-link:hover span{background-position:bottom right;color:black;}
+span.j2t-upsells-list-wrapper{display:block;text-align:left;}
+table.j2t-upsell-product-table{clear:both;}
+table td.j2t-upsells-list-item h5.j2t-product-lnk{}
+table td.j2t-upsells-list-item h5.j2t-product-lnk a{font-size:11px;font-weight:normal;}
+h4.j2t-upsells-title{display:block;clear:both;padding-left:10px;padding-top:5px;}
+div.j2tajax-progress, div.j2tajax-confirm{background:#fff;}

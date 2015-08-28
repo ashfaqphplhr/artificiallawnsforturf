@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * FAQs And Product Questions
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ *
+ * @category   FME
+ * @package    FAQs And Product Questions
+ * @author     Asif Hussain <support@fmeextensions.com>
+ * 	       
+ * @copyright  Copyright 2012 © www.fmeextensions.com All right reserved
+ */
+ -->
+ 
+ 
+<layout version="0.1.0">
+    <default>
+		<reference name="root">
+			<action method="setTemplate"><template>page/2columns-right.phtml</template></action>
+		</reference>		
+		<reference name="right">
+			<block type="prodfaqs/block" name="prodblock" before="-">
+				<action method="setTemplate">
+					<template>prodfaqs/block.phtml</template>
+				</action>
+			</block>
+		</reference>		
+    </default>
+    
+    <prodfaqs_index_index>
+		<reference name="head">		    
+			<action method="addCss"><stylesheet>css/prodfaqs/style.css</stylesheet></action>
+			<action method="addCss"><stylesheet>css/prodfaqs/rating.css</stylesheet></action>
+			
+			<action method="addJs"><script>scriptaculous/scriptaculous.js</script></action>
+			<action method="addJs"><script>prodfaqs/accordion.js</script></action>			
+			<action method="addJs"><script>prodfaqs/rating/livepipe.js</script></action>
+			<action method="addJs"><script>prodfaqs/rating/rating.js</script></action>
+			<action method="addJs"><script>prodfaqs/like/like.js</script></action>
+		</reference>
+		<reference name="content">
+			<block type="prodfaqs/topic" name="topics" template="prodfaqs/topics.phtml" />
+		</reference>		
+    </prodfaqs_index_index>
+    
+		    
+    <prodfaqs_index_view>
+		<reference name="head">		    
+			<action method="addCss"><stylesheet>css/prodfaqs/style.css</stylesheet></action>
+			<action method="addCss"><stylesheet>css/prodfaqs/rating.css</stylesheet></action>
+			
+			<action method="addJs"><script>scriptaculous/scriptaculous.js</script></action>
+			<action method="addJs"><script>prodfaqs/accordion.js</script></action>			
+			<action method="addJs"><script>prodfaqs/rating/livepipe.js</script></action>
+			<action method="addJs"><script>prodfaqs/rating/rating.js</script></action>
+			<action method="addJs"><script>prodfaqs/like/like.js</script></action>
+		</reference>		
+		<reference name="content">
+				<block type="prodfaqs/faqs" name="faqs" template="prodfaqs/faqs.phtml" />
+		</reference>  		
+    </prodfaqs_index_view>
+    
+    
+    <prodfaqs_index_search>
+		<reference name="head">		    
+			<action method="addCss"><stylesheet>css/prodfaqs/style.css</stylesheet></action>
+			<action method="addCss"><stylesheet>css/prodfaqs/rating.css</stylesheet></action>
+			
+			<action method="addJs"><script>scriptaculous/scriptaculous.js</script></action>
+			<action method="addJs"><script>prodfaqs/accordion.js</script></action>			
+			<action method="addJs"><script>prodfaqs/rating/livepipe.js</script></action>
+			<action method="addJs"><script>prodfaqs/rating/rating.js</script></action>
+			<action method="addJs"><script>prodfaqs/like/like.js</script></action>
+		</reference>
+		<reference name="content">
+				<block type="prodfaqs/search" name="search" template="prodfaqs/searchresults.phtml" />
+		</reference>		
+    </prodfaqs_index_search>
+    
+    
+    <prodfaqs_index_productfaqs>
+		<reference name="head">		    
+			<action method="addCss"><stylesheet>css/prodfaqs/style.css</stylesheet></action>
+			<action method="addCss"><stylesheet>css/prodfaqs/rating.css</stylesheet></action>
+			
+			<action method="addJs"><script>scriptaculous/scriptaculous.js</script></action>
+			<action method="addJs"><script>prodfaqs/accordion.js</script></action>			
+			<action method="addJs"><script>prodfaqs/rating/livepipe.js</script></action>
+			<action method="addJs"><script>prodfaqs/rating/rating.js</script></action>
+			<action method="addJs"><script>prodfaqs/like/like.js</script></action>
+		</reference>
+		<reference name="content">
+				<block type="prodfaqs/productnextpagefaqs" name="nextpagefaqs" template="prodfaqs/productnextpagefaqs.phtml" />
+		</reference>		
+    </prodfaqs_index_productfaqs>
+    
+    
+    <catalog_product_view>
+		<reference name="head">		    
+			<action method="addCss"><stylesheet>css/prodfaqs/style.css</stylesheet></action>
+			<action method="addCss"><stylesheet>css/prodfaqs/rating.css</stylesheet></action>
+			<action method="addCss"><stylesheet>css/prodfaqs/modalbox.css</stylesheet></action>
+			<action method="addJs"><script>prodfaqs/Modalbox/modalbox.js</script></action>
+			
+			<action method="addJs"><script>scriptaculous/scriptaculous.js</script></action>
+			<action method="addJs"><script>prodfaqs/accordion.js</script></action>			
+			<action method="addJs"><script>prodfaqs/rating/livepipe.js</script></action>
+			<action method="addJs"><script>prodfaqs/rating/rating.js</script></action>
+			<action method="addJs"><script>prodfaqs/like/like.js</script></action>
+		</reference>		
+		<reference name="content">
+			<reference name="product.info">
+			    
+				<reference name="alert.urls">
+					<!--block type="prodfaqs/ask" name="product.info.ask" as="product_ask_faqs">
+						<action method="setFromXml">
+							<from_xml>yes</from_xml>
+						</action>
+					</block-->
+				</reference>
+				<reference name="product.info.additional">				    
+					<!--block type="prodfaqs/ProductFaqs" name="product.info.faqs" as="product_faqs">
+						<action method="setFromXml">
+							<from_xml>yes</from_xml>
+						</action>
+					</block-->
+				</reference>
+			</reference>
+		</reference>
+    </catalog_product_view>	
+    
+    
+    
+	
+</layout>         
+        
+        
+	    
+        
+    

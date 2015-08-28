@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AuthException.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="BadMethodCallException.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Base.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="BaseMediaSource.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="CaptchaRequiredException.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Entry.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Exception.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Extension.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Feed.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="FeedEntryParent.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="FeedSourceParent.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="HttpException.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="InvalidArgumentException.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="IOException.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="LoggingHttpClientAdapterSocket.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="MediaEntry.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="MediaFileSource.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="MediaSource.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Util.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="VersionException.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+</dwsync>

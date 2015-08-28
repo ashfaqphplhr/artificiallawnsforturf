@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<config>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <activitystream>
+                                        <title>aheadWorks - Activity Stream</title>
+                                    </activitystream>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <events>
+        <tag_save_after>
+            <observers>
+                <activitystream_observer>
+                    <class>activitystream/observer</class>
+                    <method>tagSaveAfter</method>
+                </activitystream_observer>
+            </observers>
+        </tag_save_after>
+        <review_save_before>
+            <observers>
+                <activitystream_observer>
+                    <class>activitystream/observer</class>
+                    <method>reviewSaveBefore</method>
+                </activitystream_observer>
+            </observers>
+        </review_save_before>
+    </events>
+    <layout>
+        <updates><activitystream><file>activitystream.xml</file></activitystream></updates>
+    </layout>
+    <translate>
+        <modules>
+            <AW_Activitystream>
+                <files><default>AW_Activitystream.csv</default></files>
+            </AW_Activitystream>
+        </modules>
+    </translate>
+</config>

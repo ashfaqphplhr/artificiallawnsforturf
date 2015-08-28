@@ -1,0 +1,24 @@
+/****************Custom homedelivery in poduct****************/
+.delivery-info {
+    margin: 0 auto;
+    width: 715px;
+}
+
+.delivery-info h2 {
+    color: red;
+    text-align: center;
+}
+div.delivery-info table {
+	border: 1px solid #EEEEEE;
+    border-collapse: collapse;
+    margin-top: 5px;
+    width: 100%;
+}
+div.delivery-info table th,td{
+	border: 1px solid #EEEEEE;
+	padding: 5px;
+}
+div.delivery-info table td.last{
+	text-align:center;
+}
+/****************Custom homedelivery in poduct****************/

@@ -1,0 +1,108 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+?>
+<header>
+<section class="welcome">Welcome to our online shopping Store!</section>
+<section id="logo_container">
+<section class="logo"><a href="<?php echo $this->getUrl('auction.html')?>"><img src="<?php echo $this->getSkinUrl('images/logo.png')?>"></a></section>
+<?php echo $this->getChildHtml('topSearch') ?>
+<div class="top_menu">
+    <label for="show-menu" class="show-menu">Categories</label>
+	<input type="checkbox" id="show-menu" role="button">
+	<ul id="menu">
+    <?php $_helper = Mage::helper('catalog/category') ?>
+<?php $_categories = $_helper->getStoreCategories() ?>
+<?php $currentCategory = Mage::registry('current_category') ?>
+    <?php
+    $children = Mage::getModel('catalog/category')->getCategories(3);
+    foreach ($children as $category):
+        $category = Mage::getModel('catalog/category')->load($category->getId());
+        ?>
+<?php $_subcategories = $category->getChildrenCategories() ?>
+<?php if (count($_subcategories) > 0): ?>
+<li class="cathover"><a  href="<?php echo $_helper->getCategoryUrl($category) ?>" style="cursor: pointer; text-decoration:none;"><?php echo $category->getName() ?></a>
+<?php else:?>
+<li style="text-decoration:none; background:none !important;"><a href="<?php echo $_helper->getCategoryUrl($category) ?>"><?php echo $category->getName() ?></a>
+<?php endif; ?>
+  <?php $_subcategories = $category->getChildrenCategories() ?>
+ <?php $_count = is_array($_subcategories)?count($_subcategories):$_subcategories->count(); ?>                        
+<?php if (count($_subcategories) > 0): ?>     
+
+<ul class="hidden">
+<?php foreach($_subcategories as $_subcategory): ?>
+<?php if($_subcategory->getIsActive()): ?>
+<li><a style="text-align:left; text-decoration:none;" href="<?php echo $_helper->getCategoryUrl($_subcategory) ?>"><?php echo $_subcategory->getName() ?></a>
+<?php $_subsubcategories = $_subcategory->getChildrenCategories() ?>
+ <?php $_count = is_array($_subsubcategories)?count($_subsubcategories):$_subcategories->count(); ?>                        
+<?php if (count($_subsubcategories) > 0): ?> 
+<ul class="hidden">
+<?php foreach($_subsubcategories as $_subsubcategory): ?>
+<?php if($_subsubcategory->getIsActive()): ?>
+                <li><a href="<?php echo $this->getUrl('')?>">asdasd</a></li>
+                <?php endif; ?>
+<?php endforeach;?>
+                </ul>
+                <?php endif; ?>
+</li><?php endif; ?>
+<?php endforeach;?>
+</ul>
+
+<?php endif; ?>
+</li>
+<?php endforeach;?>
+    
+	
+	</ul>
+    </div>
+    
+    <div id="dl-menu" class="dl-menuwrapper">
+		  <div class="dl-trigger"><a href="<?php echo $this->getUrl('')?>"></a></div>
+		  <ul class="dl-menu">
+			  <li><a href="<?php echo $this->getUrl('')?>">Men Motorcycle Leather</a>
+              <ul class="dl-submenu">
+					  <li>
+						  <a href="<?php echo $this->getUrl('')?>">Leather Motorcycle Jackets</a>
+						  <ul class="dl-submenu">
+							  <li><a href="<?php echo $this->getUrl('')?>">Shirts</a></li>
+							  <li><a href="<?php echo $this->getUrl('')?>">Jackets</a></li>
+				          </ul>
+			          </li>
+					  <li><a href="<?php echo $this->getUrl('')?>">Leather Biker Vests</a></li>
+					  <li><a href="<?php echo $this->getUrl('')?>">Leather Chaps/Pants</a></li>
+		          </ul></li>
+					  <li><a href="<?php echo $this->getUrl('')?>">Leather Biker Vests</a></li>
+					  <li><a href="<?php echo $this->getUrl('')?>">Leather Chaps/Pants</a></li>
+					  
+		          </ul></li>
+          </ul>
+	  </div>
+
+<section id="banner_container"><img src="<?php echo $this->getSkinUrl('images/banner1.jpg')?>"></section>
+</section>
+</header>

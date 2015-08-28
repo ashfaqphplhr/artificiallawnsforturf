@@ -1,0 +1,68 @@
+<?php
+/**
+ * Cart cross sell items template
+ *
+ * @see Mage_Checkout_Block_Cart_Crosssell
+ */
+?>
+<?php
+/**
+ * - Added grid classes for cross-sell items
+ * - Image size changed from 75 to 65
+ */
+?>
+<?php if($this->getItemCount()): ?>
+<div class="crosssell">
+    <h2><?php echo $this->__('Based on your selection, you may be interested in the following items:') ?></h2>
+    <ul id="crosssell-products-list">
+    <?php foreach ($this->getItems() as $_item): ?>
+        <li class="item grid2-1 persistent-grid2-1">
+            <a class="product-image" href="<?php echo $_item->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_item->getName()) ?>"><img src="<?php echo $this->helper('catalog/image')->init($_item, 'thumbnail')->resize(150); ?>" alt="<?php echo $this->htmlEscape($_item->getName()) ?>" /></a>
+            <div class="product-details">
+                <h3 class="product-name"><a href="<?php echo $_item->getProductUrl() ?>"><?php echo $this->htmlEscape($_item->getName()) ?></a></h3>
+				<div class="product-description"><?php echo $this->htmlEscape(strip_tags($_item->getShortDescription())); ?></div>
+            </div>
+			<div class="product-actions">
+                <?php /*<button type="button" title="<?php echo $this->__('Add to Cart') ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_item) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button> */ ?>
+                <?php /*<ul class="add-to-links addto-textlink">
+                    <?php if ($this->helper('wishlist')->isAllow()) : ?>
+                        <li><a href="<?php echo $this->getAddToWishlistUrl($_item) ?>" class="link-wishlist"><?php echo $this->__('Add to Wishlist') ?></a></li>
+                    <?php endif; ?>
+                    <?php if($_compareUrl=$this->getAddToCompareUrl($_item)): ?>
+                        <li><span class="separator">|</span> <a href="<?php echo $_compareUrl ?>" class="link-compare"><?php echo $this->__('Add to Compare') ?></a></li>
+                    <?php endif; ?>
+                </ul> */ ?>
+				<form style="width:100%" action="<?php echo $this->getSubmitUrl($_item) ?>" method="post" id="product_addtocart_form_<?php echo $_item->getId()?>"<?php if($_item->getOptions()): ?> enctype="multipart/form-data"<?php endif; ?>>
+					<?php
+						$prod_url = $this->getAddToCartUrl($_item);									
+						//$prod_submit_url = Mage::helper('ajaxaddtocart')->getAjaxProductSubmitUrl($prod_url);
+					?>
+					<?php if(!$_item->isGrouped()): ?>
+						<label style="font-weight: bold;" for="qty"><?php echo $this->__('Quantity') ?>:</label>
+						<!--<input style="width:15px; height : 25px; margin-top:5px" type="text" name="qty" id="qty" maxlength="12" value="<?php echo ($this->getMinimalQty($_item)?$this->getMinimalQty($_item):1) ?>" />-->						
+						<select style="width:183px; padding: 0 5px;height : 25px; margin-top:5px;display: block;" name="qty" id="qty">
+						  <option value="1">1</option>
+						  <option value="2">2</option>
+						  <option value="3">3</option>
+						  <option value="4">4</option>
+						</select>
+					<?php endif; ?>
+					<div class="price-label">Price:</div><?php echo $this->getPriceHtml($_item, true) ?>
+					<button type="button btn-cart" title="<?php echo $this->__('Add to Cart') ?>" class="button btn-cart" onclick="product_addtocart_form_<?php echo $_item->getId()?>.submit(this)"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
+				</form>
+				<script type="text/javascript">
+					 var productAddToCartForm_<?php echo $_item->getId(); ?> = new VarienForm('product_addtocart_form_<?php echo $_item->getId(); ?>');
+					 productAddToCartForm_<?php echo $_item->getId(); ?>.submit = function(){
+					 if (this.validator.validate()) {
+							 this.form.submit();
+						 }
+					 }.bind(productAddToCartForm_<?php echo $_item->getId(); ?>);
+				</script>
+            </div>
+			
+        </li>
+    <?php endforeach; ?>
+    </ul>
+    <script type="text/javascript">decorateList('crosssell-products-list', 'none-recursive')</script>
+</div>
+<?php endif; ?>

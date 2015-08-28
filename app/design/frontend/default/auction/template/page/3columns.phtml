@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<?php echo $this->getChildHtml('head')?>
+</head>
+
+<body>
+<?php echo $this->getChildHtml('header')?>
+<section id="center_area">
+<?php echo $this->getChildHtml('global_notices') ?>
+<?php echo $this->getChildHtml('global_messages') ?>
+<?php echo $this->getChildHtml('content') ?>
+</section>
+<?php echo $this->getChildHtml('footer') ?>
+<?php echo $this->getChildHtml('before_body_end') ?>
+<?php echo $this->getAbsoluteFooter() ?>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<?php
+$groups = $this->groups;
+if (isset($groups['totalRecords']) && $groups['totalRecords'] > 0){
+
+?>
+<div class="block block-subscribe">
+    <div class="block-title">
+        <strong><span><?php echo Mage::helper('ngroups')->__('Newsletter Subscribe')?></span></strong>
+    </div>
+    <div class="block-content">
+        <form method="post" action="<?php echo $this->getUrl('ngroups/index/save')?>" id="newsletter_form">
+        <label for="group"><?php echo Mage::helper('ngroups')->__('Newsletter Group')?>:</label>
+            <div class="input-box" style="margin:10px;">
+               <?php if (Mage::getStoreConfig('newsletter/ngroups/multiply') == '1'){?>
+	               <?php foreach ($groups['items'] as $group){ ?>
+				   		<input type="checkbox" name="cgroup[]" value="<?php echo $group['ngroups_id']?>" style="margin:2px 0px 2px 5px;"><label for="group" style="margin:2px 0 0 5px;"><?php echo $group['title']?></label><br>		
+				   <?php } ?>
+               <?php }else{?>
+               <select name="group" id="group" class="select" style="width:100%">
+                    <option value="0"><?php echo Mage::helper('ngroups')->__('No Group')?></option>
+                    <?php foreach ($groups['items'] as $group){ ?>
+	                    <option value="<?php echo $group['ngroups_id']?>"><?php echo $group['title']?></option>
+                    <?php } ?>
+                </select>
+                <?php }?>
+            </div>
+        <label for="mail"><?php echo Mage::helper('ngroups')->__('E-mail')?>:</label>
+            <div class="input-box">
+               <input type="text" name="mail" id="mail" class="validate-email required-entry" style="width:100%">
+            </div>
+
+        
+            <div class="actions">
+                <button class="button" title="Subscribe" type="submit"><span><span><?php echo Mage::helper('ngroups')->__('Subscribe')?></span></span></button>
+            </div>
+
+
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+var dataForm = new VarienForm('newsletter_form', true);
+//]]>
+</script>
+<?php
+}
+?>
