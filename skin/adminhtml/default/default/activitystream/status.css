@@ -1,0 +1,4 @@
+.ModuleStatus { cursor: default; }
+.ModuleStatus .Section { border-bottom: 1px dotted #222; }
+.ModuleStatus .Good { padding: 2px 20px 4px; background: url("../images/success_msg_icon.gif") 0 2px no-repeat; }
+.ModuleStatus .Problem { padding: 2px 20px 4px; background: url("../images/error_msg_icon.gif") 0 2px no-repeat; }

@@ -1,0 +1,27 @@
+<?php
+	$bannerCollection = $this->getBannerCollection();
+	$i = 0;
+?>
+<?php $timeDelay = $this->getDelayTime() ?>
+<?php $showdesc = $this->isShowDescription() ?>
+<?php $listStyle = $this->getListStyle() ?>
+<?php $imagewidth = $this->getImageWidth() ?>
+<?php $imageheight = $this->getImageHeight() ?>
+<?php if (count($bannerCollection)): ?>
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+      $('.flexslider').flexslider({
+        animation: "slide",
+		controlNav:false,
+		directionNav:false
+      });		
+    });
+</script>
+<div class="flexslider grild-full">
+	<ul class="slides" style="margin:0;">
+	<?php foreach($bannerCollection as $banner){ ?>
+		<li><a href="<?php echo $banner['weblink'];?>"><img src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA) . $banner['filename']?>" title="<?php echo $banner['title']?>" alt="<?php echo $banner['title']?>" width="1200" /></a></li>
+	<?php } ?>
+	</ul>
+</div>
+<?php endif ?>

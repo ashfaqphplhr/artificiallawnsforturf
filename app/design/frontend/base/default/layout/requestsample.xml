@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<requestsample_index_index>
+        <reference name="root">
+            <action method="setTemplate"><template>page/3columns.phtml</template></action>
+        </reference>
+		<reference name="content">
+			<block type="requestsample/requestsample" name="requestsample" template="requestsample/requestsample.phtml" />
+		</reference> 
+		<reference name="right">
+			<remove name="block_right_top" /> 
+			<remove name="prodblock" /> 
+			<remove name="right.testimonials" /> 
+			<block type="cms/block" name="block-sample">
+			      <action method="setBlockId"><block_id>block_sample</block_id></action>
+			</block>
+		</reference>
+	</requestsample_index_index>
+</layout>

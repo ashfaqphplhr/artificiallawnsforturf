@@ -1,0 +1,25 @@
+<?php if ($this->getIsNeedToDisplaySideBar()):?>
+<?php $_cartQty = $this->getSummaryCount() ?>
+<li class="cart">
+   	<a href="<?php echo $this->getUrl('checkout/cart') ?>" class="cart-link"><?php echo $this->__('My Cart') ?> (<?php print (!empty($_cartQty)) ? $_cartQty : '0' ;?>)</a>
+	<div class="quickcart">
+		<div class="quickcart-container">
+	        <?php
+				$_items = $this->getRecentItems($_cartQty);
+				if(count($_items)):
+			?>
+				<table>
+	                <?php foreach($_items as $_item): ?>
+	                    <?php echo $this->getItemHtml($_item) ?>
+	                <?php endforeach; ?>
+				</table>
+				<div class="quickcart-checkout">
+					<a href="<?php echo $this->getCheckoutUrl() ?>"><span><?php echo $this->__('Proceed to Checkout') ?></span></a>
+				</div>
+	         <?php else: ?>
+	         	<p class="no-items-in-cart"><?php echo $this->__('You have no items in your shopping cart.') ?></p>
+	         <?php endif ?>
+		</div>
+	</div>
+</li>
+<?php endif ?>

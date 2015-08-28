@@ -1,0 +1,268 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <awall translate="label">
+            <label>aheadWorks Extensions</label>
+            <sort_order>300</sort_order>
+        </awall>
+    </tabs>
+    <sections>
+        <activitystream translate="label" module="activitystream">
+            <label>Activity Stream</label>
+            <tab>awall</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>50</sort_order>
+            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label" module="activitystream">
+                    <label>General</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                    <fields>
+                        <module_enabled translate="label" module="activitystream">
+                            <label>Enable Extension</label>
+                            <show_in_default>1</show_in_default><show_in_website>0</show_in_website><show_in_store>0</show_in_store>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                        </module_enabled>
+                        <visible_to_guests translate="label" module="activitystream">
+                            <label>Visible to Guests</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>20</sort_order>
+                        </visible_to_guests>
+                    </fields>
+                </general>
+                <live_stream_overlay translate="label" module="activitystream">
+                    <label>Activity Stream Overlay</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>20</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <position translate="label">
+                            <label>Overlay Position</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <frontend_type>select</frontend_type>
+                            <source_model>activitystream/adminhtmlSystemConfigSourcePosition</source_model>
+                            <sort_order>10</sort_order>
+                        </position>
+                        <number_of_activities_to_display translate="label comment">
+                            <label>Number of Activities to Display</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <backend_model>activitystream/adminhtmlSystemConfigBackendCasted</backend_model>
+                            <casting>"integer": [1, 50], "default": 5</casting>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <comment>Integer value between 1 and 50</comment>
+                        </number_of_activities_to_display>
+                        <outer_rectangle_width translate="label comment">
+                            <label>Overlay Block Width</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <backend_model>activitystream/adminhtmlSystemConfigBackendCasted</backend_model>
+                            <casting>"integer": [100, 2000], "percents": [5, 100], "pixels": [100, 2000], "default": 600</casting>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <comment>Allowed values: between 100px and 2000px, between 5% and 100% (without suffix considered as pixels)</comment>
+                        </outer_rectangle_width>
+                        <background_color translate="label comment">
+                            <label>Background Color</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <backend_model>activitystream/adminhtmlSystemConfigBackendCasted</backend_model>
+                            <frontend_model>activitystream/adminhtmlSystemConfigFieldEditboxColor</frontend_model>
+                            <casting>"htmlcolor": [], "default": "#203548"</casting>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <comment>Any valid HTML color in hexadecimal notation or simply by the name</comment>
+                        </background_color>
+                        <background_opacity translate="label comment">
+                            <label>Background Opacity</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <backend_model>activitystream/adminhtmlSystemConfigBackendCasted</backend_model>
+                            <casting>"integer": [10, 100], "percents": [10, 100], "default": 50</casting>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>50</sort_order>
+                            <comment>Value between 10% and 100% (also accepted without percent sign)</comment>
+                        </background_opacity>
+                        <text_color translate="label comment">
+                            <label>Text Color</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <backend_model>activitystream/adminhtmlSystemConfigBackendCasted</backend_model>
+                            <frontend_model>activitystream/adminhtmlSystemConfigFieldEditboxColor</frontend_model>
+                            <casting>"htmlcolor": [], "default": "#B6D1E2"</casting>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>60</sort_order>
+                            <comment>Any valid HTML color in hexadecimal notation or simply by the name</comment>
+                        </text_color>
+                        <link_color translate="label comment">
+                            <label>Link Color</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <backend_model>activitystream/adminhtmlSystemConfigBackendCasted</backend_model>
+                            <frontend_model>activitystream/adminhtmlSystemConfigFieldEditboxColor</frontend_model>
+                            <casting>"htmlcolor": [], "default": "#B6D1E2"</casting>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>70</sort_order>
+                            <comment>Any valid HTML color in hexadecimal notation or simply by the name</comment>
+                        </link_color>
+                        <update_period translate="label comment">
+                            <label>Update Period</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <backend_model>activitystream/adminhtmlSystemConfigBackendCasted</backend_model>
+                            <casting>"integer": [2, 30], "default": 3</casting>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>80</sort_order>
+                            <comment>Integer value between 2 and 30, specified in seconds</comment>
+                        </update_period>
+                        <activity_store_filter translate="label">
+                            <label>Display Activities From</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <frontend_type>select</frontend_type>
+                            <frontend_model>activitystream/adminhtmlSystemConfigFieldStorefilter</frontend_model>
+                            <source_model>activitystream/adminhtmlSystemConfigSourceStorefilter</source_model>
+                            <sort_order>90</sort_order>
+                        </activity_store_filter>
+                    </fields>
+                </live_stream_overlay>
+                <activity_types translate="label" module="activitystream">
+                    <label>Activity Types</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>30</sort_order>
+                    <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                    <fields>
+                        <customer_subscribes_to_newsletter translate="label comment" module="activitystream">
+                            <label>Customer has subscribed to newsletter</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <backend_model>activitystream/adminhtmlSystemConfigBackendTurnable</backend_model>
+                            <frontend_model>activitystream/adminhtmlSystemConfigFieldEditboxTurnable</frontend_model>
+                            <sort_order>10</sort_order>
+                            <comment>Variables available for inclusion: {Name}</comment>
+                        </customer_subscribes_to_newsletter>
+                        <new_customer_is_registered translate="label comment" module="activitystream">
+                            <label>Customer has registered</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <backend_model>activitystream/adminhtmlSystemConfigBackendTurnable</backend_model>
+                            <frontend_model>activitystream/adminhtmlSystemConfigFieldEditboxTurnable</frontend_model>
+                            <sort_order>20</sort_order>
+                            <comment>Variables available for inclusion: {Name}</comment>
+                        </new_customer_is_registered>
+                        <customer_is_signed_in translate="label comment" module="activitystream">
+                            <label>Customer has logged in</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <backend_model>activitystream/adminhtmlSystemConfigBackendTurnable</backend_model>
+                            <frontend_model>activitystream/adminhtmlSystemConfigFieldEditboxTurnable</frontend_model>
+                            <sort_order>30</sort_order>
+                            <comment>Variables available for inclusion: {Name}</comment>
+                        </customer_is_signed_in>
+                        <searching_is_performed translate="label comment" module="activitystream">
+                            <label>Search has been performed</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <backend_model>activitystream/adminhtmlSystemConfigBackendTurnable</backend_model>
+                            <frontend_model>activitystream/adminhtmlSystemConfigFieldEditboxTurnable</frontend_model>
+                            <sort_order>40</sort_order>
+                            <comment>Variables available for inclusion: {Name}, {search_term}</comment>
+                        </searching_is_performed>
+                        <product_is_viewed translate="label comment" module="activitystream">
+                            <label>Product is being viewed</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <backend_model>activitystream/adminhtmlSystemConfigBackendTurnable</backend_model>
+                            <frontend_model>activitystream/adminhtmlSystemConfigFieldEditboxTurnable</frontend_model>
+                            <sort_order>50</sort_order>
+                            <comment>Variables available for inclusion: {Name}, {Product_title}</comment>
+                        </product_is_viewed>
+                        <category_is_viewed translate="label comment" module="activitystream">
+                            <label>Category is being viewed</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <backend_model>activitystream/adminhtmlSystemConfigBackendTurnable</backend_model>
+                            <frontend_model>activitystream/adminhtmlSystemConfigFieldEditboxTurnable</frontend_model>
+                            <sort_order>60</sort_order>
+                            <comment>Variables available for inclusion: {Name}, {Category_title}</comment>
+                        </category_is_viewed>
+                        <item_is_added_for_comparison translate="label comment" module="activitystream">
+                            <label>Item has been added to comparison list</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <backend_model>activitystream/adminhtmlSystemConfigBackendTurnable</backend_model>
+                            <frontend_model>activitystream/adminhtmlSystemConfigFieldEditboxTurnable</frontend_model>
+                            <sort_order>70</sort_order>
+                            <comment>Variables available for inclusion: {Name}, {Product_title}</comment>
+                        </item_is_added_for_comparison>
+                        <item_is_added_to_wishlist translate="label comment" module="activitystream">
+                            <label>Item has been added to wishlist</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <backend_model>activitystream/adminhtmlSystemConfigBackendTurnable</backend_model>
+                            <frontend_model>activitystream/adminhtmlSystemConfigFieldEditboxTurnable</frontend_model>
+                            <sort_order>80</sort_order>
+                            <comment>Variables available for inclusion: {Name}, {Product_title}</comment>
+                        </item_is_added_to_wishlist>
+                        <item_is_added_to_shopping_cart translate="label comment" module="activitystream">
+                            <label>Item has been added to shopping cart</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <backend_model>activitystream/adminhtmlSystemConfigBackendTurnable</backend_model>
+                            <frontend_model>activitystream/adminhtmlSystemConfigFieldEditboxTurnable</frontend_model>
+                            <sort_order>90</sort_order>
+                            <comment>Variables available for inclusion: {Name}, {Product_title}</comment>
+                        </item_is_added_to_shopping_cart>
+                        <customer_views_shopping_cart translate="label comment" module="activitystream">
+                            <label>Customer is viewing shopping cart</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <backend_model>activitystream/adminhtmlSystemConfigBackendTurnable</backend_model>
+                            <frontend_model>activitystream/adminhtmlSystemConfigFieldEditboxTurnable</frontend_model>
+                            <sort_order>100</sort_order>
+                            <comment>Variables available for inclusion: {Name}</comment>
+                        </customer_views_shopping_cart>
+                        <customer_proceeds_to_checkout translate="label comment" module="activitystream">
+                            <label>Customer proceeds to checkout</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <backend_model>activitystream/adminhtmlSystemConfigBackendTurnable</backend_model>
+                            <frontend_model>activitystream/adminhtmlSystemConfigFieldEditboxTurnable</frontend_model>
+                            <sort_order>110</sort_order>
+                            <comment>Variables available for inclusion: {Name}</comment>
+                        </customer_proceeds_to_checkout>
+                        <product_is_purchased translate="label comment" module="activitystream">
+                            <label>Product has been purchased</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <backend_model>activitystream/adminhtmlSystemConfigBackendTurnable</backend_model>
+                            <frontend_model>activitystream/adminhtmlSystemConfigFieldEditboxTurnable</frontend_model>
+                            <sort_order>120</sort_order>
+                            <comment>Variables available for inclusion: {Name}, {Product_title}</comment>
+                        </product_is_purchased>
+                        <product_tag_is_added translate="label comment" module="activitystream">
+                            <label>Product tag has been added</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <backend_model>activitystream/adminhtmlSystemConfigBackendTurnable</backend_model>
+                            <frontend_model>activitystream/adminhtmlSystemConfigFieldEditboxTurnable</frontend_model>
+                            <sort_order>130</sort_order>
+                            <comment>Variables available for inclusion: {Name}, {tag}</comment>
+                        </product_tag_is_added>
+                        <review_is_added translate="label comment" module="activitystream">
+                            <label>Review has been added</label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <backend_model>activitystream/adminhtmlSystemConfigBackendTurnable</backend_model>
+                            <frontend_model>activitystream/adminhtmlSystemConfigFieldEditboxTurnable</frontend_model>
+                            <sort_order>140</sort_order>
+                            <comment>Variables available for inclusion: {Name}, {Product_title}</comment>
+                        </review_is_added>
+                    </fields>
+                </activity_types>
+                <status translate="label" module="activitystream">
+                    <label>Status</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>40</sort_order>
+                    <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                    <fields>
+                        <module_status translate="label" module="activitystream">
+                            <label></label>
+                            <show_in_default>1</show_in_default><show_in_website>1</show_in_website><show_in_store>1</show_in_store>
+                            <frontend_type></frontend_type>
+                            <frontend_model>activitystream/adminhtmlSystemConfigFieldModulestatus</frontend_model>
+                            <sort_order>10</sort_order>
+                        </module_status>
+                    </fields>
+                </status>
+            </groups> 
+        </activitystream>
+    </sections>
+</config>

@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MST_Ship>
+            <version>0.1.0</version>
+        </MST_Ship>
+    </modules>
+    <frontend>
+        <routers>
+            <ship>
+                <use>standard</use>
+                <args>
+                    <module>MST_Ship</module>
+                    <frontName>ship</frontName>
+                </args>
+            </ship>
+        </routers>
+        <layout>
+            <updates>
+                <ship>
+                    <file>mst_ship.xml</file>
+                </ship>
+            </updates>
+        </layout>
+		<events>
+			<checkout_cart_save_before> 
+				<observers> 
+					<bts_checkout_observer> 
+						<type>singleton</type> 
+						<class>MST_Ship_Model_Observer</class> 
+						<method>addShipping</method> 
+					</bts_checkout_observer> 
+				</observers> 
+			</checkout_cart_save_before> 
+		</events>
+    </frontend>
+        <adminhtml>
+        <menu>
+            <ship module="ship">
+                <title>Manage Shipping</title>
+                <sort_order>71</sort_order>
+                <children>
+					<homedelivery module="ship">
+                        <title>Home Delivery</title>
+                        <sort_order>45</sort_order>
+						<children>
+							<surcharge>
+								<title>Manage Surcharges</title>
+								<sort_order>50</sort_order>
+								<action>ship/adminhtml_homedelivery</action>
+							</surcharge>
+						</children>
+                    </homedelivery>
+					<depotpickup module="ship">
+                        <title>Depot Pick up</title>
+                        <sort_order>60</sort_order>
+                    </depotpickup>
+                </children>
+            </ship>
+        </menu>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                       <!-- NEED TO ADD HERE -->
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+        <layout>
+            <updates>
+                <ship>
+                    <file>mst_ship.xml</file>
+                </ship>
+            </updates>
+        </layout>
+    </adminhtml>
+    <global>
+		<events>
+    		<sales_model_service_quote_submit_after>
+    			<observers>
+    				<checkout_controller_onepage_save_shipping_method_ship>
+			            <type>model</type>
+			            <class>ship/observer</class>
+			            <method>saveOrderAfter</method>
+			        </checkout_controller_onepage_save_shipping_method_ship>
+    			</observers>
+    		</sales_model_service_quote_submit_after>
+    	</events>
+        <models>
+            <ship>
+                <class>MST_Ship_Model</class>
+                <resourceModel>ship_mysql4</resourceModel>
+            </ship>
+            <ship_mysql4>
+                <class>MST_Ship_Model_Mysql4</class>
+                <entities>
+                    <homedelivery>
+                        <table>mst_shipping</table>
+                    </homedelivery>
+                </entities>
+            </ship_mysql4>
+        </models>
+        <resources>
+            <ship_setup>
+                <setup>
+                    <module>MST_Ship</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </ship_setup>
+            <ship_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </ship_write>
+            <ship_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </ship_read>
+        </resources>
+        <blocks>
+            <ship>
+                <class>MST_Ship_Block</class>
+            </ship>
+        </blocks>
+        <helpers>
+            <ship>
+                <class>MST_Ship_Helper</class>
+            </ship>
+        </helpers>
+    </global>
+ 	<default>
+		<carriers>
+	      <mst>
+	           <active>1</active>
+	           <model>ship/carrier_MST</model>
+	           <title>Carrier Title</title>
+	           <name>Method Name</name>
+	           <price>5.00</price>
+	           <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+	        </mst>
+	    </carriers>
+   </default>
+</config>

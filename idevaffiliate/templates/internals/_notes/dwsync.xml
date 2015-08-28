@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="core.assemble_plugin_filepath.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.assign_smarty_interface.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.change_password.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.create_dir_structure.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.custom_keywords.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.custom_keywords_removal.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.data_banners.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.data_email_links.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.data_email_templates.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.data_htmlads.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.data_lightboxes.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.data_marketing.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.data_peels.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.data_tables.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.data_textads.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.data_textlinks.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.display_debug_console.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.email_friends.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.get_include_path.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.get_microtime.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.get_php_resource.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.is_secure.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.is_trusted.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.load_plugins.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.load_resource_plugin.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.payment_file.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.process_cached_inserts.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.process_compiled_include.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.read_cache_file.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.rmdir.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.rm_auto.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.run_insert_handler.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.smarty_include_php.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.video_tables.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.write_cache_file.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.write_compiled_include.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.write_compiled_resource.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="core.write_file.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+</dwsync>

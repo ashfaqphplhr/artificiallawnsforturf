@@ -1,0 +1,5379 @@
+BPS SECURITY / HTTP ERROR LOG
+==============================
+==============================
+
+[403 GET / HEAD Request: September 30, 2014 10:28 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.99.194
+Host Name: 192.187.99.194
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-login.php
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: October 7, 2014 12:46 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 104.131.210.161
+Host Name: 104.131.210.161
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: http://www.netcraft.com/survey/
+REQUEST_URI: /
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/4.0 (compatible; Netcraft Web Server Survey)
+
+[403 GET / HEAD Request: November 5, 2014 6:22 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 107.170.70.222
+Host Name: 107.170.70.222
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: http://www.netcraft.com/survey/
+REQUEST_URI: /
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/4.0 (compatible; Netcraft Web Server Survey)
+
+[403 GET / HEAD Request: November 29, 2014 12:07 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 54.92.249.28
+Host Name: ec2-54-92-249-28.compute-1.amazonaws.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/534.55.3         (KHTML, like Gecko) Version/5.1.5 Safari/534.55.3
+
+[403 GET / HEAD Request: November 30, 2014 8:06 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 148.251.6.16
+Host Name: dapr-vm04.datagnion.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /consider-a-potager/
+QUERY_STRING: 
+HTTP_USER_AGENT: datagnionbot (+http://www.datagnion.com/bot.html)
+
+[403 GET / HEAD Request: December 1, 2014 2:25 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 23.29.122.212
+Host Name: 23-29-122-212-customer-incero.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /compost-a-gardeners-delight/
+QUERY_STRING: 
+HTTP_USER_AGENT: MetaURI API/2.0 +metauri.com
+
+[403 GET / HEAD Request: December 1, 2014 2:25 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 107.155.73.2
+Host Name: 107-155-73-2-customer-incero.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /compost-a-gardeners-delight/
+QUERY_STRING: 
+HTTP_USER_AGENT: MetaURI API/2.0 +metauri.com
+
+[403 GET / HEAD Request: December 5, 2014 7:05 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 104.131.210.171
+Host Name: 104.131.210.171
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: http://www.netcraft.com/survey/
+REQUEST_URI: /
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/4.0 (compatible; Netcraft Web Server Survey)
+
+[403 GET / HEAD Request: December 10, 2014 9:43 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2014/12/SaMple.mkv
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/3.9.3; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: January 5, 2015 8:33 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 104.131.231.127
+Host Name: 104.131.231.127
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: http://www.netcraft.com/survey/
+REQUEST_URI: /
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/4.0 (compatible; Netcraft Web Server Survey)
+
+[403 GET / HEAD Request: January 22, 2015 1:35 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 36.250.185.37
+Host Name: 36.250.185.37
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+
+[403 GET / HEAD Request: January 22, 2015 3:06 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 36.250.185.37
+Host Name: 36.250.185.37
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+
+[403 GET / HEAD Request: February 3, 2015 7:56 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 104.131.227.49
+Host Name: 104.131.227.49
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: http://www.netcraft.com/survey/
+REQUEST_URI: /
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/4.0 (compatible; Netcraft Web Server Survey)
+
+[403 GET / HEAD Request: February 5, 2015 7:39 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 173.208.177.59
+Host Name: 173.208.177.59
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-login.php
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: February 17, 2015 8:40 pm]
+Event Code: WPADMIN-SBR
+Solution: http://forum.ait-pro.com/forums/topic/security-log-event-codes/
+REMOTE_ADDR: 63.247.91.138
+Host Name: mail.maxiehost.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-admin/admin-ajax.php?action=revslider_show_image&img=../wp-config.php
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+
+[403 GET / HEAD Request: February 19, 2015 11:58 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /compost-a-gardeners-delight/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 19, 2015 11:58 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /consider-a-potager/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 19, 2015 11:58 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /choosing-plants-that-are-healthy/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 19, 2015 11:58 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /desktop-gardening/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 19, 2015 11:58 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /how-to-take-care-of-fragrant-flowers-in-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 19, 2015 11:58 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /5-reasons-synthetic-grass-is-perfect-for-parents/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 19, 2015 11:58 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /crop-rotation-for-vegetables/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 19, 2015 11:58 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /adding-interest-to-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 24, 2015 1:59 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.125
+Host Name: 199.16.156.125
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /compost-a-gardeners-delight/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 24, 2015 1:59 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.125
+Host Name: 199.16.156.125
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /choosing-plants-that-are-healthy/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 24, 2015 1:59 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /5-reasons-synthetic-grass-is-perfect-for-parents/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 24, 2015 1:59 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /adding-interest-to-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 24, 2015 1:59 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /how-to-take-care-of-fragrant-flowers-in-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 24, 2015 1:59 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /consider-a-potager/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 24, 2015 1:59 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /crop-rotation-for-vegetables/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 24, 2015 1:59 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /desktop-gardening/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 26, 2015 12:53 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /desktop-gardening/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 26, 2015 12:53 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /adding-interest-to-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 26, 2015 12:53 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /compost-a-gardeners-delight/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 26, 2015 12:53 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /crop-rotation-for-vegetables/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 26, 2015 12:53 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /choosing-plants-that-are-healthy/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 26, 2015 12:53 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /5-reasons-synthetic-grass-is-perfect-for-parents/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 26, 2015 12:53 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /how-to-take-care-of-fragrant-flowers-in-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: February 26, 2015 12:53 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /consider-a-potager/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: March 4, 2015 7:33 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 104.131.193.211
+Host Name: 104.131.193.211
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: http://www.netcraft.com/survey/
+REQUEST_URI: /
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/4.0 (compatible; Netcraft Web Server Survey)
+
+[403 GET / HEAD Request: March 20, 2015 8:45 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /crop-rotation-for-vegetables/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: March 20, 2015 8:45 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /adding-interest-to-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: March 20, 2015 8:45 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /compost-a-gardeners-delight/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: March 20, 2015 8:45 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /consider-a-potager/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: March 20, 2015 8:45 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /5-reasons-synthetic-grass-is-perfect-for-parents/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: March 20, 2015 8:45 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /how-to-take-care-of-fragrant-flowers-in-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: March 20, 2015 8:45 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /desktop-gardening/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: March 20, 2015 8:45 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /choosing-plants-that-are-healthy/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: March 21, 2015 1:55 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /desktop-gardening/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: March 25, 2015 6:18 pm]
+Event Code: WPADMIN-SBR
+Solution: http://forum.ait-pro.com/forums/topic/security-log-event-codes/
+REMOTE_ADDR: 134.249.53.85
+Host Name: 134-249-53-85-broadband.kyivstar.net
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-admin/admin-ajax.php?action=revslider_show_image&img=../wp-config.php
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.1; rv:37.0) Gecko/20100101 Firefox/37.0
+
+[403 GET / HEAD Request: April 7, 2015 5:52 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 107.170.164.56
+Host Name: 107.170.164.56
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: http://www.netcraft.com/survey/
+REQUEST_URI: /
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/4.0 (compatible; Netcraft Web Server Survey)
+
+[403 GET / HEAD Request: April 7, 2015 8:31 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-login.php
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: April 7, 2015 10:40 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /choosing-plants-that-are-healthy/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 7, 2015 10:40 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /compost-a-gardeners-delight/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 7, 2015 10:40 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /crop-rotation-for-vegetables/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 7, 2015 10:40 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /how-to-take-care-of-fragrant-flowers-in-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 7, 2015 10:40 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /desktop-gardening/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 7, 2015 10:40 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /consider-a-potager/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 7, 2015 10:40 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.125
+Host Name: 199.16.156.125
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /5-reasons-synthetic-grass-is-perfect-for-parents/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 7, 2015 10:40 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /adding-interest-to-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 9, 2015 12:41 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /js/fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: April 9, 2015 12:41 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /common/fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: April 9, 2015 12:41 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: April 9, 2015 12:41 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /manage/fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: April 9, 2015 12:41 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /editor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: April 9, 2015 12:41 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /admin/fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: April 9, 2015 12:41 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /include/fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: April 10, 2015 5:03 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 10, 2015 5:03 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 10, 2015 5:03 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 23.29.122.198
+Host Name: 23-29-122-198-customer-incero.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care/
+QUERY_STRING: 
+HTTP_USER_AGENT: MetaURI API/2.0 +metauri.com
+
+[403 GET / HEAD Request: April 10, 2015 5:04 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 10, 2015 5:04 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /what-is-needed-for-herb-growth/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 10, 2015 5:04 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /what-is-needed-for-herb-growth/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 10, 2015 5:04 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /what-is-needed-for-herb-growth
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 10, 2015 5:04 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 23.29.122.222
+Host Name: 23-29-122-222-customer-incero.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /what-is-needed-for-herb-growth/
+QUERY_STRING: 
+HTTP_USER_AGENT: MetaURI API/2.0 +metauri.com
+
+[403 GET / HEAD Request: April 10, 2015 5:04 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.125
+Host Name: 199.16.156.125
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /what-is-needed-for-herb-growth/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 10, 2015 5:04 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /what-is-needed-for-herb-growth/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 10, 2015 5:04 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care-types-tricks-and-tips-for-success/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 10, 2015 5:04 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care-types-tricks-and-tips-for-success/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 10, 2015 5:04 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 10, 2015 5:05 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 23.29.122.195
+Host Name: 23-29-122-195-customer-incero.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care-types-tricks-and-tips-for-success/
+QUERY_STRING: 
+HTTP_USER_AGENT: MetaURI API/2.0 +metauri.com
+
+[403 GET / HEAD Request: April 10, 2015 5:05 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care-types-tricks-and-tips-for-success/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 10, 2015 5:05 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care-types-tricks-and-tips-for-success/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 10, 2015 5:05 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /what-is-needed-for-herb-growth/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 10, 2015 5:05 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care-types-tricks-and-tips-for-success/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 13, 2015 9:39 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-login.php
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: April 14, 2015 8:30 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 114.78.171.133
+Host Name: d114-78-171-133.meb801.vic.optusnet.com.au
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20100101 Firefox/10.0 (Chrome)
+
+[403 GET / HEAD Request: April 15, 2015 2:36 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /include/fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: April 15, 2015 2:36 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /common/fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: April 15, 2015 2:36 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /manage/fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: April 15, 2015 2:36 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /editor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: April 15, 2015 2:36 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /js/fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: April 15, 2015 2:36 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /admin/fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: April 15, 2015 2:36 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: April 15, 2015 10:23 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 54.161.200.198
+Host Name: ec2-54-161-200-198.compute-1.amazonaws.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /grass/
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/535.19 (KHTML,         like Gecko) Chrome/18.0.1025.45 Safari/535.19
+
+[403 GET / HEAD Request: April 15, 2015 10:24 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 23.22.160.28
+Host Name: ec2-23-22-160-28.compute-1.amazonaws.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /grass/
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.1; rv:12.0) Gecko/20120403211507         Firefox/12.0
+
+[403 GET / HEAD Request: April 15, 2015 10:24 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 54.161.212.15
+Host Name: ec2-54-161-212-15.compute-1.amazonaws.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /grass/
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/534.55.3         (KHTML, like Gecko) Version/5.1.5 Safari/534.55.3
+
+[403 GET / HEAD Request: April 15, 2015 10:25 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 54.161.226.168
+Host Name: ec2-54-161-226-168.compute-1.amazonaws.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /grass/
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/534.55.3         (KHTML, like Gecko) Version/5.1.5 Safari/534.55.3
+
+[403 GET / HEAD Request: April 16, 2015 2:24 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /5-reasons-synthetic-grass-is-perfect-for-parents/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 16, 2015 2:24 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /choosing-plants-that-are-healthy/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 16, 2015 2:24 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.125
+Host Name: 199.16.156.125
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /crop-rotation-for-vegetables/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 16, 2015 2:24 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.125
+Host Name: 199.16.156.125
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /adding-interest-to-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 16, 2015 2:24 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /desktop-gardening/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 16, 2015 2:24 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.125
+Host Name: 199.16.156.125
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /compost-a-gardeners-delight/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 16, 2015 2:24 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.125
+Host Name: 199.16.156.125
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /how-to-take-care-of-fragrant-flowers-in-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 16, 2015 2:24 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.125
+Host Name: 199.16.156.125
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /consider-a-potager/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 23, 2015 10:45 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /do-it-yourself-landscaping-ideas-landscape-ideas-for-backyard
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 23, 2015 10:45 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /do-it-yourself-landscaping-ideas-landscape-ideas-for-backyard/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 23, 2015 10:45 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /do-it-yourself-landscaping-ideas-landscape-ideas-for-backyard/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 23, 2015 10:45 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 23.29.122.198
+Host Name: 23-29-122-198-customer-incero.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /do-it-yourself-landscaping-ideas-landscape-ideas-for-backyard/
+QUERY_STRING: 
+HTTP_USER_AGENT: MetaURI API/2.0 +metauri.com
+
+[403 GET / HEAD Request: April 23, 2015 10:46 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /do-it-yourself-landscaping-ideas-landscape-ideas-for-backyard/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 23, 2015 10:49 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 23, 2015 10:49 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 23, 2015 10:49 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 207.244.73.78
+Host Name: pipeline2.deca.bottlenose.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/5.0 (compatible; OpenHoseBot/2.1; +http://www.openhose.org/bot.html)
+
+[403 GET / HEAD Request: April 23, 2015 10:49 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 23.29.122.198
+Host Name: 23-29-122-198-customer-incero.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: MetaURI API/2.0 +metauri.com
+
+[403 GET / HEAD Request: April 23, 2015 10:49 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 178.63.95.136
+Host Name: static.136.95.63.178.clients.your-server.de
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /do-it-yourself-landscaping-ideas-landscape-ideas-for-backyard
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/5.0 (compatible; uMBot-LN/1.0; mailto: crawling@ubermetrics-technologies.com)
+
+[403 GET / HEAD Request: April 23, 2015 10:50 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 12:12 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 12:13 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 12:14 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 12:14 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 12:15 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 12:16 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 12:16 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 12:16 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/Installation-1.png
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: April 24, 2015 12:16 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/Installation-2.png
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: April 24, 2015 12:16 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/installation-3.png
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: April 24, 2015 12:16 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/Instalation-4.png
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: April 24, 2015 12:16 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/Installation-5.png
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: April 24, 2015 12:16 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/Installation-6.png
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: April 24, 2015 12:16 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/Installation-7.png
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: April 24, 2015 12:17 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 12:17 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 12:18 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 12:18 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 12:20 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 12:21 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 12:23 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 12:27 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 12:27 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 12:33 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/Installation-1.png
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: April 24, 2015 12:33 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/Installation-2.png
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: April 24, 2015 12:33 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/installation-3.png
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: April 24, 2015 12:33 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/Instalation-4.png
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: April 24, 2015 12:33 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/Installation-5.png
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: April 24, 2015 12:33 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/Installation-6.png
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: April 24, 2015 12:33 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/Installation-7.png
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: April 24, 2015 12:38 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 12:39 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 12:57 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 12:59 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.125
+Host Name: 199.16.156.125
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 1:33 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 1:35 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 2:14 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 3:35 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 4:42 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 5:20 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 5:55 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 6:38 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 7:55 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 10:20 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /a-modern-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 10:20 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /a-french-style-low-water-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 10:20 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /a-modern-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 10:20 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 23.29.122.222
+Host Name: 23-29-122-222-customer-incero.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /a-modern-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: MetaURI API/2.0 +metauri.com
+
+[403 GET / HEAD Request: April 24, 2015 10:20 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 23.29.122.198
+Host Name: 23-29-122-198-customer-incero.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /a-french-style-low-water-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: MetaURI API/2.0 +metauri.com
+
+[403 GET / HEAD Request: April 24, 2015 10:20 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /a-french-style-low-water-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 10:20 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /a-french-style-low-water-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 10:20 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /a-french-style-low-water-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 10:21 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /a-modern-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 10:21 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /a-french-style-low-water-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 10:22 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /a-modern-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 10:23 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /a-french-style-low-water-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 10:38 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /a-french-style-low-water-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 24, 2015 2:14 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 26, 2015 1:35 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 26, 2015 8:00 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 54.227.13.41
+Host Name: ec2-54-227-13-41.compute-1.amazonaws.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: http://www.noworriesturf.com.au/
+REQUEST_URI: /
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.0; rv:2.0) Gecko/20100101 Firefox/4.0
+
+[403 GET / HEAD Request: April 26, 2015 6:10 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.125
+Host Name: 199.16.156.125
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care-types-tricks-and-tips-for-success/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 29, 2015 2:16 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/VIP.jpg
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2.1; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: April 29, 2015 2:17 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/VIP.jpg
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2.1; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: April 29, 2015 6:18 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /consider-a-potager/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 29, 2015 6:18 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /adding-interest-to-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 29, 2015 6:18 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /how-to-take-care-of-fragrant-flowers-in-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 29, 2015 6:18 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /choosing-plants-that-are-healthy/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 29, 2015 6:18 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.125
+Host Name: 199.16.156.125
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /compost-a-gardeners-delight/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 29, 2015 6:18 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /desktop-gardening/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 29, 2015 6:18 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /crop-rotation-for-vegetables/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 29, 2015 6:18 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /5-reasons-synthetic-grass-is-perfect-for-parents/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: April 29, 2015 9:11 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/VIP.jpg
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2.1; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: April 29, 2015 9:31 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/VIP.jpg
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2.1; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: April 29, 2015 2:07 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-login.php
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 4, 2015 4:35 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /include/fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 4, 2015 4:35 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /js/fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 4, 2015 4:35 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /common/fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 4, 2015 4:35 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /manage/fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 4, 2015 4:35 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /editor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 4, 2015 4:35 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /admin/fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 4, 2015 4:35 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 4, 2015 10:55 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 104.131.224.213
+Host Name: 104.131.224.213
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: http://www.netcraft.com/survey/
+REQUEST_URI: /
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/4.0 (compatible; Netcraft Web Server Survey)
+
+[403 GET / HEAD Request: May 5, 2015 6:13 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /do-it-yourself-landscaping-ideas-landscape-ideas-for-backyard/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 5, 2015 8:42 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care-types-tricks-and-tips-for-success/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 6, 2015 11:25 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /a-french-style-low-water-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 6, 2015 11:25 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /do-it-yourself-landscaping-ideas-landscape-ideas-for-backyard/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 6, 2015 11:25 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care-types-tricks-and-tips-for-success/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 6, 2015 11:25 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /a-modern-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 6, 2015 11:25 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 6, 2015 11:25 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /what-is-needed-for-herb-growth/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 7, 2015 6:45 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care-types-tricks-and-tips-for-success/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 7, 2015 10:06 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 7, 2015 10:05 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 10, 2015 11:44 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 12, 2015 5:05 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 14, 2015 4:56 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-login.php
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 14, 2015 6:11 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /common/fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 14, 2015 6:11 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /manage/fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 14, 2015 6:11 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /js/fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 14, 2015 6:11 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /include/fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 14, 2015 6:11 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /editor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 14, 2015 6:11 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /admin/fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 14, 2015 6:12 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 192.187.126.162
+Host Name: 192.187.126.162
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /fckeditor/editor/
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 18, 2015 4:03 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /consider-a-potager/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 18, 2015 4:03 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /adding-interest-to-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 18, 2015 4:03 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /crop-rotation-for-vegetables/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 18, 2015 4:03 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /5-reasons-synthetic-grass-is-perfect-for-parents/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 18, 2015 4:03 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /compost-a-gardeners-delight/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 18, 2015 4:03 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /desktop-gardening/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 18, 2015 4:03 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /choosing-plants-that-are-healthy/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 18, 2015 4:03 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /how-to-take-care-of-fragrant-flowers-in-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 18, 2015 10:53 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care-types-tricks-and-tips-for-success/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 19, 2015 1:24 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /compost-a-gardeners-delight/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 19, 2015 1:24 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /consider-a-potager/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 19, 2015 1:24 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /5-reasons-synthetic-grass-is-perfect-for-parents/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 19, 2015 1:24 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /choosing-plants-that-are-healthy/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 19, 2015 1:24 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /crop-rotation-for-vegetables/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 19, 2015 1:24 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /desktop-gardening/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 19, 2015 1:24 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /how-to-take-care-of-fragrant-flowers-in-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 19, 2015 1:24 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /adding-interest-to-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 21, 2015 9:00 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 97.84.7.239
+Host Name: 97-84-7-239.dhcp.aldl.mi.charter.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /contact
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 21, 2015 9:00 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 97.84.7.239
+Host Name: 97-84-7-239.dhcp.aldl.mi.charter.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /contact-us
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 21, 2015 9:00 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 97.84.7.239
+Host Name: 97-84-7-239.dhcp.aldl.mi.charter.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /contactus
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 21, 2015 9:00 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 97.84.7.239
+Host Name: 97-84-7-239.dhcp.aldl.mi.charter.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /talk-to-us
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 21, 2015 9:00 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 97.84.7.239
+Host Name: 97-84-7-239.dhcp.aldl.mi.charter.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /contact_us
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 21, 2015 9:00 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 97.84.7.239
+Host Name: 97-84-7-239.dhcp.aldl.mi.charter.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /talk_to_us
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 21, 2015 9:00 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 97.84.7.239
+Host Name: 97-84-7-239.dhcp.aldl.mi.charter.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /contacts
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: May 24, 2015 3:55 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 27, 2015 9:14 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care-types-tricks-and-tips-for-success/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 28, 2015 11:33 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care-types-tricks-and-tips-for-success/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 28, 2015 11:40 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care-types-tricks-and-tips-for-success/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: May 29, 2015 9:46 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 1, 2015 10:29 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/06/2.jpg
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: June 1, 2015 10:40 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/06/2.jpg
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: June 1, 2015 10:40 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/06/2.jpg
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: June 1, 2015 10:40 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/06/2.jpg
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: June 1, 2015 10:46 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /perfect-promo-grass/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 1, 2015 10:46 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /perfect-promo-grass/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 1, 2015 10:47 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 23.227.176.34
+Host Name: 23-227-176-34-customer-incero.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /perfect-promo-grass/
+QUERY_STRING: 
+HTTP_USER_AGENT: MetaURI API/2.0 +metauri.com
+
+[403 GET / HEAD Request: June 1, 2015 10:47 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /perfect-promo-grass/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 1, 2015 10:47 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /perfect-promo-grass/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 1, 2015 10:48 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /perfect-promo-grass/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 1, 2015 10:48 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /perfect-promo-grass
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 1, 2015 10:48 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /perfect-promo-grass/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 1, 2015 10:48 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 23.29.122.195
+Host Name: 23-29-122-195-customer-incero.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /perfect-promo-grass/
+QUERY_STRING: 
+HTTP_USER_AGENT: MetaURI API/2.0 +metauri.com
+
+[403 GET / HEAD Request: June 1, 2015 10:49 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /perfect-promo-grass/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 1, 2015 10:51 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /perfect-promo-grass/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 1, 2015 10:52 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /perfect-promo-grass/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 3, 2015 12:43 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 108.61.122.8
+Host Name: 108.61.122.8.choopa.net
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/plugins/simple-ads-manager/readme.txt
+QUERY_STRING: 
+HTTP_USER_AGENT: Ruby
+
+[403 GET / HEAD Request: June 3, 2015 12:43 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 108.61.122.8
+Host Name: 108.61.122.8.choopa.net
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/plugins/reflex-gallery/readme.txt
+QUERY_STRING: 
+HTTP_USER_AGENT: Ruby
+
+[403 GET / HEAD Request: June 3, 2015 12:43 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 108.61.122.8
+Host Name: 108.61.122.8.choopa.net
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/plugins/wpshop/readme.txt
+QUERY_STRING: 
+HTTP_USER_AGENT: Ruby
+
+[403 GET / HEAD Request: June 3, 2015 12:43 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 108.61.122.8
+Host Name: 108.61.122.8.choopa.net
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/plugins/sexy-contact-form/readme.txt
+QUERY_STRING: 
+HTTP_USER_AGENT: Ruby
+
+[403 GET / HEAD Request: June 3, 2015 2:38 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care-types-tricks-and-tips-for-success/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 3, 2015 1:42 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/ant-farm1.jpg
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: June 3, 2015 1:42 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/ant-farm2.jpg
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: June 5, 2015 3:31 am]
+Event Code: WPADMIN-SBR
+Solution: http://forum.ait-pro.com/forums/topic/security-log-event-codes/
+REMOTE_ADDR: 46.118.125.199
+Host Name: SOL-FTTB.199.125.118.46.sovam.net.ua
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-admin/admin-ajax.php?action=revslider_show_image&img=../wp-config.php
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0
+
+[403 GET / HEAD Request: June 6, 2015 4:03 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/ants2.jpg
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: June 6, 2015 4:03 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/Red-fire-ant-.jpg
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: June 6, 2015 4:03 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/ants3.jpg
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: June 6, 2015 4:03 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/ants1.jpg
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: June 6, 2015 5:15 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 104.131.4.35
+Host Name: jobqueue-listener.jobqueue.netcraft.com-u6e397ce0fd24491cbfc4ebb13c5892e1u-digitalocean
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: http://www.netcraft.com/survey/
+REQUEST_URI: /
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/4.0 (compatible; Netcraft Web Server Survey)
+
+[403 GET / HEAD Request: June 6, 2015 8:50 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 104.236.200.220
+Host Name: jobqueue-listener.jobqueue.netcraft.com-u61e757ffc02f4c19aa53501e2b810225u-digitalocean
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: http://www.netcraft.com/survey/
+REQUEST_URI: /
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/4.0 (compatible; Netcraft Web Server Survey)
+
+[403 GET / HEAD Request: June 9, 2015 5:47 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/carpenter-ants-1.jpg
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: June 9, 2015 5:47 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/04/carpenter-ant-with-wings.jpg
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: June 11, 2015 9:13 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 11, 2015 9:13 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /perfect-promo-grass/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 18, 2015 4:56 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 18, 2015 4:56 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /perfect-promo-grass/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 18, 2015 8:42 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /a-modern-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 18, 2015 8:42 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /do-it-yourself-landscaping-ideas-landscape-ideas-for-backyard/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 18, 2015 8:42 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /a-french-style-low-water-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 18, 2015 8:42 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 18, 2015 8:42 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /what-is-needed-for-herb-growth/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 18, 2015 8:42 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care-types-tricks-and-tips-for-success/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 18, 2015 11:21 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /desktop-gardening/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 18, 2015 11:21 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /choosing-plants-that-are-healthy/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 18, 2015 11:21 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /compost-a-gardeners-delight/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 18, 2015 11:21 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /consider-a-potager/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 18, 2015 11:21 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /crop-rotation-for-vegetables/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 18, 2015 11:21 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /adding-interest-to-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 18, 2015 11:21 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /5-reasons-synthetic-grass-is-perfect-for-parents/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 18, 2015 11:21 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /perfect-promo-grass/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 18, 2015 11:21 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /how-to-take-care-of-fragrant-flowers-in-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 20, 2015 9:16 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /garden-landscape-ideas-landscaping-front-yard-guide/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 20, 2015 9:16 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.125
+Host Name: 199.16.156.125
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /perfect-promo-grass/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 22, 2015 10:06 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /herb-garden-care-types-tricks-and-tips-for-success/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 23, 2015 11:59 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/06/0619_1.mp4
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: June 23, 2015 11:59 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/06/0619_2.mp4
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: June 24, 2015 12:07 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/06/0619_2.mp4
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: June 24, 2015 12:07 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/06/0619_1.mp4
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: June 24, 2015 4:36 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.195.193.21
+Host Name: server.noworriesturf.com.au
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/06/2.jpg
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.2.2; http://blog.noworriesturf.com.au
+
+[403 GET / HEAD Request: June 25, 2015 9:14 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /how-to-take-care-of-fragrant-flowers-in-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 25, 2015 9:14 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /choosing-plants-that-are-healthy/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 25, 2015 9:14 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /crop-rotation-for-vegetables/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 25, 2015 9:14 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.125
+Host Name: 199.16.156.125
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /consider-a-potager/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 25, 2015 9:14 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /perfect-promo-grass/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 25, 2015 9:14 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.124
+Host Name: 199.16.156.124
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /desktop-gardening/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 25, 2015 9:14 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.125
+Host Name: 199.16.156.125
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /compost-a-gardeners-delight/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 25, 2015 9:14 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /5-reasons-synthetic-grass-is-perfect-for-parents/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 25, 2015 9:14 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /adding-interest-to-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 26, 2015 1:30 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /choosing-plants-that-are-healthy/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 26, 2015 1:30 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /how-to-take-care-of-fragrant-flowers-in-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 26, 2015 1:30 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /compost-a-gardeners-delight/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 26, 2015 1:30 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /adding-interest-to-your-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 26, 2015 1:30 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /crop-rotation-for-vegetables/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 26, 2015 1:30 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.209
+Host Name: r-199-59-148-209.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /consider-a-potager/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 26, 2015 1:30 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /5-reasons-synthetic-grass-is-perfect-for-parents/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 26, 2015 1:30 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.210
+Host Name: r-199-59-148-210.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /desktop-gardening/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 26, 2015 1:30 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.59.148.211
+Host Name: r-199-59-148-211.twttr.com
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /perfect-promo-grass/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 26, 2015 4:48 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 5.39.220.23
+Host Name: 5.39.220.23
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/plugins/foxypress/readme.txt
+QUERY_STRING: 
+HTTP_USER_AGENT: Ruby
+
+[403 GET / HEAD Request: June 26, 2015 4:48 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 5.39.220.23
+Host Name: 5.39.220.23
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/plugins/wpshop/readme.txt
+QUERY_STRING: 
+HTTP_USER_AGENT: Ruby
+
+[403 GET / HEAD Request: June 26, 2015 4:48 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 5.39.220.23
+Host Name: 5.39.220.23
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/plugins/php-event-calendar/readme.txt
+QUERY_STRING: 
+HTTP_USER_AGENT: Ruby
+
+[403 GET / HEAD Request: June 26, 2015 4:49 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 5.39.220.23
+Host Name: 5.39.220.23
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/plugins/wp-symposium/readme.txt
+QUERY_STRING: 
+HTTP_USER_AGENT: Ruby
+
+[403 GET / HEAD Request: June 26, 2015 4:49 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 5.39.220.23
+Host Name: 5.39.220.23
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/plugins/simple-ads-manager/readme.txt
+QUERY_STRING: 
+HTTP_USER_AGENT: Ruby
+
+[403 GET / HEAD Request: June 26, 2015 4:49 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 5.39.220.23
+Host Name: 5.39.220.23
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/plugins/reflex-gallery/readme.txt
+QUERY_STRING: 
+HTTP_USER_AGENT: Ruby
+
+[403 GET / HEAD Request: June 26, 2015 4:49 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 5.39.220.23
+Host Name: 5.39.220.23
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/plugins/work-the-flow-file-upload/readme.txt
+QUERY_STRING: 
+HTTP_USER_AGENT: Ruby
+
+[403 GET / HEAD Request: June 26, 2015 4:49 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 5.39.220.23
+Host Name: 5.39.220.23
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/plugins/infusionsoft/readme.txt
+QUERY_STRING: 
+HTTP_USER_AGENT: Ruby
+
+[403 GET / HEAD Request: June 26, 2015 4:50 pm]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 5.39.220.23
+Host Name: 5.39.220.23
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/plugins/inboundio-marketing/readme.txt
+QUERY_STRING: 
+HTTP_USER_AGENT: Ruby
+
+[403 GET / HEAD Request: June 29, 2015 9:50 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.126
+Host Name: 199.16.156.126
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /a-french-style-low-water-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0
+
+[403 GET / HEAD Request: June 29, 2015 9:50 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 199.16.156.125
+Host Name: 199.16.156.125
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /a-modern-garden/
+QUERY_STRING: 
+HTTP_USER_AGENT: Twitterbot/1.0

@@ -1,0 +1,61 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2010 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+
+<div id="subscribe-form-left" class="clearer">
+    <form action="http://autoresponsebot.com/x/ar/optin.php" method="post"  name="signup" id="newsletter-validate-detail-left">
+		<input type=hidden name="action" value="addlead">
+		<input type=hidden name="member" value="99">
+		<input type=hidden name="auto" value="483">
+		<input type=hidden name="thankyou" value="http://www.noworriesturf.com.au/thank-you/">
+		
+		<p style="text-align: center;padding: 5px 0;"><span style="font-size: 20px;font-weight: bold;">FREE 5 Part Ecourse!</span></p>
+		<div class="book">
+			<img src="<?php echo $this->getSkinUrl('images/newsletter-book.png') ?>">
+		</div>	
+		<p style="text-align: justify;padding: 5px 0;font-family: arial;font-size: 13px;">This 5 part ecourse goes into showing you how to get started finding your biggest needs, your window savings, the fireplace advantage, and much more! There is no obligation and will be offered for limited time only...</p>
+		<p style="text-align: justify;  padding: 5px 0;  font-family: arial; font-size: 12px;font-weight: bold;color: #ff0000;">Simply fill in your first name and email address below!</p>
+        <div>
+            <?php /*<label for="newsletter"><?php echo $this->__('Newsletter') ?></label>*/?>
+            <div class="input-box">
+                <input type="text" name="fname" id="left-fname" title="<?php echo $this->__('First Name') ?>" class="input-text required-entry" />
+            </div>			
+            <div class="input-box">
+                <input type="text" name="email" id="left-email" title="<?php echo $this->__('Email Address') ?>" class="input-text required-entry validate-email" />
+            </div>			
+            <div class="input-box submt">
+				<button type="submit" title="<?php echo $this->__('SUBMIT') ?>" class="button"><span><span><?php echo $this->__('SUBMIT') ?></span></span></button>
+			</div>
+        </div>
+    </form>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+    var newsletterSubscriberFormDetail1 = new VarienForm('newsletter-validate-detail-left');
+    new Varien.searchForm('newsletter-validate-detail-left', 'left-email', '<?php echo $this->helper('newsletter')->__('Email Address') ?>');
+    new Varien.searchForm('newsletter-validate-detail-left', 'left-fname', '<?php echo $this->helper('newsletter')->__('First Name') ?>');
+//]]>
+</script>

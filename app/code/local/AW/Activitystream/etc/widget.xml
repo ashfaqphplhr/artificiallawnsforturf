@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<widgets>
+    <activitystream type="activitystream/widget" translate="name description" module="activitystream">
+        <name>Activity Stream</name>
+        <description></description>
+        <is_email_compatible>0</is_email_compatible>
+        <parameters>
+            <number_of_activities_to_display translate="label description" module="activitystream">
+                <visible>1</visible>
+                <label>Number of Activities to Display</label>
+                <type>text</type>
+                <value>5</value>
+                <description>Integer value between 1 and 50</description>
+            </number_of_activities_to_display>
+            <text_color translate="label description" module="activitystream">
+                <visible>1</visible>
+                <label>Text Color</label>
+                <type>text</type>
+                <value>#2F2F2F</value>
+                <description>Any valid HTML color in hexadecimal notation or simply by the name</description>
+            </text_color>
+            <link_color translate="label description" module="activitystream">
+                <visible>1</visible>
+                <label>Link Color</label>
+                <type>text</type>
+                <value>#1E7EC8</value>
+                <description>Any valid HTML color in hexadecimal notation or simply by the name</description>
+            </link_color>
+            <update_period translate="label description" module="activitystream">
+                <visible>1</visible>
+                <label>Update Period</label>
+                <type>text</type>
+                <value>3</value>
+                <description>Integer value between 2 and 30, specified in seconds</description>
+            </update_period>
+            <activity_store_filter translate="label" module="activitystream">
+                <visible>1</visible>
+                <label>Display Activities From</label>
+                <type>activitystream/adminhtmlWidgetFieldStorefilter</type>
+                <value>storeview</value>
+                <values>
+                    <storeview translate="label">
+                        <value>storeview</value>
+                        <label>Current store view</label>
+                    </storeview>
+                    <store translate="label">
+                        <value>store</value>
+                        <label>Current store</label>
+                    </store>
+                    <website translate="label">
+                        <value>website</value>
+                        <label>Current website</label>
+                    </website>
+                    <all translate="label">
+                        <value>all</value>
+                        <label>Display all</label>
+                    </all>
+                </values>
+            </activity_store_filter>
+            <template translate="label" module="activitystream">
+                <required>1</required>
+                <visible>1</visible>
+                <label>Template</label>
+                <type>select</type>
+                <value>activitystream/widget.phtml</value>
+                <values>
+                    <default translate="label" module="activitystream">
+                        <value>activitystream/widget.phtml</value>
+                        <label>Default Activity Stream widget template</label>
+                    </default>
+                </values>
+            </template>
+        </parameters>
+    </activitystream>
+</widgets>

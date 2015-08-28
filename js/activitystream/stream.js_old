@@ -1,0 +1,253 @@
+Activitystream = {
+    COOKIE_KEY_OVERLAYHIDDEN: 'Activitystream_Hidden',
+    
+    Cookies: {
+        get: function(cookieName) {
+            var pairs = document.cookie.split(';');
+            var cookies = {};
+            pairs.each(function(item, index) {
+                var pair = item.strip().split('=');
+                cookies[unescape(pair[0])] = unescape(pair[1]);
+            });
+            if(cookies[cookieName]) {
+                return cookies[cookieName];
+            }
+            return null;
+        },
+        set: function(cookieName, cookieValue, cookieLifeTime) {
+            var expires = '';
+            if (cookieLifeTime) {
+                var date = new Date();
+                date.setTime(date.getTime()+(cookieLifeTime*1000));
+                expires = '; expires='+date.toGMTString();
+            }
+            var urlPath = Mage.Cookies.path;
+            document.cookie = escape(cookieName) + "=" + escape(cookieValue) + expires + "; path=" + urlPath;
+        }
+    }
+};
+
+if ( Prototype ) {
+    
+    /**
+     * 
+     */
+    Activitystream.Stream = Class.create();
+    Activitystream.Stream.prototype = {
+        
+        /**
+         * 
+         */
+        initialize: function(rootNodeID, maxRecordsCount, updateURL, actualTimestamp, frequency, storeFilter) {
+            this.__rootNodeID       = rootNodeID;
+            this.__maxRecordsCount  = maxRecordsCount;
+            this.__updateURL        = updateURL;
+            this.__actualTimestamp  = actualTimestamp;
+            this.__frequency        = frequency;
+            this.__storeFilter      = storeFilter;
+            
+            this.__pool             = [];
+            
+            var __rootNode = document.getElementById(this.__rootNodeID);
+            if ( __rootNode ) {
+                var __nodes = __rootNode.getElementsByTagName('DIV');
+                for (var __index = 0; __index < __nodes.length; __index++) {
+                    if ( $(__nodes[__index]).hasClassName('CloseButton') ) {
+                        Event.observe(
+                            __nodes[__index],
+                            'click',
+                            function(instance) {
+                                return function() {
+                                    instance.hide();
+                                    Activitystream.Cookies.set(Activitystream.COOKIE_KEY_OVERLAYHIDDEN, 1);
+                                };
+                            }
+                            (this)
+                        );
+                    }
+                }
+            }
+            
+            this.__schedulePolling();
+            
+            return this;
+        },
+        
+        
+        /**
+         * 
+         */
+        update: function() {
+            new Ajax.Request(
+                this.__updateURL + 'moment/' + this.__actualTimestamp + '/storefilter/' + this.__storeFilter,
+                {
+                    onSuccess: function(instance) {
+                        return function(response) {
+                            if (
+                                   (typeof response != 'undefined')
+                                && (typeof response.responseJSON != 'undefined')
+                                && (response.responseJSON)
+                                && (typeof response.responseJSON.activities != 'undefined')
+                            ) {
+                                var __activities = response.responseJSON.activities;
+                                var __html = '';
+                                __activities.each(
+                                    function(element) {
+                                        instance.push(element);
+                                        if ( element.DATA.creation_timestamp > instance.__actualTimestamp ) {
+                                            instance.__actualTimestamp = element.DATA.creation_timestamp;
+                                        }
+                                    }
+                                );
+                                
+                                var __spread = instance.__peerSpread(__activities.length, instance.__frequency);
+                                for (__moment in __spread) {
+                                    setTimeout(
+                                        function (instance, amount) {
+                                            return function() {
+                                                instance.pop(amount);
+                                            };
+                                        }
+                                        (instance, __spread[__moment]),
+                                        __moment
+                                    );
+                                }
+                                
+                                instance.__schedulePolling();
+                            }
+                            else {
+                                instance.__stopPolling();
+                                instance.__schedulePolling(60000);
+                            }
+                        };
+                    }
+                    (this),
+                    
+                    onFailure: function(instance) {
+                        return function(response) {
+                            instance.__stopPolling();
+                            instance.__schedulePolling(60000);
+                        }
+                    }
+                    (this)
+                }
+            );
+            
+            return this;
+        },
+        
+        
+        /**
+         * 
+         */
+        push: function(activity) {
+            if (typeof activity == 'object') {
+                this.__pool.push(activity);
+            }
+            
+            return this;
+        },
+        
+        
+        /**
+         * 
+         */
+        pop: function(amount) {
+            var __amount = amount;
+            if ( __amount > this.__pool.length ) __amount = this.__pool.length;
+            
+            if ( __amount > 0 ) {
+                for (var __index = 0; __index < __amount; __index++) {
+                    var __activity = this.__pool.pop();
+                    
+                    var __rootNode = document.getElementById(this.__rootNodeID);
+                    var __ulNode = __rootNode.getElementsByTagName('UL')[0];
+                    if ( typeof __ulNode != 'undefined' ) {
+                        if ( __ulNode.getElementsByTagName('LI').length == this.__maxRecordsCount ) {
+                            var __firstLiNode = __ulNode.getElementsByTagName('LI')[0];
+                            if ( typeof __firstLiNode != 'undefined' ) {
+                                __ulNode.removeChild(__firstLiNode);
+                            }
+                        }
+                        
+                        var __newLiNode = document.createElement('LI');
+                        __ulNode.appendChild(__newLiNode);
+                        __newLiNode.innerHTML = __activity.RECORD_HTML;
+                        
+                        if ( __ulNode.getElementsByTagName('LI').length == 1 ) this.show();
+                    }
+                }
+            }
+            
+            return this;
+        },
+        
+        
+        /**
+         * 
+         */
+        show: function() {
+            var __rootNode = document.getElementById(this.__rootNodeID);
+            __rootNode.style.display = '';
+            
+            return this;
+        },
+        
+        
+        /**
+         * 
+         */
+        hide: function() {
+            var __rootNode = document.getElementById(this.__rootNodeID);
+            __rootNode.style.display = 'none';
+            this.__stopPolling();
+            
+            return this;
+        },
+        
+        
+        /**
+         * 
+         */
+        __schedulePolling: function(timeframe) {
+            if ( typeof timeframe == 'undefined' ) timeframe = this.__frequency;
+            this.__pollingTO = setTimeout(
+                function (instance) {
+                    return function() {
+                        instance.update();
+                    };
+                }
+                (this),
+                Math.max(1000, timeframe)
+            );
+            
+            return this;
+        },
+        
+        
+        /**
+         * 
+         */
+        __stopPolling: function() {
+            if ( this.__pollingTO ) clearTimeout(this.__pollingTO);
+            
+            return this;
+        },
+        
+        
+        /**
+         * 
+         */
+        __peerSpread: function(number, amount) {
+            var __spread = {};
+            
+            for (var __number = 0; __number < number; __number++) {
+                var __moment = Math.round( __number * amount / number );
+                if ( typeof __spread[__moment] == 'undefined' ) __spread[__moment] = 0;
+                __spread[__moment]++;
+            }
+            
+            return __spread;
+        }
+    };
+}

@@ -1,0 +1,60 @@
+<?php
+/**
+ * aheadWorks Co.
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://ecommerce.aheadworks.com/AW-LICENSE.txt
+ *
+ * =================================================================
+ *                 MAGENTO EDITION USAGE NOTICE
+ * =================================================================
+ * This software is designed to work with Magento community edition and
+ * its use on an edition other than specified is prohibited. aheadWorks does not
+ * provide extension support in case of incorrect edition use.
+ * =================================================================
+ *
+ * @category   AW
+ * @package    AW_Activitystream
+ * @version    1.0.2
+ * @copyright  Copyright (c) 2010-2012 aheadWorks Co. (http://www.aheadworks.com)
+ * @license    http://ecommerce.aheadworks.com/AW-LICENSE.txt
+ */
+?><style type="text/css">
+    #<?php echo $this->getHtmlId() ?> .ActivityRecord { color: <?php echo $this->getTextColor() ?>; }
+    #<?php echo $this->getHtmlId() ?> .ActivityRecord a { color: <?php echo $this->getLinkColor() ?>; }
+</style>
+
+<div id="<?php echo $this->getHtmlId() ?>" class="ActivityStream_Widget" style="
+    <?php if ( $this->getActivitiesCount() == 0 ): ?>
+        display: none;
+    <?php endif; ?>
+">
+    <ul>
+        <?php foreach ($this->getActivities() as $__activity): ?>
+            <li><?php echo $this->renderActivity($__activity) ?></li>
+        <?php endforeach; ?>
+    </ul>
+</div>
+
+<script type="text/javascript">
+    Event.observe(
+        window,
+        'load',
+        function() {
+            if ( (typeof Activitystream == 'object') && (typeof Activitystream.Stream == 'function') ) {
+                new Activitystream.Stream(
+                    '<?php echo $this->getHtmlId() ?>',
+                    <?php echo intval($this->getRecordsCount()) ?>,
+                    '<?php echo $this->getUpdateControllerURL() ?>',
+                    <?php echo intval($this->getLatestActivityTimestamp()) ?>,
+                    1000 * <?php echo $this->getUpdatePeriod() ?>,
+                    '<?php echo $this->getStoreFilter() ?>'
+                );
+            }
+        }
+    );
+</script>

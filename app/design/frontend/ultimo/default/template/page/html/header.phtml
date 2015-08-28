@@ -1,0 +1,198 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2010 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+?>
+<?php	
+	$theme = $this->helper('ultimo');
+	$c = $theme->getDesignCfgSection();
+	
+	$headerCss = array();
+	if ($c['header']['inner_bg_color'] && $c['header']['inner_bg_color'] != 'transparent')
+		$headerCss[] = 'show-bg';
+	else
+		if ($c['nav']['stretched'])
+			$headerCss[] = 'stretched';
+?>
+<div class="header-container">
+
+    <div class="header container<?php if($headerCss) echo " " . implode(" ", $headerCss); ?>">
+    <div class="grid-full1">
+    
+    	<div class="header-top clearer">			
+            <?php /*if ($tmp = $this->getChildHtml('block_header_top_help')): ?>
+            	<div class="header-top-help-wrapper item item-left"><?php echo $tmp; ?></div>
+            <?php endif; ?>
+            <?php if ($tmp = $this->getChildHtml('block_header_links_upper')): ?>
+            	<div class="header-top-links-wrapper item item-left"><?php echo $tmp; ?></div>
+            <?php endif; ?>
+            <div class="item item-left hide-below-960">
+            	<p class="welcome-msg"><?php echo $this->getWelcome(); ?> <?php echo $this->getAdditionalHtml(); ?></p>
+			</div>
+            <?php echo $this->getChildHtml('currency') ?>
+            <?php echo $this->getChildHtml('store_language') */ ?>
+			<div class="logo-wrapper v-item">
+			<?php if ($this->getIsHomePage()):?>
+                <h1 class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>
+            <?php else:?>
+                <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
+            <?php endif?>
+            </div>
+			<div class="banner-header">
+				<div class="grid12-6 contactleft">
+					<h2><span>Synthetic Grass</span>
+					Online Mega Store</h2>
+				</div>	
+				<div class="grid12-6 contactright">
+					<ul>
+						<li>
+							<span class="icon grid12-2">
+								<img src="<?php echo $this->getSkinUrl('images/img-phone.png') ?>"/>
+							</span>
+							<div><span>Phone</span>1300 03 77 11</div>
+							<div class="socialshare">
+								<div class="ss s-fb">
+									<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fnoworries.turf%3Fref%3Dhl&amp;width&amp;layout=button&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80&amp;appId=250347945142394" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:80px;" allowTransparency="true"></iframe>
+								</div>
+								<div class="ss s-gp">
+									<!-- Place this tag where you want the widget to render. -->
+									<div class="g-follow" data-annotation="none" data-height="20" data-href="https://plus.google.com/113033364515891678390" data-rel="author"></div>
+
+									<!-- Place this tag after the last widget tag. -->
+									<script type="text/javascript">
+									  (function() {
+										var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+										po.src = 'https://apis.google.com/js/platform.js';
+										var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+									  })();
+									</script>
+								</div>
+								<div class="ss s-tw">
+									<a href="https://twitter.com/NoWorriesTurf1" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @NoWorriesTurf1</a>
+									<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+								</div>
+							</div>
+						</li>
+						<li><span class="icon grid12-2"><img src="<?php echo $this->getSkinUrl('images/img-letter.png') ?>" /></span><div><span>Email</span>info@noworriesturf.com.au</div></li>
+					</ul>
+				</div>
+				<div class="grid12-6 socialshare mobile">
+								<div class="ss s-fb">
+									<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fnoworries.turf%3Fref%3Dhl&amp;width&amp;layout=button&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80&amp;appId=250347945142394" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:80px;" allowTransparency="true"></iframe>
+								</div>
+								<div class="ss s-gp">
+									<!-- Place this tag where you want the widget to render. -->
+									<div class="g-follow" data-annotation="none" data-height="20" data-href="https://plus.google.com/113033364515891678390" data-rel="author"></div>
+
+									<!-- Place this tag after the last widget tag. -->
+									<script type="text/javascript">
+									  (function() {
+										var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+										po.src = 'https://apis.google.com/js/platform.js';
+										var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+									  })();
+									</script>
+								</div>
+								<div class="ss s-tw">
+									<a href="https://twitter.com/NoWorriesTurf1" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @NoWorriesTurf1</a>
+									<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+								</div>
+							</div>
+			<?php /*<img src="<?php echo $this->getSkinUrl('images/banner-header.png') ?>" alt="banner" />*/?>
+			</div>
+			<div class="header-toplink">
+				<ul class="links">
+					<li><a href="<?php echo $this->getUrl() ?>"><?php echo $this->__('HOME') ?></a></li>
+					<li class="toplink"><a href="<?php echo $this->getUrl('about-us') ?>"><?php echo $this->__('ABOUT US') ?></a></li>
+					<!--li class="toplink"><a href="<?php echo $this->getUrl('faq') ?>"><?php echo $this->__('FAQ') ?></a></li-->
+					<li class="toplink"><a href="<?php echo $this->getUrl('warranty') ?>"><?php echo $this->__('WARRANTY') ?></a></li>
+					<li class="toplink"><a href="<?php echo $this->getUrl('diy-maintenance') ?>"><?php echo $this->__('DIY & MAINTENANCE') ?></a></li>
+					<li class="toplink"><a href="http://blog.noworriesturf.com.au"><?php echo $this->__('BLOG') ?></a></li>
+					<li class="toplink"><a href="<?php echo $this->getUrl('contacts') ?>"><?php echo $this->__('CONTACT US') ?></a></li>
+					<li class="toplink"><a href="<?php echo $this->getUrl('gallery') ?>"><?php echo $this->__('GALLERY') ?></a></li>
+					<li class="toplink">
+						<?php
+						 $loggedIn = $this->helper("customer")->isLoggedIn();
+						 if($loggedIn == 1){ echo "<a title='Log Out' href=\"".Mage::getBaseUrl()."customer/account/logout/\" />LOG OUT</a>"; }
+						 else{ echo "<a title='Log In' href=\"".Mage::getBaseUrl()."customer/account/\" />LOGIN</a>"; }
+						 ?>
+					</li>
+					<li><a href="<?php echo $this->getUrl('checkout/cart') ?>"><?php echo $this->__('SHOPPING CART') ?></a></li>
+				</ul>
+			</div>
+        </div>
+        <?php echo $this->getChildHtml('topContainer'); ?>
+		<div class="header-main v v2">
+			<?php /*
+        	<div class="logo-wrapper v-item">
+			<?php if ($this->getIsHomePage()):?>
+                <h1 class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>
+            <?php else:?>
+                <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
+            <?php endif?>
+            </div>*/?>
+            
+            <div class="header-top-search-wrapper">
+                <?php echo $this->getChildHtml('topSearch') ?>
+                <?php /*?><a class="advanced-search-link" href="<?php echo Mage::getURL(''); ?>catalogsearch/advanced/"><?php print $this->__('Advanced Search'); ?></a><?php */?>
+            </div>
+			<div class="box-mainmenu">
+				<?php echo $this->getChildHtml('topMenu') ?>
+			</div>
+            <?php /*
+            <div class="user-menu v-item clearer">
+                <div id="mini-cart">
+                    <?php echo $this->getChildHtml('cart_sidebar') ?>
+                </div>
+                <div class="after-mini-cart"></div>
+                
+                <div class="top-links show-separators">
+                	<?php
+					//Additional custom top links
+					if ($tmp = $this->getChildHtml('block_header_top_links2'))
+						echo $tmp;
+						
+					//Default Magento top links (page.xml)
+					if ($theme->getCfg('magento_blocks/top_links'))
+						echo $this->getChildHtml('topLinks');
+					
+					//Custom top links - override default Magento top links
+                    if ($tmp = $this->getChildHtml('block_header_top_links'))
+						echo $tmp;
+					?>
+                </div> <!-- end: top-links -->
+
+            </div> <!-- end: user-menu -->
+			*/?>
+        </div> <!-- end: v -->
+
+	</div> <!-- end: grid unit -->
+    </div> <!-- end: header -->
+    
+    <?php //echo $this->getChildHtml('topMenu') ?>
+
+</div> <!-- end: header-container -->

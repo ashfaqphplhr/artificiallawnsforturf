@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="admin.commission_failure.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="admin.duplicate_order.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="admin.image_upload.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="admin.login.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="admin.max_commission_exceeded.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="admin.new_account.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="admin.new_commission.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="admin.new_testimonial.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="admin.paypal_failure.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="admin.performance_reward.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="admin.recurring_commission.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="admin.test_email.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="affiliate.account_approved.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="affiliate.account_declined.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="affiliate.new_commission.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="affiliate.new_tier.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="affiliate.payment.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="affiliate.performance_reward.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="affiliate.send_login.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="affiliate.testimonial_approved.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="affiliate.unapprove.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="affiliate.upload_approved.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="affiliate.upload_declined.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="affiliate.welcome.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="class.phpmailer.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="class.smtp.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="feedback.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="mail.contact.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="mail.friends.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="mail.send_affiliate.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+<file name="mail.send_bulk.php" server="C:/xampp/htdocs/noworries/" local="130801570600000000" remote="130801570600000000" Dst="2" />
+</dwsync>

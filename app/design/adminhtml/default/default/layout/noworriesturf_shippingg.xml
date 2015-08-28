@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Noworriesturf_Shippingg extension
+ * 
+ * NOTICE OF LICENSE
+ * 
+ * This source file is subject to the MIT License
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/mit-license.php
+ * 
+ * @category   	Noworriesturf
+ * @package		Noworriesturf_Shippingg
+ * @copyright  	Copyright (c) 2013
+ * @license		http://opensource.org/licenses/mit-license.php MIT License
+ */
+--> 
+<layout>
+	<!-- Home Delivery Surcharges grid action -->
+	<adminhtml_shippingg_surcharge_index>
+		<reference name="menu">
+			<action method="setActive">
+				<menupath>shippingg/surcharge</menupath>
+			</action>
+		</reference>
+		<reference name="content">
+			<block type="shippingg/adminhtml_surcharge" name="surcharge" />
+		</reference>
+	</adminhtml_shippingg_surcharge_index>
+	<adminhtml_shippingg_surcharge_grid>
+		<block type="core/text_list" name="root" output="toHtml">
+			<block type="shippingg/adminhtml_surcharge_grid" name="surcharge_grid"/>
+		</block>
+	</adminhtml_shippingg_surcharge_grid>
+	<!-- Surcharge add/edit action -->
+	<adminhtml_shippingg_surcharge_edit>
+		<update handle="editor"/>
+		<reference name="menu">
+			<action method="setActive">
+				<menupath>shippingg/surcharge</menupath>
+			</action>
+		</reference>
+		<reference name="content">
+			<block type="shippingg/adminhtml_surcharge_edit" name="surcharge_edit"></block>
+		</reference>
+		<reference name="left">
+			<block type="shippingg/adminhtml_surcharge_edit_tabs" name="surcharge_tabs"></block>
+		</reference> 
+	</adminhtml_shippingg_surcharge_edit>
+	<!-- Shipping Rates (Brisbane) grid action -->
+	<adminhtml_shippingg_shippingratebrisbane_index>
+		<reference name="menu">
+			<action method="setActive">
+				<menupath>shippingg/shippingratebrisbane</menupath>
+			</action>
+		</reference>
+		<reference name="content">
+			<block type="shippingg/adminhtml_shippingratebrisbane" name="shippingratebrisbane" />
+		</reference>
+	</adminhtml_shippingg_shippingratebrisbane_index>
+	<adminhtml_shippingg_shippingratebrisbane_grid>
+		<block type="core/text_list" name="root" output="toHtml">
+			<block type="shippingg/adminhtml_shippingratebrisbane_grid" name="shippingratebrisbane_grid"/>
+		</block>
+	</adminhtml_shippingg_shippingratebrisbane_grid>
+	<!-- Shippingratebrisbane add/edit action -->
+	<adminhtml_shippingg_shippingratebrisbane_edit>
+		<update handle="editor"/>
+		<reference name="menu">
+			<action method="setActive">
+				<menupath>shippingg/shippingratebrisbane</menupath>
+			</action>
+		</reference>
+		<reference name="content">
+			<block type="shippingg/adminhtml_shippingratebrisbane_edit" name="shippingratebrisbane_edit"></block>
+		</reference>
+		<reference name="left">
+			<block type="shippingg/adminhtml_shippingratebrisbane_edit_tabs" name="shippingratebrisbane_tabs"></block>
+		</reference> 
+	</adminhtml_shippingg_shippingratebrisbane_edit>
+	<!-- Shipping Rates (Melbourne) grid action -->
+	<adminhtml_shippingg_shippingrate_index>
+		<reference name="menu">
+			<action method="setActive">
+				<menupath>shippingg/shippingrate</menupath>
+			</action>
+		</reference>
+		<reference name="content">
+			<block type="shippingg/adminhtml_shippingrate" name="shippingrate" />
+		</reference>
+	</adminhtml_shippingg_shippingrate_index>
+	<adminhtml_shippingg_shippingrate_grid>
+		<block type="core/text_list" name="root" output="toHtml">
+			<block type="shippingg/adminhtml_shippingrate_grid" name="shippingrate_grid"/>
+		</block>
+	</adminhtml_shippingg_shippingrate_grid>
+	<!-- Shippingrate add/edit action -->
+	<adminhtml_shippingg_shippingrate_edit>
+		<update handle="editor"/>
+		<reference name="menu">
+			<action method="setActive">
+				<menupath>shippingg/shippingrate</menupath>
+			</action>
+		</reference>
+		<reference name="content">
+			<block type="shippingg/adminhtml_shippingrate_edit" name="shippingrate_edit"></block>
+		</reference>
+		<reference name="left">
+			<block type="shippingg/adminhtml_shippingrate_edit_tabs" name="shippingrate_tabs"></block>
+		</reference> 
+	</adminhtml_shippingg_shippingrate_edit>
+        <adminhtml_shippingg_import_index>
+		<reference name="menu">
+			<action method="setActive">
+				<menupath>shippingg/import</menupath>
+			</action>
+		</reference>
+		<reference name="content">
+			<block type="shippingg/adminhtml_import" name="import"></block>
+		</reference>
+        </adminhtml_shippingg_import_index>
+        <adminhtml_shippingg_configuration_index>
+		<reference name="menu">
+			<action method="setActive">
+				<menupath>shippingg/configuration</menupath>
+			</action>
+		</reference>
+		<reference name="content">
+			<block type="shippingg/adminhtml_configuration" name="configuration"></block>
+		</reference>
+        </adminhtml_shippingg_configuration_index>
+</layout>

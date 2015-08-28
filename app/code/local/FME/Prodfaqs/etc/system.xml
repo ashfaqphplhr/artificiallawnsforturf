@@ -1,0 +1,513 @@
+<?xml version="1.0"?>
+ <!-- 
+/**
+ * FAQs And Product Questions
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ *
+ * @category   FME
+ * @package    FAQs And Product Questions
+ * @author     Asif Hussain <support@fmeextensions.com>
+ * 	       
+ * @copyright  Copyright 2012 © www.fmeextensions.com All right reserved
+ */
+ -->
+ 
+<config>
+    <tabs>
+        <FME translate="label" module="prodfaqs">
+            <label>FME Extensions</label>
+            <sort_order>167</sort_order>
+        </FME>
+    </tabs>
+    <sections>
+        <prodfaqs translate="label" module="prodfaqs">
+            <label>FAQ's And Product Questions</label>
+            <tab>FME</tab>
+            <sort_order>201</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+			
+			<list translate="label comment" module="prodfaqs">
+				<label>General Faqs Settings</label>
+				<frontend_type>text</frontend_type>
+				<sort_order>0</sort_order>
+				<show_in_default>1</show_in_default>
+				<show_in_website>1</show_in_website>
+				<show_in_store>1</show_in_store>
+				<fields>
+				    <page_title translate="label">
+					    <label>Page Title</label>
+					    <frontend_type>text</frontend_type>
+					    <sort_order>0</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment></comment>
+				    </page_title>
+				    <identifier translate="label">
+					    <label>SEF URL Identifier</label>
+					    <frontend_type>text</frontend_type>
+					    <sort_order>1</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>(eg: domain.com/identifier)</comment>
+				    </identifier>
+				    <meta_keywords translate="label">
+					    <label>META Keywords</label>
+					    <frontend_type>textarea</frontend_type>
+					    <sort_order>2</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment></comment>
+				    </meta_keywords>
+				    <meta_description translate="label">
+					    <label>META Description</label>
+					    <frontend_type>textarea</frontend_type>
+					    <sort_order>3</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment></comment>
+				    </meta_description>
+				    <display_categories translate="label">
+					    <label>Display Topics</label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>prodfaqs/source_config_selectedall</source_model>
+					    <sort_order>4</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>display selected OR all topics on main page</comment>					
+				    </display_categories>
+				    <show_number_of_questions translate="label">
+					    <label>Number of Questions</label>
+					    <frontend_type>text</frontend_type>
+					    <sort_order>5</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>show number of selected questions with each category (0 for none)</comment>
+				    </show_number_of_questions>
+				    <enable_view_more translate="label">
+					    <label>Enable Read More </label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>adminhtml/system_config_source_yesno</source_model>
+					    <sort_order>6</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>show read more link under category</comment>
+				    </enable_view_more>
+				    <sort_by translate="label">
+					    <label>Sort By </label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>prodfaqs/source_config_sortby</source_model>
+					    <sort_order>7</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>Sorting option for faqs of main page</comment>
+				    </sort_by>
+				    <enable_accordion translate="label">
+					    <label>Enable Accordion </label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>adminhtml/system_config_source_yesno</source_model>
+					    <sort_order>8</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>enable accordion</comment>
+				    </enable_accordion>
+				    <like translate="label">
+					    <label>Like / Unlike </label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>adminhtml/system_config_source_enabledisable</source_model>
+					    <sort_order>9</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>enable / disable like, unlike for faqs of main page</comment>
+				    </like>
+				    
+				</fields>
+			</list>
+			
+			
+			<product_page translate="label" module="prodfaqs">
+				<label>Product Questions</label>
+				<frontend_type>text</frontend_type>
+				<sort_order>1</sort_order>
+				<show_in_default>1</show_in_default>
+				<show_in_website>1</show_in_website>
+				<show_in_store>1</show_in_store>
+				<fields>
+				    <enable translate="label">
+					    <label>Enable Product FAQs </label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>adminhtml/system_config_source_yesno</source_model>
+					    <sort_order>0</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>enable/disable faqs for products</comment>
+				    </enable>
+				    <title translate="label">
+					    <label>Heading / Title </label>
+					    <frontend_type>text</frontend_type>
+					    <sort_order>1</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>Heading / Title of product's faqs</comment>
+				    </title>
+				    <enable_rating translate="label">
+					    <label>Product Faqs Rating </label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>adminhtml/system_config_source_enabledisable</source_model>
+					    <sort_order>2</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>enable/disable rating on product faqs</comment>
+				    </enable_rating>		    
+				    <allow_customers translate="label">
+					    <label>Allow Faqs Rating </label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>prodfaqs/source_config_ratingcustomers</source_model>
+					    <sort_order>3</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>allow product faq rating for customers</comment>
+				    </allow_customers>
+				    <enable_accordion translate="label">
+					    <label>Enable Accordion </label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>adminhtml/system_config_source_yesno</source_model>
+					    <sort_order>4</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>enable/disable accordion for product faqs</comment>
+				    </enable_accordion>
+				    <sort_by translate="label">
+					    <label>Sort By </label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>prodfaqs/source_config_sortby</source_model>
+					    <sort_order>5</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>Sorting option for faqs of product page</comment>
+				    </sort_by>
+				    <show_faqs_on translate="label">
+					    <label>Show Product Faqs On </label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>prodfaqs/source_config_showfaqson</source_model>
+					    <sort_order>6</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>select place to show faqs on</comment>
+				    </show_faqs_on>
+				    <like translate="label">
+					    <label>Like / Unlike </label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>adminhtml/system_config_source_enabledisable</source_model>
+					    <sort_order>7</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>enable / disable like, unlike for product faqs</comment>
+				    </like>
+				    <reply translate="label">
+					    <label>Reply / Comments</label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>adminhtml/system_config_source_enabledisable</source_model>
+					    <sort_order>8</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>enable / disable replying for product faqs</comment>
+				    </reply>
+				    <admin_approval translate="label">
+					    <label>Admin Approve Reply</label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>adminhtml/system_config_source_yesno</source_model>
+					    <sort_order>9</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>admin approval needed for replies of faqs</comment>
+				    </admin_approval>
+				</fields>
+			</product_page>
+			
+			<product_ask translate="label" module="prodfaqs">
+				<label>Product - Ask Questions </label>
+				<frontend_type>text</frontend_type>
+				<sort_order>2</sort_order>
+				<show_in_default>1</show_in_default>
+				<show_in_website>1</show_in_website>
+				<show_in_store>1</show_in_store>
+				<fields>
+				    <enable translate="label">
+					    <label>Enable</label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>adminhtml/system_config_source_yesno</source_model>
+					    <sort_order>0</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>enable/disable - ask a question</comment>
+				    </enable>
+				    <allow_customers translate="label">
+					    <label>Allowed Customers </label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>prodfaqs/source_config_ratingcustomers</source_model>
+					    <sort_order>1</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>allow customers to ask question</comment>
+				    </allow_customers>
+				    <open_form translate="label">
+					    <label>Open Question Form </label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>prodfaqs/source_config_openformoptions</source_model>
+					    <sort_order>2</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>Open question form in a popup/slide down.</comment>
+				    </open_form>
+				     
+				    
+				</fields>
+				
+				    
+			</product_ask>
+			
+			<rating translate="label" module="prodfaqs">
+				<label>General Faqs Rating</label>
+				<frontend_type>text</frontend_type>
+				<sort_order>3</sort_order>
+				<show_in_default>1</show_in_default>
+				<show_in_website>1</show_in_website>
+				<show_in_store>1</show_in_store>
+				<fields>
+				    <enable translate="label">
+					    <label>Faqs Rating </label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>adminhtml/system_config_source_enabledisable</source_model>
+					    <sort_order>0</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>enable/disable rating</comment>
+				    </enable>		    
+				    <allow_customers translate="label">
+					    <label>Allow Faqs Rating </label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>prodfaqs/source_config_ratingcustomers</source_model>
+					    <sort_order>1</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>allow faq rating for customers</comment>
+				    </allow_customers>
+				    
+				    
+				</fields>
+			    
+			</rating>
+			
+			<general translate="label" module="prodfaqs">
+				<label>Faqs Block Settings</label>
+				<frontend_type>text</frontend_type>
+				<sort_order>4</sort_order>
+				<show_in_default>1</show_in_default>
+				<show_in_website>1</show_in_website>
+				<show_in_store>1</show_in_store>
+				<fields>
+					<faq_block translate="label">
+					        <label>FAQs Block</label>
+						<frontend_type>select</frontend_type>
+						<source_model>adminhtml/system_config_source_enabledisable</source_model>
+						<sort_order>0</sort_order>
+						<show_in_default>1</show_in_default>
+						<show_in_website>1</show_in_website>
+						<show_in_store>1</show_in_store>						    
+					</faq_block>
+					<faq_search_block translate="label">
+					        <label>FAQs Search Block</label>
+					        <frontend_type>select</frontend_type>
+					        <source_model>adminhtml/system_config_source_enabledisable</source_model>
+					        <sort_order>1</sort_order>
+					        <show_in_default>1</show_in_default>
+					        <show_in_website>1</show_in_website>
+					        <show_in_store>1</show_in_store>						    
+					</faq_search_block>
+					<faq_maxtopic translate="label">
+						<label>Maximum No of topics displayed in block </label>
+						<frontend_type>text</frontend_type>
+						<sort_order>2</sort_order>
+						<show_in_default>1</show_in_default>
+						<show_in_website>1</show_in_website>
+						<show_in_store>1</show_in_store>
+					</faq_maxtopic>    		
+				</fields>
+			</general>
+			
+			<themes translate="label comment" module="prodfaqs">	
+				<label>Faqs Themes</label>
+				<frontend_type>text</frontend_type>
+				<sort_order>5</sort_order>
+				<show_in_default>1</show_in_default>
+				<show_in_website>1</show_in_website>
+				<show_in_store>1</show_in_store>
+				<fields>				    
+				    <select_theme translate="label">
+					<label>Select Theme</label>
+					<frontend_type>select</frontend_type>
+					<source_model>prodfaqs/source_config_themeoptions</source_model>
+					<sort_order>0</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+				    </select_theme>
+				    <selected_image translate="label">
+					<label>Theme</label>
+					<frontend_type>imageviewerprodfaqs</frontend_type>
+					<sort_order>1</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+				    </selected_image>
+				        
+				</fields>
+			</themes>
+			
+			<email_settings translate="label comment" module="prodfaqs">	
+				    <label>E-mail Settings</label>
+				    <frontend_type>text</frontend_type>
+				    <sort_order>6</sort_order>
+				    <show_in_default>1</show_in_default>
+				    <show_in_website>1</show_in_website>
+				    <show_in_store>1</show_in_store>
+				    <fields>
+					<email_sender translate="label">
+					    <label>E-mail Sender</label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>adminhtml/system_config_source_email_identity</source_model>
+					    <sort_order>0</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					</email_sender>
+					<enable_moderator_notification translate="label">
+					    <label>Enable Notification For Moderator</label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>adminhtml/system_config_source_yesno</source_model>
+					    <sort_order>1</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>Enable/Disable notifications for moderator</comment>
+					</enable_moderator_notification>				
+					<moderator_email translate="label">
+					    <label>E-mail Of FAQ Moderator</label>
+					    <frontend_type>text</frontend_type>
+					    <sort_order>2</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					</moderator_email>
+					<moderator_email_subject translate="label">
+					    <label>E-mail Subject For Moderator</label>
+					    <frontend_type>text</frontend_type>
+					    <sort_order>3</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					</moderator_email_subject>
+					<moderator_email_template translate="label">
+					    <label>E-mail Template For Moderator</label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>adminhtml/system_config_source_email_template</source_model>
+					    <sort_order>4</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					</moderator_email_template>
+					
+					
+					<enable_client_notification translate="label">
+					    <label>Enable Notification For Client</label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>adminhtml/system_config_source_yesno</source_model>
+					    <sort_order>5</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>Enable/Disable notifications for faq submitter</comment>
+					</enable_client_notification>
+					<client_email_subject translate="label">
+					    <label>E-mail Subject For Client</label>
+					    <frontend_type>text</frontend_type>
+					    <sort_order>6</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					</client_email_subject>
+					<client_email_template translate="label">
+					    <label>E-mail Template For Client</label>
+					    <frontend_type>select</frontend_type>
+					    <source_model>adminhtml/system_config_source_email_template</source_model>
+					    <sort_order>7</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					</client_email_template>
+					
+					
+					
+				    </fields>
+			
+			</email_settings>
+			
+			<seo translate="label comment" module="prodfaqs">
+				<label>Search Engine Optimizations</label>
+				<frontend_type>text</frontend_type>
+				<sort_order>7</sort_order>
+				<show_in_default>1</show_in_default>
+				<show_in_website>1</show_in_website>
+				<show_in_store>1</show_in_store>
+				<fields>
+				    <url_suffix translate="label">
+					    <label>URL Suffix</label>
+					    <frontend_type>text</frontend_type>
+					    <sort_order>0</sort_order>
+					    <show_in_default>1</show_in_default>
+					    <show_in_website>1</show_in_website>
+					    <show_in_store>1</show_in_store>
+					    <comment>(eg: .html)</comment>
+				    </url_suffix>
+				</fields>
+			</seo>         
+				
+				
+            </groups>                        
+        </prodfaqs>
+    </sections>
+</config>

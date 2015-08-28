@@ -1,0 +1,38 @@
+<section class="prod_thumb">
+<ul>
+<?php
+$_categories=$this->getCurrentChildCategories();
+$categorycount = 0;
+foreach ($_categories as $_category):
+if($_category->getIsActive()):
+$cur_category=Mage::getModel('catalog/category')->load($_category->getId());
+$layer = Mage::getSingleton('catalog/layer');
+$layer->setCurrentCategory($cur_category);
+$catName = $this->getCurrentCategory()->getName();
+$catDesc = $this->getCurrentCategory()->getDescription();
+?>
+<li>
+<section class="prod_name"><a href="<?php echo $_category->getURL() ?>" title="<?php echo $this->htmlEscape($_category->getName()) ?>"><?php echo $this->htmlEscape($_category->getName()) ?></a></section>
+<section class="prod_img"><a href="<?php echo $_category->getURL() ?>" title="<?php echo $this->htmlEscape($_category->getName()) ?>"><img src="<?php echo $this->getCurrentCategory()->getImageUrl() ?>" width="205" height="150" alt="<?php echo $this->htmlEscape($_category->getName()) ?>" /></a></section>
+<section class="prod_detail"><?php echo $catDesc ;?></section>
+<?php /*?><section class="from_noworries">
+<span>From:
+<p>No worries turf</p></span>
+<span><?php
+$category = Mage::getModel('catalog/category')->load($this->getCategoryId());
+                if ($category->getId()) {
+                    $origCategory = $layer->getCurrentCategory();
+                    $layer->setCurrentCategory($category);
+                }
+$collection = $layer->getProductCollection();
+$collection->getSelect()->reset('order');
+$collection->getSelect()->order('minimal_price','asc');
+$collection->getSelect()->limit(1);
+echo '$'.number_format($collection->getFirstItem()->getMinimalPrice(), '2', '.', ',');?></span>
+</section><?php */?>
+</li>
+<?php
+endif;
+endforeach;
+?>
+</ul></section>

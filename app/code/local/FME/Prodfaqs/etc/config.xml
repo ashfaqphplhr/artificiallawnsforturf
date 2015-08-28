@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * FAQs And Product Questions
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ *
+ * @category   FME
+ * @package    FAQs And Product Questions
+ * @author     Asif Hussain <support@fmeextensions.com>
+ * 	       
+ * @copyright  Copyright 2012 © www.fmeextensions.com All right reserved
+ */
+ -->
+<config>
+    <modules>
+        <FME_Prodfaqs>
+            <version>0.1.0</version>
+        </FME_Prodfaqs>
+    </modules>
+    <frontend>
+        <routers>
+            <prodfaqs>
+                <use>standard</use>
+                <args>
+                    <module>FME_Prodfaqs</module>
+                    <frontName>prodfaqs</frontName>
+                </args>
+            </prodfaqs>
+        </routers>
+        <layout>
+            <updates>
+                <prodfaqs>
+                    <file>prodfaqs.xml</file>
+                </prodfaqs>
+            </updates>
+        </layout>
+	<translate>
+            <modules>
+                <FME_Prodfaqs>
+                    <files>
+                        <default>FME_Prodfaqs.csv</default>
+                    </files>
+                </FME_Prodfaqs>
+            </modules>
+        </translate>
+    </frontend>
+    
+    <admin>
+        <routers>
+			<prodfaqsadmin>
+				<use>admin</use>
+				<args>
+					<module>FME_Prodfaqs</module>
+					<frontName>prodfaqsadmin</frontName>
+				</args>
+			</prodfaqsadmin>
+        </routers>
+    </admin>
+    <adminhtml>
+		<translate>
+		    <modules>
+			<FME_Prodfaqs>
+			    <files>
+				<default>FME_Prodfaqs.csv</default>
+			    </files>
+			</FME_Prodfaqs>
+		    </modules>
+		</translate>
+	
+		<menu>
+		    <FME module="prodfaqs">
+			<title>FME Extensions</title>
+			<sort_order>71</sort_order>
+			<children>
+			    <prodfaqs module="prodfaqs">
+				<title>FAQ's And Product Questions</title>
+				<sort_order>72</sort_order>               
+				<children>
+					<topic module="prodfaqs">
+						<title>Manage Faq Topics</title>
+						<sort_order>0</sort_order>
+						<action>prodfaqsadmin/adminhtml_topic</action>
+					</topic>
+					<items module="prodfaqs">
+						<title>Manage Faqs</title>
+						<sort_order>1</sort_order>
+						<action>prodfaqsadmin/adminhtml_prodfaqs</action>
+					</items>
+					<config translate="title">
+						<title>Configuration</title>
+						<sort_order>2</sort_order>
+						<action>adminhtml/system_config/edit/section/prodfaqs</action>
+					</config>
+				</children>
+			    </prodfaqs>
+			</children>
+		    </FME>
+		</menu>
+		<acl>
+			<resources>
+				<all>
+					<title>Allow Everything</title>
+				</all>
+                <admin>
+                    <children>
+						<prodfaqs>
+							<title>Product Faqs Module</title>
+							<children>
+								<topic translate="title" module="prodfaqs">
+									<title>Manage Faq Topics</title>
+									<sort_order>8</sort_order>
+								</topic>
+								<items translate="title" module="prodfaqs">
+									<title>Manage Faqs</title>
+									<sort_order>8</sort_order>
+								</items>
+								<config translate="title">
+									<title>Configuration</title>
+								</config>
+							</children>
+							<sort_order>8</sort_order>
+						</prodfaqs>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <prodfaqs translate="title" module="prodfaqs">
+                                            <title>Product Faqs Module</title>
+                                            <sort_order>50</sort_order>
+                                        </prodfaqs>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+				</admin>
+			</resources>
+		</acl>
+		<layout>
+			<updates>
+				<prodfaqs>
+					<file>prodfaqs.xml</file>
+				</prodfaqs>
+			</updates>
+		</layout>
+    </adminhtml>   
+    <global>
+        <models>
+            <prodfaqs>
+                <class>FME_Prodfaqs_Model</class>
+                <resourceModel>prodfaqs_mysql4</resourceModel>
+            </prodfaqs>
+            <prodfaqs_mysql4>
+                <class>FME_Prodfaqs_Model_Mysql4</class>
+                <entities>
+                    <prodfaqs>
+                        <table>prodfaqs</table>
+                    </prodfaqs>
+		    <topic>
+                        <table>prodfaqs_topics</table>
+                    </topic>
+		    <prodfaqs_store>
+		        <table>prodfaqs_store</table>
+		    </prodfaqs_store>
+		    <prodfaqs_products>
+		        <table>prodfaqs_products</table>
+		    </prodfaqs_products>
+                </entities>
+            </prodfaqs_mysql4>
+        </models>
+        <resources>
+            <prodfaqs_setup>
+                <setup>
+                    <module>FME_Prodfaqs</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </prodfaqs_setup>
+            <prodfaqs_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </prodfaqs_write>
+            <prodfaqs_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </prodfaqs_read>
+        </resources>
+        <blocks>
+            <prodfaqs>
+                <class>FME_Prodfaqs_Block</class>
+            </prodfaqs>
+        </blocks>
+        <helpers>
+            <prodfaqs>
+                <class>FME_Prodfaqs_Helper</class>
+            </prodfaqs>
+        </helpers>
+		
+	<events>
+            <controller_front_init_routers>
+                <observers>
+                    <prodfaqs>
+                        <type>singleton</type>
+                        <class>FME_Prodfaqs_Controller_Router</class>
+                        <method>initControllerRouters</method>
+                    </prodfaqs>
+                </observers>
+            </controller_front_init_routers>
+        </events>
+	<template>
+	    <email>
+		<prodfaqs_email_settings_moderator_email_template translate="label" module="prodfaqs">
+		    <label>FAQ Moderator Notification</label>
+		    <file>prodfaqs_moderator_notification.html</file>
+		    <type>html</type>
+		</prodfaqs_email_settings_moderator_email_template>
+		<prodfaqs_email_settings_client_email_template translate="label" module="prodfaqs">
+		    <label>FAQ Client Notification</label>
+		    <file>prodfaqs_client_notification.html</file>
+		    <type>html</type>
+		</prodfaqs_email_settings_client_email_template>
+	    </email>
+	</template>
+		
+    </global>
+</config>

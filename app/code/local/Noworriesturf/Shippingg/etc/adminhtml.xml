@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Noworriesturf_Shippingg extension
+ * 
+ * NOTICE OF LICENSE
+ * 
+ * This source file is subject to the MIT License
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/mit-license.php
+ * 
+ * @category   	Noworriesturf
+ * @package		Noworriesturf_Shippingg
+ * @copyright  	Copyright (c) 2013
+ * @license		http://opensource.org/licenses/mit-license.php MIT License
+ */
+-->
+<config>
+	<acl>
+		<resources>
+			<admin>
+				<children>
+					<system>
+						<children>
+							<config>
+								<children>
+									<shippingg translate="title" module="shippingg">
+										<title>Shipping</title>
+									</shippingg>
+								</children>
+							</config>
+						</children>
+					</system>
+					<shippingg translate="title" module="shippingg">
+						<title>Shipping</title>
+						<children>
+							<surcharge translate="title" module="shippingg">
+								<title>Home Delivery Surcharges</title>
+							</surcharge>
+							<shippingratebrisbane translate="title" module="shippingg">
+								<title>Shipping Rates (Brisbane)</title>
+							</shippingratebrisbane>
+							<shippingrate translate="title" module="shippingg">
+								<title>Shipping Rates (Melbourne)</title>
+							</shippingrate>
+						</children>
+					</shippingg>
+				</children>
+			</admin>
+		</resources>
+	</acl>
+	<menu>
+		<shippingg translate="title" module="shippingg">
+			<title>Shipping</title>
+			<sort_order>99</sort_order>
+			<depends>
+				<module>Noworriesturf_Shippingg</module>
+		 	</depends>
+		 	<children>
+				<surcharge translate="title" module="shippingg">
+					<title>Home Delivery Surcharges</title>
+					<action>adminhtml/shippingg_surcharge</action>
+					<sort_order>0</sort_order>
+				</surcharge>
+				<shippingratebrisbane translate="title" module="shippingg">
+					<title>Shipping Rates (Brisbane)</title>
+					<action>adminhtml/shippingg_shippingratebrisbane</action>
+					<sort_order>10</sort_order>
+				</shippingratebrisbane>
+				<shippingrate translate="title" module="shippingg">
+					<title>Shipping Rates (Melbourne)</title>
+					<action>adminhtml/shippingg_shippingrate</action>
+					<sort_order>20</sort_order>
+				</shippingrate>
+                                <import translate="title" module="shipping">
+                                        <title>Import Shipping Rates</title>
+                                        <action>adminhtml/shippingg_import</action>
+                                        <sort_order>30</sort_order>
+                                </import>
+                                <configuration translate="title" module="shippingg">
+                                        <title>Configuration</title>
+                                        <action>adminhtml/shippingg_configuration</action>
+                                        <sort_order>40</sort_order>
+                                </configuration>
+			</children>
+		</shippingg>
+	</menu>
+</config>

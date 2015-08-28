@@ -1,0 +1,221 @@
+/*label, input { display:block; }*/
+
+input.text { margin-bottom:12px; width:95%; padding: .4em; }
+fieldset { padding:0; border:0; margin-top:25px; }
+h1 { font-size: 1.2em; margin: .6em 0; }
+/****************Manufacturer****************/
+div#suppliers table { margin: 1em 0; border-collapse: collapse; width: 100%; }
+div#suppliers table td, div#suppliers table th { border: 1px solid #eee; padding: .6em 10px; text-align: left; }
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
+#suppliers .manu_color{
+	width:3px;
+	padding:5px;
+	display:inline;
+	margin-left:2px 
+}
+/****************Manufacturer****************/
+
+/****************Homedelivery****************/
+div#homedelivery table { margin: 1em 0; border-collapse: collapse; width: 100%; }
+div#homedelivery table td, div#homedelivery table th { border: 1px solid #eee; padding: .6em 10px; text-align: left; }
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
+#search-homedelivery td{
+	border: 1px solid #000000;
+	padding: 4px;
+}
+#search-homedelivery{
+	border-collapse:collapse;
+	margin: 0px auto;
+}
+.edit-delete-btn{
+	text-align: center;
+}
+/****************Homedelivery****************/
+
+/****************Depotpickup****************/
+div#depotpickup table { margin: 1em 0; border-collapse: collapse; width: 100%; }
+div#depotpickup table td, div#depotpickup table th { border: 1px solid #eee; padding: .6em 10px; text-align: left; }
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
+#search-depotpickup td{
+	border: 1px solid #000000;
+	padding: 4px;
+}
+#search-depotpickup{
+	border-collapse:collapse;
+	margin: 0px auto;
+}
+.edit-delete-btn{
+	text-align: center;
+}
+#depotpickup .select{
+	width:144px;
+}
+/****************Depotpickup****************/
+
+/****************Manage Color****************/
+div#managecolor table { margin: 1em 0; border-collapse: collapse; width: 100%; }
+div#managecolor table td, div#managecolor table th { border: 1px solid #eee; padding: .6em 10px; text-align: left; }
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
+.edit-delete-btn{
+	text-align: center;
+}
+#managecolor .select{
+	width:144px;
+}
+/****************Manage Color****************/
+
+/****************Homedeliveryzone****************/
+div#homedeliveryzone table { margin: 1em 0; border-collapse: collapse; width: 100%; }
+div#homedeliveryzone table td, div#homedeliveryzone table th { border: 1px solid #eee; padding: .6em 10px; text-align: left; }
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
+.edit-delete-btn{
+	text-align: center;
+}
+#homedeliveryzone .select{
+	width:144px;
+}
+/****************MHomedeliveryzone****************/
+
+/****************Depotpickupzone****************/
+div#depotpickupzone table { margin: 1em 0; border-collapse: collapse; width: 100%; }
+div#depotpickupzone table td, div#depotpickupzone table th { border: 1px solid #eee; padding: .6em 10px; text-align: left; }
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
+.edit-delete-btn{
+	text-align: center;
+}
+#depotpickupzone .select{
+	width:144px;
+}
+/****************Depotpickupzone****************/
+
+/****************Manage Bonus****************/
+div#bonus table { margin: 1em 0; border-collapse: collapse; width: 100%; }
+div#bonus table td, div#bonus table th { border: 1px solid #eee; padding: .6em 10px; text-align: left; }
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
+.edit-delete-btn{
+	text-align: center;
+}
+#bonus .select{
+	width:144px;
+}
+/****************Manage Bonus****************/
+
+/****************Custom homedelivery in poduct****************/
+
+.delivery-info {
+    margin: 0 auto;
+}
+
+.delivery-info h2 {
+    color: red;
+    text-align: center;
+}
+div.delivery-info table {
+	border: 1px solid #EEEEEE;
+    border-collapse: collapse;
+    margin-top: 5px;
+    width: 100%;
+}
+div.delivery-info table th, div.delivery-info table td{
+	border: 1px solid #EEEEEE;
+	padding: 5px;
+	text-align: center;
+}
+div.delivery-info table td.last{
+	text-align:center;
+}
+/****************Custom homedelivery in poduct****************/
+
+/****************Custom depotpickup in poduct****************/
+
+.depotpickup-info {
+    margin: 0 auto;
+}
+
+.depotpickup-info h2 {
+    color: red;
+    text-align: center;
+}
+div.depotpickup-info table {
+	border: 1px solid #EEEEEE;
+    border-collapse: collapse;
+    margin-top: 5px;
+    width: 100%;
+}
+div.depotpickup-info table th, div.depotpickup-info table td{
+	border: 1px solid #EEEEEE;
+	padding: 5px;
+	text-align: left;
+}
+div.depotpickup-info table td.last{
+	text-align:left;
+}
+/****************Custom depotpickup in poduct****************/
+
+#search-depotpickup-dialog-form h2,#search-homedelivery-dialog-form h2{
+	text-align:center;
+}
+
+.primary-category-area label,.primary-category-area input {
+    display: inline;
+}
+.primary-category-area{
+	margin: 5px 0px;
+}
+
+.disable_rule{
+	background: none repeat scroll 0 0 #D9D9D9;
+    border: 1px solid gray;
+    color: gray;
+}
+
+.dialog_select{
+	width:130px;
+	margin: 2px 0px;
+}
+.dialog_text{
+	width:220px;
+	margin: 2px 0px;
+}
+
+.paging-area div {
+    display: inline;
+}
+
+.paging-area .arrow {
+    padding: 0 5px;
+    position: relative;
+    top: 4px;
+}
+
+/*-------------------------Colour option image--------------------------*/
+#color_img_table tr th {
+    padding: 5px 10px;
+    background: gainsboro;
+	text-align: center;
+}
+#color_img_table td,th {
+    border: 1px solid #EEEEEE;
+	text-align: center;
+}
+
+#color_img_table{
+	border: 1px solid #EEEEEE;
+	border-collapse: collapse;
+    margin: 1em;
+}
+#color_img_table img {
+    width: 120px;
+    border: 1px solid gainsboro;
+}
+#color_img_table input {
+    text-align: center;
+}
+/*-------------------------Colour option image--------------------------*/

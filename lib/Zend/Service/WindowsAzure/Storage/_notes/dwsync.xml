@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Batch.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="BatchStorageAbstract.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Blob.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="BlobContainer.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="BlobInstance.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="DynamicTableEntity.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="LeaseInstance.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="PageRegionInstance.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Queue.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="QueueInstance.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="QueueMessage.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="SignedIdentifier.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="StorageEntityAbstract.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="Table.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="TableEntity.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="TableEntityQuery.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+<file name="TableInstance.php" server="C:/xampp/htdocs/noworries/" local="130801570560000000" remote="130801570560000000" Dst="2" />
+</dwsync>

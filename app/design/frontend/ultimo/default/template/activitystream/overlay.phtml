@@ -1,0 +1,73 @@
+<?php
+/**
+ * aheadWorks Co.
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://ecommerce.aheadworks.com/AW-LICENSE.txt
+ *
+ * =================================================================
+ *                 MAGENTO EDITION USAGE NOTICE
+ * =================================================================
+ * This software is designed to work with Magento community edition and
+ * its use on an edition other than specified is prohibited. aheadWorks does not
+ * provide extension support in case of incorrect edition use.
+ * =================================================================
+ *
+ * @category   AW
+ * @package    AW_Activitystream
+ * @version    1.0.2
+ * @copyright  Copyright (c) 2010-2012 aheadWorks Co. (http://www.aheadworks.com)
+ * @license    http://ecommerce.aheadworks.com/AW-LICENSE.txt
+ */
+?><?php if ( $this->getPosition() != AW_Activitystream_Helper_Data::OVERLAY_POSITION_NONE ): ?>
+    <style type="text/css">
+        #<?php echo $this->getHtmlId() ?> .ActivityRecord { color: <?php echo $this->getTextColor() ?>; }
+        #<?php echo $this->getHtmlId() ?> .ActivityRecord a { color: <?php echo $this->getLinkColor() ?>; }
+    </style>
+    
+    <div id="<?php echo $this->getHtmlId() ?>" class="ActivityStream_Overlay <?php echo $this->__getPositionClassname() ?> RaisedBox" style="
+        background-color: <?php echo $this->getBackgroundColor() ?>;
+        opacity: <?php echo $this->getBackgroundOpacityFloat() ?>;
+        filter: alpha(opacity=<?php echo $this->getBackgroundOpacity() ?>);
+        -moz-opacity: <?php echo $this->getBackgroundOpacityFloat() ?>;
+        width: <?php echo $this->__getWidthHtml() ?>;
+        <?php if ( $this->isPositionCentered() ): ?>
+            margin-left: -<?php echo $this->__getHalfWidthHtml() ?>;
+        <?php endif; ?>
+        display: none;
+    ">
+        <div class="CloseButton" title="<?php echo $this->__('Hide this block') ?>"></div>
+        <ul>
+            <?php foreach ($this->getActivities() as $__activity): ?>
+                <li><?php echo $this->renderActivity($__activity) ?></li>
+            <?php endforeach; ?>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        if ( ! Activitystream.Cookies.get(Activitystream.COOKIE_KEY_OVERLAYHIDDEN) ) {
+            Event.observe(
+                window,
+                'load',
+                function() {
+                    if ( (typeof Activitystream == 'object') && (typeof Activitystream.Stream == 'function') ) {
+                        var __overlay = new Activitystream.Stream(
+                            '<?php echo $this->getHtmlId() ?>',
+                            <?php echo intval($this->getRecordsCount()) ?>,
+                            '<?php echo $this->getUpdateControllerURL() ?>',
+                            <?php echo intval($this->getLatestActivityTimestamp()) ?>,
+                            1000 * <?php echo $this->getUpdatePeriod() ?>,
+                            '<?php echo $this->getStoreFilter() ?>'
+                        );
+                        <?php if ( $this->getActivitiesCount() ): ?>
+                            __overlay.show();
+                        <?php endif; ?>
+                    }
+                }
+            );
+        }
+    </script>
+<?php endif; ?>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>       
+	    <Website1service_RemoveNews>
+	        <active>true</active>
+            <codePool>community</codePool>
+	    </Website1service_RemoveNews>  
+    </modules>
+</config>

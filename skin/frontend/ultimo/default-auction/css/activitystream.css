@@ -1,0 +1,26 @@
+.RaisedBox {
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.ActivityStream_Overlay { position: fixed; -moz-border-radius: 4px; -webkit-border-radius: 4px; -khtml-border-radius: 4px; border-radius: 4px; -ms-border-radius: 4px; padding: 4px 8px; text-align: left; opacity: 0.5; cursor: default; z-index: 500; }
+
+.ActivityStream_Overlay:hover { opacity: 1 !important; filter: alpha(opacity=100) !important; -moz-opacity: 0.5 !important; }
+.ActivityStream_Overlay UL { list-style: none; }
+.ActivityStream_Overlay .CloseButton { float: right; position: relative; cursor: pointer; width: 11px; height: 11px; background-image: url('../images/activitystream_btn_close.gif'); }
+
+.ActivityStream_topLeft { top: 16px; left: 16px; }
+.ActivityStream_topCenter { top: 16px; left: 50%; right: 50%; }
+.ActivityStream_topRight { top: 16px; right: 16px; }
+.ActivityStream_bottomLeft { bottom: 16px; left: 16px; }
+.ActivityStream_bottomCenter { bottom: 16px; left: 50%; right: 50%; }
+.ActivityStream_bottomRight { bottom: 16px; right: 16px; }
+
+.ActivityStream_Overlay .ActivityRecord { color: #FFFFFF; }
+.ActivityStream_Overlay .ActivityRecord A { color: #EBBC58; }
+
+.ActivityStream_Widget { width: 100%; padding: 4px 8px; text-align: left; }
+.ActivityStream_Widget UL { list-style: none; padding-left: 0; margin: 0; }
