@@ -11,8 +11,8 @@
  * obtain it through the world-wide-web, please send an email
  * to license@magentocommerce.com so we can send you a copy immediately.
  *
- * DISCLAIMER
- *
+ * DISCLAIMER 
+ *  
  * Do not edit or add to this file if you wish to upgrade Magento to newer
  * versions in the future. If you wish to customize Magento for your
  * needs please refer to http://www.magentocommerce.com for more information.
@@ -233,7 +233,7 @@ tr.dynamic-grid input.input-text { width:154px; }
 *******************************************************************************/
 dl.accordion .grid      { margin-bottom:0; }
 dl.accordion dt,
-.entry-edit .entry-edit-head { background:#6f8992; padding:2px 10px; }
+.entry-edit .entry-edit-head { background:#005624; padding:2px 10px; }
 dl.accordion dt, div.collapseable { margin-top:1px; }
 dl.accordion dt a, div.collapseable a { background:url(images/entry_edit_head_arrow_down.gif) 100% 50% no-repeat; color:#fff; display:block; font-weight:bold; text-decoration:none; }
 div.disabled { background:#c6cbc9 !important; }
@@ -381,7 +381,7 @@ select.multiselect option       { padding:3px 4px; border-bottom:1px solid #ddd;
 .form-list td.value select      { width:280px; }
 .form-list td.value select.select-date { width:87px; }
 .form-list td.note              { background:url(images/note_cell_bg.gif) 6px 10px no-repeat !important; padding-left:18px; }
-.form-list td.scope-label       { padding-left:5px; color:#6f8992; font-size:.9em; }
+.form-list td.scope-label       { padding-left:5px; color:#005624; font-size:.9em; }
 .form-list p.note               { margin:0; padding:0 0 0 13px; background:url(images/note_bg.gif) 1px 6px no-repeat; font-size:11px; }
 .form-list td.value p.note      { width:268px; }
 
@@ -574,7 +574,7 @@ div.side-col { float:left; width:220px; margin-right:-220px; padding-bottom:25px
 div.main-col { margin-left:220px; min-height:450px; padding:0 0 25px 25px; }
 div.main-col-inner { float:left; /* Fixes some inner clears in the liquid main-col */ width:100%; }
 
-.footer { clear:both; background:url(images/footer_bg.gif) repeat-x #e6e6e6; padding:105px 2.8em 2.8em 2.8em; font-size:.95em; text-align:center; }
+.footer { color:#c4c4c4;clear:both; background:url(images/footer_bg.gif) repeat-x #005624; padding:105px 2.8em 2.8em 2.8em; font-size:.95em; text-align:center; }
 .simple-container-popup { min-height:50px !important; padding:1.8em 2.3em 6em 2.3em; background:url(images/simple_container_bg.gif) repeat-x; }
 
 .page-popup { background:#fff; }
@@ -1559,8 +1559,8 @@ ul.super-product-attributes { padding-left:15px; }
 #catalog-wysiwyg-editor .magento_buttons { padding-left:7px; padding-right:7px; }
 
 /* Backups */
-.backup-dialog { background-color:#6f8992; background:rgba(111, 137, 146, 0.5); cursor:default; left:50%; margin:0 0 0 -271px; position:fixed; top:50%; width:470px; padding:8px; z-index:400; -moz-box-shadow:0 0 100px #ccc; -webkit-box-shadow:0 0 100px #ccc; box-shadow:0 0 100px #ccc; }
-.backup-dialog .entry-edit { border:1px solid #6f8992; }
+.backup-dialog { background-color:#005624; background:rgba(111, 137, 146, 0.5); cursor:default; left:50%; margin:0 0 0 -271px; position:fixed; top:50%; width:470px; padding:8px; z-index:400; -moz-box-shadow:0 0 100px #ccc; -webkit-box-shadow:0 0 100px #ccc; box-shadow:0 0 100px #ccc; }
+.backup-dialog .entry-edit { border:1px solid #005624; }
 .backup-dialog .content { background:#fff; border-bottom:1px solid #ccc; max-height:400px; overflow:auto; }
 .backup-dialog .question {margin-top: 15px;}
 .backup-dialog .buttons-set { border-top:1px solid #ddd; background:#eee; margin:0; overflow:hidden; padding:7px 10px 8px; width:448px; }
