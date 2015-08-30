@@ -8,7 +8,11 @@
 <file name="Flagbit_ChangeAttributeSet.xml" server="C:/xampp/htdocs/noworries/" local="130801562740000000" remote="130801562740000000" Dst="2" />
 <file name="FME_Prodfaqs.xml" server="C:/xampp/htdocs/noworries/" local="130801562720000000" remote="130801562720000000" Dst="2" />
 <file name="Fontis_Paymate.xml" server="C:/xampp/htdocs/noworries/" local="130801562720000000" remote="130801562720000000" Dst="2" />
+<<<<<<< HEAD
 <file name="Idev_OneStepCheckout.xml" server="C:/xampp/htdocs/noworries/" local="130801562740000000" remote="130801562740000000" Dst="2" />
+=======
+<file name="Idev_OneStepCheckout.xml" server="C:/xampp/htdocs/noworries/" local="130852577628994077" remote="130852577620000000" Dst="2" />
+>>>>>>> 7da3087ad916d6205714ee7330fa366afa845346
 <file name="Infortis_Brands.xml" server="C:/xampp/htdocs/noworries/" local="130801562740000000" remote="130801562740000000" Dst="2" />
 <file name="Infortis_CloudZoom.xml" server="C:/xampp/htdocs/noworries/" local="130801562720000000" remote="130801562720000000" Dst="2" />
 <file name="Infortis_Ultimo.xml" server="C:/xampp/htdocs/noworries/" local="130801562740000000" remote="130801562740000000" Dst="2" />

@@ -1,7 +1,11 @@
 <config>
     <modules>
         <Idev_OneStepCheckout>
+<<<<<<< HEAD
             <active>true</active>
+=======
+            <active>false</active>
+>>>>>>> 7da3087ad916d6205714ee7330fa366afa845346
             <codePool>local</codePool>
         </Idev_OneStepCheckout>
     </modules>
