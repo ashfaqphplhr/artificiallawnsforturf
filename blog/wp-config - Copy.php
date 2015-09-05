@@ -19,12 +19,10 @@
 define('DB_NAME', 'nwturf_wp');
 
 /** MySQL database username */
-//define('DB_USER', 'nwturf_blog');
-define('DB_USER', 'root');
+define('DB_USER', 'nwturf_blog');
 
 /** MySQL database password */
-//define('DB_PASSWORD', '!,~{+2oNTx{%');
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', '!,~{+2oNTx{%');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
